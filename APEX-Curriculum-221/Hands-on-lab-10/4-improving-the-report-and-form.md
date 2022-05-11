@@ -1,0 +1,110 @@
+# Improving the Report and Form
+
+## Introduction
+In this lab, you will learn how to Create and Customize a Form and then you will link with form to an Interactive Report
+
+Estimated Time: 20 minutes
+
+## Task 1: Enhancing the Interactive Report
+
+1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
+
+    ![](images/navigate-to-osa1.png " ")
+
+    ![](images/navigate-to-osa2.png " ")
+
+2. Now, click Create Page.
+
+    ![](images/create-form1.png " ")
+
+3. For Create a Page: Select Page Type - Select **Component** and then select **Form**.
+
+    ![](images/create-form2.png " ")
+
+4. For Page Attributes, enter the following:
+  Under **Page Definition**:
+    - For Page Number, enter **21**.
+    - For Page Name, enter **Product Details**
+    - For Page Mode, select **Modal Dialog**
+
+  Under **Data Source**:
+    - For **Table/View Name**, Select **PRODUCTS**.
+
+  ![](./images/create-form3.png " ")
+
+5. Under Primary key, for5 Primary Key Column1 - Select a primary key column, or accept the default **PRODUCT_ID**. Then click **Create Page**.
+
+![](./images/create-form4.png " ")
+
+## Task 2: Linking Form to a Report
+
+1. From the runtime application, navigate to the **Manage Products** page in **Page Designer**.
+
+    Given that you run this app from the APEX App Builder, you will find the Developer Toolbar at the bottom of the screen.
+    *{Note: End users who log directly into the app will not see this toolbar.}*
+
+    In the Developer Toolbar click **Page 14**.
+
+    ![](./images/navigate-to-mp1.png " ")
+
+    ![](./images/navigate-to-mp2.png " ")
+
+2. In the Rendering tree (left pane), navigate to **Search**.
+
+    ![](./images/linking-a-form1.png " ")
+
+3. In the Property Editor (right pane), click **Attributes** and do the following:
+
+    - Under **Link**:
+      -   For Link Column - select **Link to a Custom Target**
+      -   Click **No Link Defined** Button and do the following in the popup
+            - For Page - enter **21**.
+            - For Set Items, enter:
+
+                | Name | Value |
+                | --- | --- |
+                | P21\_PRODUCT\_ID | &PRODUCT_ID. |
+
+            - For Clear Cache, enter **21**
+            - Click **Ok**.
+
+
+  ![](./images/linking-a-form2.png " ")
+
+4. Click **Save** and then reload the **Manage Products** page in the runtime environment.
+
+  ![](./images/refresh-manage-products.png " ")
+
+  ![](./images/refresh-manage-products1.png " ")
+
+## Task 3: Enhancing the Form:
+
+1.  Navigate to the **Page 21** in the **App Builder**. Then Click on **P21_PRODUCT_NAME** in the Rendering Tree. Now, change the Identification Type to **Text Field** in the Property Editor.
+
+    ![](images/navigate-to-page21.png " ")
+
+2. Items can readily be moved using drag-and-drop within Layout. If required you can also drag new components (regions, items, and buttons) from the Gallery, below Layout, into the Layout.  
+
+  In Page Designer, with **Page 21** loaded, within Layout (middle pane), click **P21_UNIT_PRICE** and continue to hold the mouse down. Drag the item up and to the right, until it is directly after **P21_PRODUCT_NAME**, and a dark yellow box is displayed. Release the mouse to drop the item in the new location.
+
+    ![](images/enhance-form1.png " ")
+
+3. As an alternative to using drag-and-drop you can also reposition items using attributes in the Property Editor.
+
+  In Page Designer, within Layout (or the Rendering tree in the left pane), select **P21_IMAGE_CHARSET**. In the Property Editor (right pane), **deselect Layout > Start New Row**.
+
+  ![](images/enhance-form2.png " ")
+
+4. You now need to Focus on **First item on Page**.  In **Page Rendering**(Left Pane), Select **Page 21: Product Details**. Then, In the **Property Editor**, Scroll down to Navigation and for **Cursor Focus**, select **First item on page**. Then, click **Save**.
+
+  ![](images/enhance-form3.png " ")
+
+5. Now that you have customized the Form. You can reload **Manage Products** page in the runtime environment and Click on **edit** or **Create** new record to view the Form Page.
+
+  ![](images/enhanced-form.png " ")
+
+
+## **Acknowledgements**
+
+ - **Author/Contributors** -  Roopesh Thokala, Product Manager
+ - **Last Updated By/Date** - Roopesh Thokala, Product Manager, April 2022
