@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will learn how to install sample tables and views from Sample Datasets. This particular sample dataset is a collection of customers, stores, products, and orders used to manage the shopping cart.
+In this lab, you learn to install sample tables and views from Sample Datasets. This particular sample dataset is a collection of customers, stores, products, and orders used to manage the shopping cart.
 
 Estimated Time: 5 minutes
 
@@ -16,7 +16,7 @@ In this lab, you will:
 
 ## Task 1: Create Customer Orders Tables
 1. Log into your workspace.
-2. From your APEX workspace home page, as shown below, select the down-arrow to the right of  **SQL Workshop**, then click the arrow to the right of  **Utilities**, and choose **Sample Datasets**.
+2. From the APEX workspace home page, select the down-arrow to the right of  **SQL Workshop**, then select **Utilities** to display the options, and choose **Sample Datasets**.
 
     ![](images/navigate-to-sample-datasets1.png " ")
 
@@ -26,7 +26,7 @@ In this lab, you will:
 
 4. Click **Next**.
 
-   *The schema name defaults to your current schema so will be different from the schema name shown below.*
+   *The schema name defaults to your current schema and hence will be different from the schema name shown below.*
     ![](images/manage-sample-dataset1.png " ")
 
 5. Click **Install Dataset**.
@@ -37,7 +37,7 @@ In this lab, you will:
 
     ![](images/load-sample-dataset-results1.png " ")
 
->**Note:** You do NOT want to click Create Application, as you will manually create an application
+>**Note:** You do NOT want to click Create Application, as you will manually create an application later.
 
 
 ## **Acknowledgments**
