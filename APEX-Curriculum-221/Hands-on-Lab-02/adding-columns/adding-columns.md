@@ -98,7 +98,6 @@ In this lab, you will:
 
 5. Copy the following script and paste into the editor.
     ```
-    <copy>
     UPDATE
         (
                 SELECT p.product_id,
