@@ -12,14 +12,13 @@ Estimated Time: 45 minutes
 
 ## Task 1: Create database objects using Quick SQL
 
-1. Return to your APEX Workspace and click the **'⌄'** next to **SQL Workshop** tab, then click **Utilities** and then select **Quick SQL**.
+1. Return to your APEX Workspace and click **'⌄'** next to **SQL Workshop** tab, then click **Utilities** and then select **Quick SQL**.
 
    ![](images/navigate-to-quicksql1.png " ")
 
 2. Copy the following SQL shorthand code and paste it into the left pane in Quick SQL.
 
     ```
-    <copy>
     departments /insert 4
       name /nn
       location
@@ -32,7 +31,6 @@ Estimated Time: 45 minutes
         job vc255
 
       view emp_v departments employees
-    </copy>
     ```
 
 3. Review the shorthand code. How many tables will be created and how are they related? What types of columns and constraints will be created for the tables? Note that the **Help** button provides details on the shorthand syntax along with several examples of its usage.
@@ -42,13 +40,13 @@ Estimated Time: 45 minutes
    ![](./images/generate-sql1.png " ")
 
 4. Review the SQL that is generated in the right-hand pane, then click **Settings** to make some changes to the resulting code.
-
+   
+   It is important to save the SQL Shorthand as a script so that it can be run in your database.
+   In the SQL (right pane) toolbar, click **Save SQL Script**.  
+    
    ![](images/generated-sql1.png " ")
 
-5. It is important to save the SQL Shorthand as a script so that it can be run in your database.
-
-    In the SQL (right pane) toolbar, click **Save SQL Script**.     
-    In the Save Script dialog, for Script Name enter **Employee Department Details**, and click **Save Script**.
+5. In the Save Script dialog, for Script Name enter **Employee Department Details**, and click **Save Script**.
 
     ![](images/save-sql-scripts1.png " ")
 
@@ -94,7 +92,7 @@ In this step, you will learn how to create a table and Load data using the Data 
 
    ![](images/click-data-load1.png " ")
 
-3. Under Upload a File, Click Choose File.
+3. Under Upload a File, Click **Choose File**.
 
    ![](images/choose-file-to-load1.png " ")
 
