@@ -2,10 +2,10 @@
 
 ## Introduction
 
-The **PRODUCTS** table includes some columns such as image, price, and details. But there are other characteristics that customers would appreciate knowing about the product, like color, type of clothing, and department. For that reason, you will add these columns to the Products table.
-To avoid data redundancy, you will need to create three additional tables to normalize the data. Instead of creating these three tables for yourself, you'll use the **Create Lookup Table** feature.
+The **PRODUCTS** table includes some columns such as image, price, and details. But there are other characteristics that customers would appreciate knowing about a  product, such as color, type of clothing, and department. For the same reason, you add these columns to the Products table.
+To avoid data redundancy, you need to create three additional tables to normalize the data. Instead of creating these three tables for yourself, you'll use the **Create Lookup Table** feature.
 
-In this lab, you will learn how to add these three new columns to the **PRODUCTS** table and then create lookup tables for those new columns.
+In this lab, you learn how to add these three new columns to the **PRODUCTS** table and then create lookup tables for those new columns.
 
 Estimated Time: 10 minutes
 
@@ -37,8 +37,8 @@ In this lab, you will:
     * Add Column - enter **COLOR**
     * Type - select **VARCHAR2**
     * Length - enter **200**.  
-
-5. Click **Next**.
+    
+    Click **Next**.
 
     ![](images/add-color-column.png " ")
 
@@ -55,8 +55,8 @@ In this lab, you will:
     * Add Column - enter **DEPARTMENT**
     * Type - select **VARCHAR2**
     * Length - enter **200**.
-
-9. Click **Next**.
+    
+    Click **Next**.
 
     ![](images/add-department-column2.png " ")
 
@@ -73,8 +73,8 @@ In this lab, you will:
     * Add Column - enter **CLOTHING**
     * Type - select **VARCHAR2**
     * Length - enter **200**.
-
-13. Click **Next**.
+    
+    Click **Next**.
 
     ![](images/add-clothing-column2.png " ")
 
@@ -155,7 +155,7 @@ In this lab, you will:
 ## Task 3: Create Lookup Tables
 Since multiple products may have the same values for Color, Department, and Clothing, to avoid repetition and make updates easy, you can create a lookup table for each. A lookup table stores the value of the available colors, departments, or clothing in a single place, and then each product can reference the value from the lookup table.
 
-You will create lookup tables based on the new three columns, after you will have created a lookup table, you will notice that a new table was created and the column in the PRODUCTS table has been renamed and the data type was changed to NUMBER.
+In this lab, you create lookup tables based on the new three columns. After you create a lookup table, you will notice that a new table was created and the column in the PRODUCTS table has been renamed and the data type was changed to NUMBER.
 
 1. From your APEX workspace home page, click **SQL Workshop**.
 
@@ -170,8 +170,7 @@ You will create lookup tables based on the new three columns, after you will hav
     ![](./images/create-lookup-tables1.png " ")
 
 5. For Column, select **COLOR - varchar2**.
-
-6. Click **Next**.
+   Click **Next**.
 
     ![](./images/create-color-lookup.png " ")
 
@@ -180,7 +179,7 @@ You will create lookup tables based on the new three columns, after you will hav
     * New Table Name: **COLOR_LOOKUP**
     * New Sequence: **COLOR\_LOOKUP\_SEQ**
 
-8. Click **Next**.
+    Click **Next**.
 
     ![](./images/create-color-lookup1.png " ")
 
@@ -196,7 +195,7 @@ You will create lookup tables based on the new three columns, after you will hav
 
 11. For Column, select **DEPARTMENT - varchar2**.
 
-12. Click **Next**.
+    Click **Next**.
 
     ![](./images/create-department-lookup.png " ")
 
@@ -205,7 +204,7 @@ You will create lookup tables based on the new three columns, after you will hav
     * New Table Name: **DEPARTMENT_LOOKUP**
     * New Sequence: **DEPARTMENT\_LOOKUP\_SEQ**
 
-14. Click **Next**.
+    Click **Next**.
 
     ![](./images/create-department-lookup1.png " ")
 
@@ -220,7 +219,7 @@ You will create lookup tables based on the new three columns, after you will hav
 
 17. For Column, select **CLOTHING - varchar2**.
 
-18. Click **Next**.
+    Click **Next**.
 
     ![](./images/create-clothing-lookup.png " ")
 
@@ -229,7 +228,7 @@ You will create lookup tables based on the new three columns, after you will hav
     * New Table Name: **CLOTHING_LOOKUP**
     * New Sequence: **CLOTHING\_LOOKUP\_SEQ**
 
-20. Click **Next**.
+    Click **Next**.
 
     ![](./images/create-clothing-lookup1.png " ")
 
