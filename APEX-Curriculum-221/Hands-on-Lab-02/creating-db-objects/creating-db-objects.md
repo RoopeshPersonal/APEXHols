@@ -35,7 +35,6 @@ Create specification and body for the package.
 5. For Specification, enter the following:
 
     ```
-    <copy>
     CREATE OR replace PACKAGE manage_orders
     AS
       --------------------------------------------------------------
@@ -83,7 +82,6 @@ Create specification and body for the package.
 7. Navigate to body part of the package by clicking on Body tab and enter the following:
 
     ```
-    <copy>
     CREATE OR replace PACKAGE BODY manage_orders
     AS
       PROCEDURE add_product (p_product  IN NUMBER,
