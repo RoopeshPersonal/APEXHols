@@ -19,6 +19,7 @@ Estimated Time: 45 minutes
 2. Copy the following SQL shorthand code and paste it into the left pane in Quick SQL.
 
     ```
+    <copy>
     departments /insert 4
       name /nn
       location
@@ -30,7 +31,8 @@ Estimated Time: 45 minutes
         date hired
         job vc255
 
-      view emp_v departments employees
+     view emp_v departments employees
+     </copy>
     ```
 
 3. Review the shorthand code. How many tables will be created and how are they related? What types of columns and constraints will be created for the tables? Note that the **Help** button provides details on the shorthand syntax along with several examples of its usage.
