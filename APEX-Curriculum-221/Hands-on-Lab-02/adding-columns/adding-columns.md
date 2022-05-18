@@ -138,7 +138,7 @@ In this lab, you will:
 
 9. Copy the following SQL Query.
     ```
-    <copy>
+
     SELECT p.product_name,
            p.unit_price,
            p.color,
