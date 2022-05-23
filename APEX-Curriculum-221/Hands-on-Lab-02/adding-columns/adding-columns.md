@@ -98,6 +98,7 @@ In this lab, you will:
 
 5. Copy the following script and paste into the editor.
     ```
+    <copy>
     UPDATE
         (
                 SELECT p.product_id,
@@ -116,6 +117,7 @@ In this lab, you will:
         (
                 SELECT g.department
                 FROM   json_table (p.product_details, '$' COLUMNS ( department VARCHAR2(4000) path '$.gender') ) g)
+    </copy>
     ```
 
     This script inserts the unique product type values (e.g. Shirt, Jacket, Skirt, etc.) into the CLOTHING column in the **Products** table. Similary, it inserts the unique department names (e.g. Boy's, Girl's, Men's, Women's) and color names into the DEPARTMENT and COLOR columns respectively based on information found in the JSON product details column in the **Products** table.
@@ -138,13 +140,14 @@ In this lab, you will:
 
 9. Copy the following SQL Query.
     ```
-
+    <copy>
     SELECT p.product_name,
            p.unit_price,
            p.color,
            p.department,
            p.clothing
     FROM   products p;
+    </copy>
     ```
 
 10. Click **Run**.
