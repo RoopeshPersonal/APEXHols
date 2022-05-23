@@ -86,7 +86,7 @@ Estimated Time: 45 minutes
 
 In this step, you will learn how to create a table and Load data using the Data Workshop utility.
 
-1. On the Workspace home page, click the **'⌄'** next to **SQL Workshop** tab, then click **Utilities** and then select **Quick SQL**.
+1. On the Workspace home page, click the **'⌄'** next to **SQL Workshop** tab, then click **Utilities** and then select **Data Workshop**.
 
    ![](images/navigate-to-data-workshop1.png " ")
 
@@ -98,7 +98,7 @@ In this step, you will learn how to create a table and Load data using the Data 
 
    ![](images/choose-file-to-load1.png " ")
 
-4. Select the appropriate file .
+4. Download [projects.csv](/projects.csv) and select the file.
 
    ![](images/select-appropriate-file1.png " ")
 
