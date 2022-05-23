@@ -3,7 +3,7 @@
 In this lab, you will learn how to create an APEX application using data imported from a spreadsheet.
 
 ## Introduction
-Now that you are logged into your workspace, you can start creating APEX applications. In this lab, you will build a simple application based on a spreadsheet. Keep in mind that APEX is great for a variety of apps, from simple ones like this to large, sophisticated apps based on local database objects, REST enabled SQL objects, and even REST APIs.
+Now that you are logged into your workspace, you can start creating APEX applications. In this lab, you build a simple application based on a spreadsheet. Keep in mind that APEX is great for a variety of apps, from simple ones like this to large, sophisticated apps based on local database objects, REST enabled SQL objects, and even REST APIs.
 
 While APEX developers spend the majority of their time in the App Builder, you should also investigate the SQL Workshop, where you can create and maintain database objects, Team Development, where you can track large APEX development projects, and the App Gallery, which contains numerous productivity and sample apps that can be installed within minutes.
 
@@ -27,7 +27,7 @@ Estimated Time: 5 minutes
 
     ![](images/choose-file.png " ")
 
-5. Select **demo_projects.csv** file from your local System
+5. Download and select [**demo_projects.csv**](demo_projects.csv) file from your local System
 
     ![](images/select-demo-projects.png " ")
 
@@ -35,13 +35,13 @@ Estimated Time: 5 minutes
 
     ![](images/new-table-name.png " ")
 
-    After clicking **Load Data** you will see a spinner until the wizard finishes loading the data. Continue to Part 2 at that point.
+    After clicking **Load Data**, you will see a spinner until the wizard finishes loading the data. Continue to Task 2 at this point.
 
 ## Task 2: Creating an application
 
 The Data Load wizard has created a new table and populated that table with the records from the sample data. Now you can create an app based on this new table.
 
-1.  In the Load Data dialog, verify that 73 rows have been loaded into the **DEMO_PROJECTS** table, then click **Create Application**.
+1.  In the Load Data dialog, verify that 70 rows have been loaded into the **DEMO_PROJECTS** table, then click **Create Application**.
 
     ![](images/data-loaded.png " ")
 
@@ -63,7 +63,7 @@ The Data Load wizard has created a new table and populated that table with the r
 
   ![](images/delete-page2.png " ")
 
-Repeat the steps for **Demo Projects** and **Calendar**.
+Repeat the steps for **Demo Projects Report** and **Calendar**.
 
 4. Then click **Create Application**.
 
@@ -77,7 +77,7 @@ Repeat the steps for **Demo Projects** and **Calendar**.
 
     ![](images/navigate-to-shared-components1.png " ")
 
-2. Under Shared Components, Select Data Load definitions
+2. In the Shared Components page, under User Interface, Select **Progressive Web App**.
 
     ![](images/navigate-to-pwa1.png " ")
 
