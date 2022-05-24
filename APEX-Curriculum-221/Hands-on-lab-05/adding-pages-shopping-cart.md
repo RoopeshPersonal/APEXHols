@@ -325,9 +325,9 @@ This region allows users to review the details of the product, such as brand, pr
   ![](./images/change-cards-attributes11.png " ")
 
   - Under Secondary Body section:    
-        
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
+        
         ```
           <copy>
           Price: &UNIT_PRICE.
@@ -335,12 +335,11 @@ This region allows users to review the details of the product, such as brand, pr
         ```   
 
   - Under Media section:
-  
-        - For Source - select **BLOB Column**
-        - For BLOB Column - select **PRODUCT_IMAGE**
-        - For Position - select **First**
-        - For Appearance - select **Square**
-        - For Sizing - select **Fit**  
+    - For Source - select **BLOB Column**
+    - For BLOB Column - select **PRODUCT_IMAGE**
+    - For Position - select **First**
+    - For Appearance - select **Square**
+    - For Sizing - select **Fit**  
       
       
    ![](./images/change-cards-attributes12.png " ")
