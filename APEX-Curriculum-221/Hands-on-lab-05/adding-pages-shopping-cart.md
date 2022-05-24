@@ -178,11 +178,11 @@ This region will list the items that have been added temporarily to the shopping
      - Set Advanced Formatting to **On**
      - For HTML Expression - enter the following:
 
-            ```
+       ```
             <copy>
             Quantity: &QUANTITY.
             </copy>
-            ```
+       ```
 
   ![](./images/change-attributes11.png " ")
 
@@ -190,12 +190,12 @@ This region will list the items that have been added temporarily to the shopping
         - Set Advanced Formatting to **On**
         - For HTML Expression - enter the following:
 
-            ```
+          ```
             <copy>
             <b>Unit Price: &UNIT_PRICE. </b> <BR>
             <b>Subtotal: &SUBTOTAL. </b>
             </copy>
-            ```
+          ```
 
     - Under Media section:
         - For Source - select **BLOB Column**
