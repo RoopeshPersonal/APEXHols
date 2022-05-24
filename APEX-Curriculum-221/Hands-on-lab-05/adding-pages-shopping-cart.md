@@ -328,11 +328,11 @@ This region allows users to review the details of the product, such as brand, pr
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
         
-         ```
+        ```
           <copy>
           Price: &UNIT_PRICE.
           </copy>
-         ```   
+        ```   
 
   - Under Media section:
         - For Source - select **BLOB Column**
@@ -340,7 +340,8 @@ This region allows users to review the details of the product, such as brand, pr
         - For Position - select **First**
         - For Appearance - select **Square**
         - For Sizing - select **Fit**  
-
+      
+      
    ![](./images/change-cards-attributes12.png " ")
 
   
