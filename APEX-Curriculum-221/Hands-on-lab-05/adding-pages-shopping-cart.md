@@ -328,13 +328,13 @@ This region allows users to review the details of the product, such as brand, pr
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
         
-        ```
-            <copy>
-            Price: &UNIT_PRICE.
-            </copy>
-        ```   
+         ```
+             <copy>
+              Price: &UNIT_PRICE.
+             </copy>
+         ```   
 
-    - Under Media section:
+   - Under Media section:
             - For Source - select **BLOB Column**
             - For BLOB Column - select **PRODUCT_IMAGE**
             - For Position - select **First**
@@ -343,8 +343,9 @@ This region allows users to review the details of the product, such as brand, pr
 
    ![](./images/change-cards-attributes12.png " ")
 
+  
   - Under Card section:
-       - For Primary Key Column 1 - select **PRODUCT_ID**    
+      - For Primary Key Column 1 - select **PRODUCT_ID**    
 
    ![](./images/change-cards-attributes13.png " ")
 
@@ -362,7 +363,7 @@ This region lets users read the customer reviews for this product.
      - For **Type** - select **SQL Query**
      - For **SQL Query** - enter the following SQL Code:
 
-            ```
+     ```
             <copy>
             SELECT m.rating,
                 m.review
@@ -372,11 +373,12 @@ This region lets users read the customer reviews for this product.
                 AND p.product_id = :p17_product_id
                 order by m.rating desc
             </copy>
-            ```
+      ```
+            
     - Under Appearance section:
-     - For Template - select **Standard**
+      - For Template - select **Standard**
 
-      ![](./images/create-cards-region22.png " ")
+    ![](./images/create-cards-region22.png " ")
 
 4. Click **Attributes** and enter the following:
 
