@@ -3,7 +3,7 @@
 ## Introduction
 
 In this lab,
-  - You will then Navigate to **Demo Projects Application** and will create an **Interactive Grid** and **Smart Filters** Pages.
+  - You navigate to **Demo Projects Application** and create an **Interactive Grid** and **Smart Filters** Pages.
 
 <!--
 Customers will be able to:
@@ -49,10 +49,12 @@ In this lab, you create an interactive grid on the **DEMO_PROJECTS** table. You 
 
   Under **Navigation**
     - For **Breadcrumb**, Set it to **No**.
-
+  
+  Click **Create Page**.
+  
   ![](./images/create-ig-2.png " ")
 
-5. Now that you have created a **Interactive Grid** Page, You can view the Page by Clicking **Run Page**
+5. Now that you have created an **Interactive Grid** Page, you can view the page by clicking **Save and Run Page**.
 
     ![](./images/view-interactive-grid11.png " ")
 
@@ -64,20 +66,22 @@ In this lab, you create a Smart Filters report on the DEMO_PROJECTS table. You a
 
     ![](./images/create-sf-page11.png " ")
 
-2. For Create a Page: Select Page Type - Select **Component** and then select **Smart Filters**.
+2. For Create a Page: Select Page Type - Under **Component** tab, select **Smart Filters**.
 
     ![](./images/create-sf-page12.png " ")
 
 4. For **Create Smart Filters**, enter the following:
-  Under **Page Definition**:
+   Under **Page Definition**:
     - For Name, enter **Project Tasks Search**  
 
-  Under **Data Source**:
+   Under **Data Source**:
     - For Table/View Name, enter **DEMO_PROJECTS**  
 
-  Under **Navigation**
+   Under **Navigation**
       - For **Breadcrumb**, Set it to **No**.
-
+   
+   Click **Next**.
+   
   ![](./images/create-sf-page13.png " ")
 
 5. For **Select the Filters** page:
@@ -86,7 +90,7 @@ In this lab, you create a Smart Filters report on the DEMO_PROJECTS table. You a
 
   ![](./images/create-sf-page14.png " ")
 
-7. Now that you have created a **Smart Filters** Page, You can view the Page by Clicking **Run Page**
+7. Now that you have created a **Smart Filters** Page, You can view the Page by Clicking **Save and Run Page**
 
   ![](./images/create-sf-page16.png " ")
 
