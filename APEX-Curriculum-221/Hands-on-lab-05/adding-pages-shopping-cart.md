@@ -2,10 +2,10 @@
 
 ## Introduction
 
-In this lab,
-  - You will create **Application Items** and **Application Process**
-  - You will create Few **Cards** pages to view **Product Details** and **Customer Reviews** in the online Shopping Cart Application.
-  - You will Create a **Faceted Search Page** to view **Products**.
+In this lab, you create:
+  - **Application Items** and **Application Process**
+  - **Cards** pages to view **Product Details** and **Customer Reviews** in the online Shopping Cart Application.
+  - **Faceted Search Page** to view **Products**.
 
 <!--
 Customers will be able to:
@@ -119,14 +119,16 @@ The shopping cart page allows users to review and edit the products in the cart,
 
     ![](./images/create-blank-page11.png " ")
 
-4. For Create Blank Page, Enter the following and click **Next**.
+4. For Create Blank Page, enter the following:
     Under **Page Definition**
     - Page Number - enter **16**
     - For Name - enter **Shopping Cart**
+    
     Under **Navigation**
     - For Breadcrumb - Set as **No**
     - For Navigation - Set as **No**
-
+   
+   Click **Create Page**.
  ![](./images/create-blank-page21.png " ")
 
 ## Task 4: Add a Cards Region
@@ -140,8 +142,8 @@ This region will list the items that have been added temporarily to the shopping
 3. In the Property Editor, enter the following:
     - For Title - enter **Shopping Cart**
     - Under Source section:
-        - For Type - select **SQL Query**
-        - For SQL Query - enter the following SQL Query:
+     - For Type - select **SQL Query**
+     - For SQL Query - enter the following SQL Query:
 
             ```
             <copy>
@@ -161,21 +163,21 @@ This region will list the items that have been added temporarily to the shopping
             </copy>
         ```
 
-      ![](./images/create-cards12.png " ")
+     ![](./images/create-cards12.png " ")
 
 4. Click on **Attributes** and enter the following:
 
     - Under Appearance section:
-        - For Layout - select **Horizontal (Row)**
+     - For Layout - select **Horizontal (Row)**
     - Under Title section:
-        - For Column - select **NAME**
+     - For Column - select **NAME**
 
     - Under Subtitle section:
-        - For Column - select **BRAND**    
+     - For Column - select **BRAND**    
 
     - Under Body section:
-        - Set Advanced Formatting to **On**
-        - For HTML Expression - enter the following:
+     - Set Advanced Formatting to **On**
+     - For HTML Expression - enter the following:
 
             ```
             <copy>
@@ -222,20 +224,22 @@ This action allows customers to open a page to edit a particular item in the sho
 3. In the Property Editor, enter the following:
     - For Label - enter **Edit**
     - For Target - click **No Link Defined**:
-        - For Page - enter **17**  
+     - For Page - enter **17**  
         *{Note: Page 17 wil be created in the next lab}*
-        - Set items as follows:
+      - Set items as follows:
             | Name             |  Value       |
             | ---              |  ---         |
             | P17\_PRODUCT\_ID | &PRODUCT_ID. |
 
-        - Click **Ok**.
+      - Click **Ok**.
     - For Display Type - select **Text with Icon**
     - For Icon - enter **fa-cart-edit**
 
+   Click **Save**.
+   
   ![](./images/create-action12.png " ")
 
-This configures the (Edit) button to open page 17, passing the value of the PRODUCT_ID column of the current card as the value for the page item P17\_PRODUCT\_ID in that called page.
+This configures the (Edit) button to open page 17, passing the value of the PRODUCT_ID column of the current card as the value for the page item P17\_PRODUCT\_ID in the called page.
 
 ## Task 6: Create a Modal Page
 
@@ -252,7 +256,7 @@ Create a Modal Page to add products to the cart.
 3. Enter the following and click **Create Page**.
   - Page Number - enter 17
   - For Name - enter **Add to Cart**
-  - For Page Mode - select Modal Dialog  
+  - For Page Mode - select **Modal Dialog**  
 
   ![](./images/create-modal-dialog13.png " ")
 
@@ -268,8 +272,8 @@ This region allows users to review the details of the product, such as brand, pr
 3. In the Property Editor, enter the following:
     - For Title, enter **Product**
     - Under Source section:
-        - For Type - select **SQL Query**
-        - For SQL Query - enter the following SQL Code:
+     - For Type - select **SQL Query**
+     - For SQL Query - enter the following SQL Code:
 
             ```
             <copy>
@@ -298,23 +302,24 @@ This region allows users to review the details of the product, such as brand, pr
 
     - For Template Options - check **Use Template Defaults**
 
-        ![](./images/create-cards-region12.png " ")
+    ![](./images/create-cards-region12.png " ")
+        
         - For **Style** - select **Style C**
         - Click **Ok**
 
 4. Click **Attributes** and enter the following:
 
     - Under Appearance section:
-        - For Layout - select **Float**
+     - For Layout: select **Float**
 
     - Under Title section:
-        - For Column - select **PRODUCT_NAME**
+     - For Column - select **PRODUCT_NAME**
 
     - Under Subtitle section:
-        - For Column - select **BRAND**
+     - For Column - select **BRAND**
 
     - Under Body section:
-        - For Column - select **DESCRIPTION**
+     - For Column - select **DESCRIPTION**
 
   ![](./images/change-cards-attributes11.png " ")
 
@@ -353,8 +358,8 @@ This region lets users read the customer reviews for this product.
 3. In the Property Editor, enter the following:
     - For Title - enter **Customer Reviews**
     - Under Source section:
-        - For **Type** - select **SQL Query**
-        - For **SQL Query** - enter the following SQL Code:
+     - For **Type** - select **SQL Query**
+     - For **SQL Query** - enter the following SQL Code:
 
             ```
             <copy>
@@ -368,18 +373,18 @@ This region lets users read the customer reviews for this product.
             </copy>
             ```
     - Under Appearance section:
-        - For Template - select **Standard**
+     - For Template - select **Standard**
 
       ![](./images/create-cards-region22.png " ")
 
 4. Click **Attributes** and enter the following:
 
     - Under Appearance section:
-        - For Layout - select **Horizontal (Row)**
+     - For Layout - select **Horizontal (Row)**
 
     - Under Title section:
-        - Set Advanced Formatting to **On**
-        - For HTML Expression - enter the following:
+     - Set Advanced Formatting to **On**
+     - For HTML Expression - enter the following:
 
             ```
             <copy>
@@ -390,10 +395,12 @@ This region lets users read the customer reviews for this product.
 
       ![](./images/create-cards-region23.png " ")
     - Under Messages:
-        - For When No Data Found - enter **There are no customer reviews yet.**
+     - For When No Data Found - enter **There are no customer reviews yet.**
 
       ![](./images/create-cards-region24.png " ")
-
+   
+ 5. Click **Save**.
+ 
 ## Task 9: Add the Products Page.
 
 1. Navigate to Create button **+** and click **Page**.
@@ -415,7 +422,7 @@ This region lets users read the customer reviews for this product.
   Under **Navigation**:
     - For Breadcrumb - Set to **No**.
 
-    ![](./images/create-fs-page13.png " ")
+   ![](./images/create-fs-page13.png " ")
 
 4. For Facet Selection, Select **Display as** option as **Cards**, Leave the remaining options to default and click **Next**.
 
