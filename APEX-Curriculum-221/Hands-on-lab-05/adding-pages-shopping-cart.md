@@ -310,24 +310,24 @@ This region allows users to review the details of the product, such as brand, pr
 
 4. Click **Attributes** and enter the following:
 
-    - Under Appearance section:
+  - Under Appearance section:
       - For Layout: select **Float**
 
-    - Under Title section:
+  - Under Title section:
       - For Column - select **PRODUCT_NAME**
 
-    - Under Subtitle section:
+  - Under Subtitle section:
       - For Column - select **BRAND**
 
-    - Under Body section:
+  - Under Body section:
       - For Column - select **DESCRIPTION**
 
   ![](./images/change-cards-attributes11.png " ")
 
   - Under Secondary Body section:    
+        
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
-        
         ```
           <copy>
           Price: &UNIT_PRICE.
@@ -335,6 +335,7 @@ This region allows users to review the details of the product, such as brand, pr
         ```   
 
   - Under Media section:
+  
         - For Source - select **BLOB Column**
         - For BLOB Column - select **PRODUCT_IMAGE**
         - For Position - select **First**
