@@ -390,12 +390,12 @@ This region lets users read the customer reviews for this product.
      - Set Advanced Formatting to **On**
      - For HTML Expression - enter the following:
 
-            ```
+     ```
             <copy>
             <b>Review:</b> &REVIEW. <br>
             <b>Rating:</b> &RATING.
             </copy>
-            ```  
+      ```  
 
       ![](./images/create-cards-region23.png " ")
     - Under Messages:
