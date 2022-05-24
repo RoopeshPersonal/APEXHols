@@ -302,11 +302,11 @@ This region allows users to review the details of the product, such as brand, pr
     ![](./images/create-cards-region11.png " ")
 
     - For Template Options - check **Use Template Defaults**
-
+      - For **Style** - select **Style C**
+      - Click **Ok**
     ![](./images/create-cards-region12.png " ")
         
-        - For **Style** - select **Style C**
-        - Click **Ok**
+        
 
 4. Click **Attributes** and enter the following:
 
@@ -334,7 +334,7 @@ This region allows users to review the details of the product, such as brand, pr
             </copy>
             ```   
 
-    - Under Media section:
+  - Under Media section:
         - For Source - select **BLOB Column**
         - For BLOB Column - select **PRODUCT_IMAGE**
         - For Position - select **First**
@@ -343,8 +343,8 @@ This region allows users to review the details of the product, such as brand, pr
 
     ![](./images/change-cards-attributes12.png " ")
 
-    - Under Card section:
-        - For Primary Key Column 1 - select **PRODUCT_ID**    
+  - Under Card section:
+       - For Primary Key Column 1 - select **PRODUCT_ID**    
 
       ![](./images/change-cards-attributes13.png " ")
 
