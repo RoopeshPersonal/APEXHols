@@ -145,7 +145,7 @@ This region will list the items that have been added temporarily to the shopping
      - For Type - select **SQL Query**
      - For SQL Query - enter the following SQL Query:
 
-            ```
+        ```
             <copy>
             SELECT seq_id item,
                 p.product_image,
@@ -162,7 +162,6 @@ This region will list the items that have been added temporarily to the shopping
             AND    p.product_id = a.n001
             </copy>
         ```
-
      ![](./images/create-cards12.png " ")
 
 4. Click on **Attributes** and enter the following:
