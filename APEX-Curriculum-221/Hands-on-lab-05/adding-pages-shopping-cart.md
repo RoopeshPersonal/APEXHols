@@ -327,7 +327,7 @@ This region allows users to review the details of the product, such as brand, pr
    - Under Secondary Body section:    
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
-
+        
         ```
             <copy>
             Price: &UNIT_PRICE.
