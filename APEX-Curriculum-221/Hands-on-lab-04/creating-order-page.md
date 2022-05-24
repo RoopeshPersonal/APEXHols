@@ -2,8 +2,8 @@
 
 ## Introduction
 
-In this lab, You open the home page in page designer, navigate through and review the page designer panes. Then, you will create a new page that will allow customers to view the details of their recent order.
-Customers will find the details of the order:
+In this lab, you open the home page in page designer, navigate through and review the page designer panes. Then, you create a new page that allow customers to view the details of their recent order.
+Customers will find the following details of the order:
 - Order number
 - Order date
 - Status
@@ -40,7 +40,7 @@ You can change the size of each pane by selecting the dividers and sliding them 
     ![](images/navigate-through-page1.png " ")
 
 3. In the Page Designer, you can invoke help on any attribute by clicking **Help** icon on the toolbar. Select a component and then select an attribute in the Property Editor to display help on that attribute.  
-For Example, in this screenshot below, you select **Online Shopping Application** under Rendering, and then select Sequence > Layout. The help text for Sequence is displayed.
+For Example, in this screenshot below, you select **Online Shopping Application** in the Rendering tree on the left, and then select **Sequence > Layout** in the Property Editor on the right. The help text for **Sequence** is displayed.
 
     ![](images/navigate-through-page2.png " ")
 
@@ -55,14 +55,14 @@ Create a Normal Page to review the Order that customer has made.
 
     ![](./images/select-blank-page1.png " ")
 
-2. Enter the following and click **Next**.
+2. Enter the following:
     - Page Number - enter **15**
     - Name - enter **Order Information**  
 
   Now, Click on **Navigation**, Enter the following.
     - Breadcrumb - Set to **No**
     - Navigation - Set to **Yes**
-
+  Click **Create Page**.
   ![](./images/create-blank-page12.png " ")
 
 
