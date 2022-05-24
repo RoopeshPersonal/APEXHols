@@ -227,9 +227,10 @@ This action allows customers to open a page to edit a particular item in the sho
       - For Page - enter **17**  
         *{Note: Page 17 wil be created in the next lab}*
       - Set items as follows:
-            | Name             |  Value       |
-            | ---              |  ---         |
-            | P17\_PRODUCT\_ID | &PRODUCT_ID. |
+           
+          | Name             |  Value       |
+          | ---              |  ---         |
+          | P17\_PRODUCT\_ID | &PRODUCT_ID. |
 
       - Click **Ok**.
     - For Display Type - select **Text with Icon**
