@@ -184,23 +184,22 @@ This region will list the items that have been added temporarily to the shopping
             </copy>
        ```
 
-  ![](./images/change-attributes11.png " ")
-
     - Under Secondary Body section:
-        - Set Advanced Formatting to **On**
-        - For HTML Expression - enter the following:
+     - Set Advanced Formatting to **On**
+     - For HTML Expression - enter the following:
 
-          ```
+       ```
             <copy>
             <b>Unit Price: &UNIT_PRICE. </b> <BR>
             <b>Subtotal: &SUBTOTAL. </b>
             </copy>
-          ```
+        ```
 
     - Under Media section:
-        - For Source - select **BLOB Column**
-        - For BLOB Column - select **PRODUCT_IMAGE**    
-
+     - For Source - select **BLOB Column**
+     - For BLOB Column - select **PRODUCT_IMAGE**  
+     
+  ![](./images/change-attributes11.png " ")
   ![](./images/change-attributes12.png " ")
 
     - Under Messages section:
