@@ -167,16 +167,16 @@ This region will list the items that have been added temporarily to the shopping
 4. Click on **Attributes** and enter the following:
 
     - Under Appearance section:
-     - For Layout - select **Horizontal (Row)**
+      - For Layout \- select **Horizontal (Row)**
     - Under Title section:
-     - For Column - select **NAME**
+      - For Column \- select **NAME**
 
     - Under Subtitle section:
-     - For Column - select **BRAND**    
+      - For Column - select **BRAND**    
 
     - Under Body section:
-     - Set Advanced Formatting to **On**
-     - For HTML Expression - enter the following:
+      - Set Advanced Formatting to **On**
+      - For HTML Expression - enter the following:
 
        ```
         <copy>
@@ -187,8 +187,8 @@ This region will list the items that have been added temporarily to the shopping
      ![](./images/change-attributes11.png " ")
 
     - Under Secondary Body section:
-     - Set Advanced Formatting to **On**
-     - For HTML Expression - enter the following:
+       - Set Advanced Formatting to **On**
+       - For HTML Expression - enter the following:
 
      ```
             <copy>
@@ -198,18 +198,18 @@ This region will list the items that have been added temporarily to the shopping
      ```
 
     - Under Media section:
-     - For Source - select **BLOB Column**
-     - For BLOB Column - select **PRODUCT_IMAGE**  
+       - For Source - select **BLOB Column**
+       - For BLOB Column - select **PRODUCT_IMAGE**  
      
  
     ![](./images/change-attributes12.png " ")
 
     - Under Messages section:
-     - For When No Data Found - enter: **Your shopping cart is empty!**
-     - For No Data Found Icon - select **fa-cart-empty**
+       - For When No Data Found - enter: **Your shopping cart is empty!**
+       - For No Data Found Icon - select **fa-cart-empty**
 
     - Under Card section:
-     - For Primary Key Column 1 - select **ITEM**
+      - For Primary Key Column 1 - select **ITEM**
 
  ![](./images/change-attributes13.png " ")
 
@@ -224,7 +224,7 @@ This action allows customers to open a page to edit a particular item in the sho
 3. In the Property Editor, enter the following:
     - For Label - enter **Edit**
     - For Target - click **No Link Defined**:
-     - For Page - enter **17**  
+      - For Page - enter **17**  
         *{Note: Page 17 wil be created in the next lab}*
       - Set items as follows:
             | Name             |  Value       |
