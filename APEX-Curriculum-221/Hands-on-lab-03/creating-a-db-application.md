@@ -23,7 +23,7 @@ In this lab, you will:
 
 2. Click **Create**.
 
-    !(images/create-app.png " ")
+    ![](images/create-app.png " ")
 
 3.  Click **New Application**.
 
@@ -93,7 +93,7 @@ A dashboard page is a great way to show important information using various char
 
   ![](./images/set-as-admin-page.png " ")
 
-    Setting a page as Administration Page will make that only certain users can run the page. In this case, only users with Administration Rights will be able to run the Dashboard page, which means that this page will require authentication.
+  Setting a page as Administration Page will make that only certain users can run the page. In this case, only users with Administration Rights will be able to run the Dashboard page, which means that this page will require authentication.
 
 8. Click **Add Page**.
 
@@ -149,7 +149,7 @@ A dashboard page is a great way to show important information using various char
     ![](./images/add-report-page.png " ")
 
 
-4. For Lookup Columns, enter the following:
+4. Expand Drill Down Links, for Lookup Columns, enter the following:
     - Lookup Key 1 - select **CLOTHING_ID**
     - Display Column 1 - select **CLOTHING_LOOKUP.CLOTHING**
     - Lookup Key 2 - select **DEPARTMENT_ID**
@@ -165,7 +165,7 @@ A dashboard page is a great way to show important information using various char
 
 ## Task 9: Set Features
 
-Features are a set of optional application capabilities Oracle APEX can include for your new application. Access Control enables role-based user authorization with a single click.
+Features are a set of optional application capabilities in Oracle APEX that you can include in your new application. Access Control enables role-based user authorization with a single click.
 
 1. Under **Features** section, check **Install Progressive Web App** and **Access Control**.
 
