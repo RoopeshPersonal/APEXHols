@@ -334,12 +334,12 @@ This region allows users to review the details of the product, such as brand, pr
             </copy>
         ```   
 
-  - Under Media section:
-        - For Source - select **BLOB Column**
-        - For BLOB Column - select **PRODUCT_IMAGE**
-        - For Position - select **First**
-        - For Appearance - select **Square**
-        - For Sizing - select **Fit**  
+    - Under Media section:
+            - For Source - select **BLOB Column**
+            - For BLOB Column - select **PRODUCT_IMAGE**
+            - For Position - select **First**
+            - For Appearance - select **Square**
+            - For Sizing - select **Fit**  
 
    ![](./images/change-cards-attributes12.png " ")
 
