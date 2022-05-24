@@ -183,6 +183,7 @@ This region will list the items that have been added temporarily to the shopping
             Quantity: &QUANTITY.
             </copy>
        ```
+       ![](./images/change-attributes11.png " ")
 
     - Under Secondary Body section:
      - Set Advanced Formatting to **On**
@@ -199,7 +200,7 @@ This region will list the items that have been added temporarily to the shopping
      - For Source - select **BLOB Column**
      - For BLOB Column - select **PRODUCT_IMAGE**  
      
-  ![](./images/change-attributes11.png " ")
+ 
   ![](./images/change-attributes12.png " ")
 
     - Under Messages section:
