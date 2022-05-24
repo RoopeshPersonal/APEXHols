@@ -179,36 +179,37 @@ This region will list the items that have been added temporarily to the shopping
      - For HTML Expression - enter the following:
 
        ```
-            <copy>
-            Quantity: &QUANTITY.
-            </copy>
+        <copy>
+        Quantity: &QUANTITY.
+        </copy>
        ```
-       ![](./images/change-attributes11.png " ")
+     
+     ![](./images/change-attributes11.png " ")
 
     - Under Secondary Body section:
      - Set Advanced Formatting to **On**
      - For HTML Expression - enter the following:
 
-       ```
+     ```
             <copy>
             <b>Unit Price: &UNIT_PRICE. </b> <BR>
             <b>Subtotal: &SUBTOTAL. </b>
             </copy>
-        ```
+     ```
 
     - Under Media section:
      - For Source - select **BLOB Column**
      - For BLOB Column - select **PRODUCT_IMAGE**  
      
  
-  ![](./images/change-attributes12.png " ")
+    ![](./images/change-attributes12.png " ")
 
     - Under Messages section:
-        - For When No Data Found - enter: **Your shopping cart is empty!**
-        - For No Data Found Icon - select **fa-cart-empty**
+     - For When No Data Found - enter: **Your shopping cart is empty!**
+     - For No Data Found Icon - select **fa-cart-empty**
 
     - Under Card section:
-        - For Primary Key Column 1 - select **ITEM**
+     - For Primary Key Column 1 - select **ITEM**
 
  ![](./images/change-attributes13.png " ")
 
