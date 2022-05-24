@@ -277,7 +277,7 @@ This region allows users to review the details of the product, such as brand, pr
      - For SQL Query - enter the following SQL Code:
 
       ```
-            <copy>
+       <copy>
             SELECT product_id,
                 product_name,
                 unit_price,
@@ -324,7 +324,7 @@ This region allows users to review the details of the product, such as brand, pr
 
   ![](./images/change-cards-attributes11.png " ")
 
-  - Under Secondary Body section:    
+    - Under Secondary Body section:    
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
 
@@ -334,19 +334,19 @@ This region allows users to review the details of the product, such as brand, pr
             </copy>
         ```   
 
-  - Under Media section:
+    - Under Media section:
         - For Source - select **BLOB Column**
         - For BLOB Column - select **PRODUCT_IMAGE**
         - For Position - select **First**
         - For Appearance - select **Square**
         - For Sizing - select **Fit**  
 
-    ![](./images/change-cards-attributes12.png " ")
+   ![](./images/change-cards-attributes12.png " ")
 
-  - Under Card section:
+    - Under Card section:
        - For Primary Key Column 1 - select **PRODUCT_ID**    
 
-      ![](./images/change-cards-attributes13.png " ")
+   ![](./images/change-cards-attributes13.png " ")
 
 ## Task 8: Add Cards Region for Customer Reviews
 This region lets users read the customer reviews for this product.
