@@ -276,7 +276,7 @@ This region allows users to review the details of the product, such as brand, pr
      - For Type - select **SQL Query**
      - For SQL Query - enter the following SQL Code:
 
-            ```
+      ```
             <copy>
             SELECT product_id,
                 product_name,
@@ -297,7 +297,7 @@ This region allows users to review the details of the product, such as brand, pr
                 json_table (p.product_details, '$' columns ( brand       varchar2(4000) path '$.brand') ) b
             WHERE  product_id = :p17_product_id
             </copy>
-            ```
+     ```
 
     ![](./images/create-cards-region11.png " ")
 
@@ -324,15 +324,15 @@ This region allows users to review the details of the product, such as brand, pr
 
   ![](./images/change-cards-attributes11.png " ")
 
-    - Under Secondary Body section:    
+  - Under Secondary Body section:    
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
 
-            ```
+        ```
             <copy>
             Price: &UNIT_PRICE.
             </copy>
-            ```   
+        ```   
 
   - Under Media section:
         - For Source - select **BLOB Column**
