@@ -86,8 +86,7 @@ This lab uses the **Demo Projects** application. In this lab, you customize the 
 
   ![](./images/define-primary-key.png " ")
 
-6. You want to ensure that end users can save Public interactive grids. You want to exclude HTML from the download formats available to end users. In the Developer Toolbar, click **Edit Page < n >**.  
-
+6. You want to ensure that end users can save Public interactive grids. You want to exclude HTML from the download formats available to end users.
   a) Under Rendering, select the **Project Tasks** Interactive Grid region.
 
   ![](./images/select-project-tasks11.png " ")
@@ -105,12 +104,13 @@ This lab uses the **Demo Projects** application. In this lab, you customize the 
 
   ![](./images/edit-enabled11.png " ")
 
-8.  Delete the column groups in the interactive grid. Under Rendering > Project Tasks Interactive Grid > Column Groups. Select **Schedule**, **Project Breakdown** and **Project Financing** and click **Delete**.
+8.  Delete the column groups in the interactive grid. Under Rendering > Project Tasks Interactive Grid > Column Groups. Select **Schedule**, **Project Breakdown** and **Project Financing**, right-click and click **Delete**.
 
 ![](./images/delete-column-group11.png " ")
 
-9. You want to Display ID column and exclude the ID column from DML operations. Under Page Rendering > Project Tasks Interactive Grid, expand Columns and select ID.    
+9. You want to display the ID column and exclude the ID column from DML operations. Under **Page Rendering > Project Tasks** Interactive Grid, expand Columns and select **ID**.    
 Navigate to **Identification** and Set Type to **Display Only**, then Navigate to **Source** and Click on **Query Only** to enable.
+Click **Save and Run Page**.
 ![](./images/set-id-col-attributes11.png " ")
 
 
@@ -150,7 +150,7 @@ Now, in the search bar, click the **magnifying glass** and select **Task Name** 
 
   The row now displays **9000** for Budget.
 
-8. You want to create a control break on the Project column. Click Actions > Format > Control Break.
+8. You want to create a control break on the Project column. Click **Actions > Format > Control Break**.
 
   ![](./images/set-control-break.png " ")
 
@@ -207,7 +207,7 @@ Click the **Start Date** column header and then click **Hide**.
     - Label: Select **Project**
     - Value: Select **Cost**
     - Aggregation: Select **Sum**  
-
+    Click **Save**.
   ![](./images/chart2.png " ")
 
 19. The chart is displayed. You want to save the customization made to the interactive grid. Select **Actions** > **Report** > **Save As**.
