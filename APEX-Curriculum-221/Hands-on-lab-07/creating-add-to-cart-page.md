@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will create a new modal page to add or edit existing items in the Shopping Cart.
+In this lab, you create a new modal page to add or edit existing items in the Shopping Cart.
 
 Once you have finished the workshop and updated all the products as described in the steps, your page will look like the following image:
 ![](./images/creating-ac.png " ")
@@ -19,8 +19,8 @@ Watch the video below for a quick walk through of the lab.
 [](youtube:8HoOOhY8omU)
 
 ### Objectives
-In this lab, you will:
-- Create a page that allows users to add and edit products in the Shopping Cart
+In this lab, you:
+- Create a page that allows users to add and edit products in the Shopping Cart.
 
 ## Task 1: Create a Modal Page
 Create a Modal Page to add products to the cart.
