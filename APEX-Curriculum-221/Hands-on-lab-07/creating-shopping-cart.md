@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you will create new Page Items and Buttons in the Shopping Cart and Add to Cart pages.
+In this lab, you create new Page Items and Buttons in the Shopping Cart and Add to Cart pages.
 
 Once you have finished the workshop and updated all the products as described in the steps, your page will look like the following image:
 ![](./images/creating-sc.png " ")
@@ -22,8 +22,7 @@ Watch the video below for a quick walk through of the lab.
 
 ### Objectives
 In this lab, you will:
-- Create a page to list the products in the Shopping Cart
-- Create Application Items, Application Processes, and Dynamic Actions to manage the Shopping Cart
+- Create new Page Items and Buttons in the Shopping Cart and Add to Cart pages.
 
 
 ## Task 1: Add Items and Buttons to the Page
@@ -37,7 +36,7 @@ In this lab, you will:
 
 2. Now you select **Shopping Cart** under **Page Icons**.
 
-      ![(./images/select-shopping-cart-page.png " ")
+    ![](./images/select-shopping-cart-page.png " ")
 
 3. Drag a **Static Content** region and drop it to the right of the Shopping Cart region to create a second region of content.
 
