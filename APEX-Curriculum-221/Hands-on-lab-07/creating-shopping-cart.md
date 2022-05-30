@@ -43,7 +43,7 @@ In this lab, you will:
     ![](./images/drag-drop-static-content.png " ")
 
 4. In the Property Editor, enter the following:
-    - For Name - enter **Order Information**
+    - For Title - enter **Order Information**
 5. Navigate to the **Order Information** (left pane) region.
 
 6. Right-click the **Order Information** region and click **Create Page Item**.
@@ -51,10 +51,10 @@ In this lab, you will:
     ![](./images/create-page-item1.png " ")
 
 7. In the **Property Editor**, Enter the following.
-   - For Name, Enter P16\_CUSTOMER\_EMAIL
+   - For Name, Enter **P16\_CUSTOMER\_EMAIL**
    - For Type, Select **Text Field**.
    - For Label, Enter **Email Address**.
-   - For Value Required, Set it to **Off**.
+   - Under Validation, for Value Required, Set it to **Off**.
 
    ![](./images/create-page-item2.png " ")
 
@@ -92,7 +92,7 @@ In this lab, you will:
 9. Create two buttons as follows:
 
     | Button Name | Label  | Button Position | Button Template | Hot | Icon |
-    | --- |  --- | --- |
+    | --- |  --- | --- | --- | --- | --- |
     | Proceed | Proceed to Checkout | Create | Text | On | |
     | Clear | Clear Shopping Cart | Change | Text with Icon | Off | fa-cart-empty |
 
