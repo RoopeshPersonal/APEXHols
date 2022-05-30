@@ -189,6 +189,7 @@ In this task, you will create four-page items:
         - For Style -select **Display as Link**
         - For Spacing Right, select **Large**
     - Click **Ok**.
+    - Click **Save**.
 
     ![](./images/create-danger-button.png " ")
 
