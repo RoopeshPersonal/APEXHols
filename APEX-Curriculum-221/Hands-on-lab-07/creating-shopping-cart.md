@@ -1,8 +1,8 @@
-# Create the shopping cart page
+# Create Application Page Controls
 
 ## Introduction
 
-In this lab, you will create new Page Items and Buttons in
+In this lab, you will create new Page Items and Buttons in the Shopping Cart and Add to Cart pages.
 
 Once you have finished the workshop and updated all the products as described in the steps, your page will look like the following image:
 ![](./images/creating-sc.png " ")
