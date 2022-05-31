@@ -32,7 +32,7 @@ Estimated Time: 20 minutes
 
   ![](./images/create-form3.png " ")
 
-5. Under Primary key, for5 Primary Key Column1 - Select a primary key column, or accept the default **PRODUCT_ID**. Then click **Create Page**.
+5. Under Primary key, for Primary Key Column1 - Select a primary key column, or accept the default **PRODUCT_ID**. Then click **Create Page**.
 
 ![](./images/create-form4.png " ")
 
@@ -49,7 +49,7 @@ Estimated Time: 20 minutes
 
     ![](./images/navigate-to-mp2.png " ")
 
-2. In the Rendering tree (left pane), navigate to **Search**.
+2. In the Rendering tree (left pane), navigate to **Products**.
 
     ![](./images/linking-a-form1.png " ")
 
@@ -87,7 +87,7 @@ Estimated Time: 20 minutes
 
   In Page Designer, with **Page 21** loaded, within Layout (middle pane), click **P21_UNIT_PRICE** and continue to hold the mouse down. Drag the item up and to the right, until it is directly after **P21_PRODUCT_NAME**, and a dark yellow box is displayed. Release the mouse to drop the item in the new location.
 
-    ![](images/enhance-form1.png " ")
+ ![](images/enhance-form1.png " ")
 
 3. As an alternative to using drag-and-drop you can also reposition items using attributes in the Property Editor.
 
@@ -99,7 +99,7 @@ Estimated Time: 20 minutes
 
   ![](images/enhance-form3.png " ")
 
-5. Now that you have customized the Form. You can reload **Manage Products** page in the runtime environment and Click on **edit** or **Create** new record to view the Form Page.
+5. Now that you have customized the Form. You can reload **Manage Products** page in the runtime environment. Click on **Edit** to view the Form Page.
 
   ![](images/enhanced-form.png " ")
 
