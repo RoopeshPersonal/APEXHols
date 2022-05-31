@@ -45,7 +45,7 @@ As you can see, it's hard to find the products and it would be beneficial to see
 ## Task 2: Reorder Facets
 Unit price is not a common search criteria, so you want to put this facet at the bottom.
 
-1. In the Rendering tree (left pane), under Search, within Facets, click and hold **P1\_UNIT\_PRICE** and drag it down until it is under **P1\_COLOR\_ID**, then release the mouse.
+1. In the Rendering tree (left pane), under Search, within Facets, click and hold **P1\_UNIT\_PRICE** and drag it down until it is under **P1\_CLOTHING\_ID**, then release the mouse.
 
     ![](./images/reorder-facets.png " ")
 
@@ -270,7 +270,7 @@ In this task, you will create two dynamic actions:
 
 11. Click **Save and Run Page**.
 
-## Task 7: Run Products Page
+## Task 7: Run the Products Page
 
 After running products page, your page will look like the following image:
 
