@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this lab, you use the Theme Roller to save a Theme Style. Then, you enable end users to apply this style while running the application.
+In this lab, you use the Theme Roller to save a new Theme Style. Then, you enable end users to apply this style while running the application.
 
 Estimated Time: 10 minutes
 
@@ -68,9 +68,9 @@ Modify the look by specifying colors of your choice and preview the changes. Onc
   ![](images/click-usa.png " ")
 
 8. Under **Attributes**, click **Enable End Users to Choose Theme Style**. Make sure this attribute is set to **On**.
-Notice that the new Theme Style you saved is displayed under Theme Style list.
+Notice that the new Theme Style you saved is displayed under Theme Style list. Click **Apply Changes**.
 
-  ![](images/change-usa.png " ")ns
+  ![](images/change-usa.png " ")
 
 9. Now, run the application. At the bottom of the page, click the **Customize** link.
 
