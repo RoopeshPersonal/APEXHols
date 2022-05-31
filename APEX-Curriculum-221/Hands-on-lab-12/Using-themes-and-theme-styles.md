@@ -47,9 +47,9 @@ Modify the look by specifying colors of your choice and preview the changes. Onc
     - For Layout, select **Floating**.  
 
   Under **Appearance**:
-    - For Header, Select **Dark**.
-    - For Body Header, Select **Dark**.
-    - For Body Background, Select **Dark**.  
+  - For Header, Select **Dark**.
+  - For Body Header, Select **Dark**.
+  - For Body Background, Select **Dark**.  
 
   ![](images/change-redwood-theme-options1.png " ")
 
