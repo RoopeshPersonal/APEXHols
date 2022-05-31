@@ -1,4 +1,4 @@
-# Create the shopping cart page
+# Adding Validations and Processes to the Shopping Cart Page
 
 ## Introduction
 
@@ -24,7 +24,7 @@ Watch the video below for a quick walk through of the lab.
 In this lab, you will:
 - Create Application Processes, and Dynamic Actions to manage the Shopping Cart
 
-## Task 1: Add Validations to the Page
+## Task 1: Create Validations to the Page
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
 
     ![](./images/click-app-builder1.png " ")
@@ -69,7 +69,7 @@ In this lab, you will:
 
      ![](./images/create-validation4.png " ")       
 
-## Task 2: Add Process to Create the Order
+## Task 2: Add a Process to Create the Order
 
 1. On the **Processing** tab (left pane).
 2. Right-click **Processing** and click **Create Process**.
@@ -96,7 +96,7 @@ In this lab, you will:
         ```
 
     - For Success Message, enter **Order successfully created: &P16\_ORDER\_ID.**
-    - For When Button Pressed, select **Proceed**
+    - Under Server-side condition, for When Button Pressed, select **Proceed**
 
   ![](./images/create-process3.png " ")
 
@@ -117,7 +117,7 @@ In this lab, you will:
     </copy>
     ```
 
-    - For When Button Pressed, select **Clear**
+    - Under Server-side condition, for When Button Pressed, select **Clear**.
 
   ![](./images/create-process11.png " ")
 
@@ -141,11 +141,11 @@ In this lab, you will:
 
         - For Clear Cache - enter **16**.
         - Click **OK**.
-    - For When Button Pressed, select **Proceed**.
+    - Under Server-side condition, for When Button Pressed, select **Proceed**.
 
   ![](./images/create-branch2.png " ")
 
-4. Create a second branch when user clears the shopping cart. Right-click on **After Processing** and click **Create Branch**.
+4. Create a second branch when the user clears the shopping cart. Right-click on **After Processing** and click **Create Branch**.
 5. In the Property Editor, enter the following:
     - For Name - enter **Go to Products**
     - Navigate to Target attribute and click **No Link Defined**
@@ -153,12 +153,12 @@ In this lab, you will:
         - For Page - enter **1**
         - For Clear Cache - enter **1**
         - Click **OK**
-    - For When Button Pressed, select **Clear**
+    - Under Server-side condition, for When Button Pressed, select **Clear**
 
 ## Task 5: Add Dynamic Actions
 In this task, you will create a dynamic actions to:
-- Update the badge and icon shown in the navigation bar after the customer has added / edited / removed a product from the shopping cart
-- Refresh the shopping cart region
+- Update the badge and icon shown in the navigation bar after the customer has added / edited / removed a product from the shopping cart.
+- Refresh the shopping cart region.
 
 1. Navigate to **Dynamic Actions** tab (left pane).
 
@@ -249,7 +249,7 @@ In this task, you will create a dynamic actions to:
 
 ## Task 6: Format Products Image Size
 
-1. In the Rendering tree (left pane), navigate to **Page 17: Shopping Cart**.
+1. In the Rendering tree (left pane), navigate to **Page 16: Shopping Cart**.
 2. In the Property Editor (right pane), do the following:
     - Under CSS section.
         -   For Inline - enter the following:
