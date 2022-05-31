@@ -22,7 +22,7 @@ The **Project Tasks Search** page utilizes Smart Filters to display the records.
 
     ![](images/navigate-to-page8.png " ")
 
-4. Now, Update P8_PROJECT, Change type to **Radio Group** and enable the **Client-Side Filtering** attribute.  
+4. Now, Update **P8_PROJECT**, Change type to **Radio Group** and enable the **Client-Side Filtering** attribute.  
 In the Rendering tab, select the P8_PROJECT filter (if not already selected).
 In the Property Editor, under **Identification** change type to **Radio Group**, then find **List Entries** and enable **Client-Side Filtering**. Enabling this option renders a search field above the list entries.
 
@@ -64,9 +64,9 @@ The revised page appears.
 
 ## **Summary**
 
-You now know how _end-users_ can define custom reports using Interactive Reports, and you can easily improve form pages.
+You now know how to create smart filters and customize them for the Interactive Reports.
 
 ## **Acknowledgements**
 
- - **Author/Contributors** -  Salim Hlayel, Principal Product Manager
- - **Last Updated By/Date** - Salim Hlayel, Principal Product Manager, November 2020
+ - **Author/Contributors** -  Roopesh Thokala, Product Manager
+ 
