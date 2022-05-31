@@ -141,11 +141,12 @@ Add a new navigation menu entry to allow:
   ![](./images/create-entry1.png " ")
 
   ![](./images/create-entry2.png " ")
-    - For Sequence - enter **1**
-    - For Image/Class - **&SHOPPING\_CART\_ICON.**
-    - For List Entry Label - **Shopping Cart**
-    - For Page - select **16**
-    - For Clear cache - enter **16**
+    
+   - For Sequence - enter **1**
+   - For Image/Class - **&SHOPPING\_CART\_ICON.**
+   - For List Entry Label - **Shopping Cart**
+   - For Page - select **16**
+   - For Clear cache - enter **16**
 
 
 5. Scroll under **User Defined Attributes** and enter the following:
