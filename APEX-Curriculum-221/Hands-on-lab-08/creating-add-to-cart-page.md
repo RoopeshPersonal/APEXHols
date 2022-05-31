@@ -1,4 +1,4 @@
-# Create the add to cart page
+# Adding Computations and Processes
 
 ## Introduction
 
@@ -48,8 +48,8 @@ In this lab, you will:
 
     ![](./images/create-computation2.png " ")          
 
-## Task 2: Add Process to Add Products to the Shopping Cart
-In this Task, you will call the *manage\_orders.add_product* procedure that add the product temporarily in the APEX collection.
+## Task 2: Create a Process to Add Products to the Shopping Cart
+In this Task, you call the *manage\_orders.add_product* procedure that will add a product temporarily in the APEX collection.
 
 1. In the Rendering tree (left pane), navigate to **Processing** tab.  
 
@@ -78,11 +78,11 @@ In this Task, you will call the *manage\_orders.add_product* procedure that add 
 
   ![](./images/create-process22.png " ")  
 
-    - Under Server-side Condition section:
-        - For When Button Pressed - select **Add**      
+ - Under Server-side Condition section:
+   - For When Button Pressed - select **Add**      
 
-## Task 3: Add Process to Edit Products in the Shopping Cart
-In this Task, you will call the *manage\_orders.remove\_product* and *manage\_orders.add\_product* procedures to remove the product from the shopping cart and add it again with the updated quantity.
+## Task 3: Create a Process to Edit Products in the Shopping Cart
+In this Task, you call the *manage\_orders.remove\_product* and *manage\_orders.add\_product* procedures to remove a product from the shopping cart and add it again with the updated quantity.
 
 1. In the **Processing** tab.    
 2. Right click **Processing** and click **Create Process**.
@@ -107,13 +107,13 @@ In this Task, you will call the *manage\_orders.remove\_product* and *manage\_or
         </copy>
         ```
 
-    - Under Server-side Condition section:
-        - For When Button Pressed, select **Edit**
+   - Under Server-side Condition section:
+    - For When Button Pressed, select **Edit**
 
   ![](./images/create-process31.png " ")
 
-## Task 4: Add Process to Delete Products from the Shopping Cart
-In this Task, you will call the *manage\_orders.remove\_product* to remove the product from the shopping cart.
+## Task 4: Create a Process to Delete Products from the Shopping Cart
+In this Task, you call the *manage\_orders.remove\_product* to remove a product from the shopping cart.
 
 1. In the **Processing** tab.    
 2. Right click **Processing** and click **Create Process**.
@@ -141,8 +141,8 @@ In this Task, you will call the *manage\_orders.remove\_product* to remove the p
 
   ![](./images/create-process41.png " ")
 
-## Task 5: Add Process to Calculate the Shopping Cart Items
-In this task, you will call the *manage\_orders.get\_quantity* to get the total of products in the shopping cart.
+## Task 5: Create a Process to Calculate the Shopping Cart Items
+In this task, you call the *manage\_orders.get\_quantity* to get the total number of products in the shopping cart.
 
 1. In the **Processing** tab.    
 2. Right click **Processing** and click  **Create Process**.
@@ -163,8 +163,8 @@ In this task, you will call the *manage\_orders.get\_quantity* to get the total 
   ![](./images/create-process51.png " ")
 
 
-## Task 6: Add Process to Close the Modal Page
-After the customer has taken action (add/edit/delete) about the product, the modal page will close and continue the shopping process.
+## Task 6: Create a Process to Close the Modal Page
+After the customer has taken an action (add/edit/delete) about the product, the modal page will close and continue the shopping process.
 
 1. In the **Processing** tab.    
 2. Right click **Processing** and click **Create Process**.
