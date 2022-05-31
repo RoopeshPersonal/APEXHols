@@ -22,7 +22,7 @@ In this lab, you will:
 
 - Enhance the Navigation Bar
 
-## Task 1: Set Products page as Home Page.
+## Task 1: Set Products page as the Home Page.
 
 In this Lesson, you will set the products page as Home page and then you will remove the **Home** page under Navigation Menu.
 
@@ -65,7 +65,7 @@ Navigate to **Shared Components**.
 
   ![](./images/delete-home-entry1.png " ")
 
-## Task 2: Set Pages to be Public
+## Task 2: Set Pages to Public
 Your customers don't need to log in the app to shop the products, so let's set the following pages as public:
 - Page 19: Products
 - Page 15: Order Information
@@ -74,7 +74,7 @@ Your customers don't need to log in the app to shop the products, so let's set t
 
 Follow these steps for the four listed pages:
 
-1. From the runtime application, navigate to the page.
+1. From the runtime application, navigate to the **Products** page.
 
     In the Developer Toolbar click **Edit Page 19**.
 
@@ -93,9 +93,11 @@ Follow these steps for the four listed pages:
 4. Navigate to Page Finder and select **Page 15** from Dialog Page.
 
     ![](./images/navigate-to-page-finder.png " ")
+    
+5. Repeat steps 2-4 for **Page 16: Shopping Cart** and **Page 17: Add to Cart**.
 
 ## Task 3: Clean the Navigation Menu
-Since the home page is the Products page and this is a public access page as some others too, it's not needed to have a navigation menu.
+Since the home page is the Products page and this is a public access page, we do not need a navigation menu.
 In this task, you will turn off displaying the navigation menu.
 
 1. Within Page Designer, click the Shared Components icon at the top right.
@@ -130,7 +132,7 @@ Add a new navigation menu entry to allow:
 
     ![](./images/navigation-bar.png " ")
 
-3. Click **Desktop Navigation Bar**.
+3. Click **Navigation Bar**.
 
     ![](./images/navigation-bar1.png " ")
 
