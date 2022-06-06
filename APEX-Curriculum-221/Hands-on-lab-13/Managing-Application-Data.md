@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Oracle APEX allows you to build robust, feature-rich applications against remote, web, and REST data sources. In this lab, you will login to Remote Database, Create a database table and then **Register schema with RESTful Services**
+Oracle APEX allows you to build robust, feature-rich applications against remote, web, and REST data sources. In this lab, you login to a remote database, create a database table and then **Register a schema with RESTful Services**.
 
 <!--
  you build a web application on top of the Apple iTunes Search API, which is a simple API over HTTP that takes input arguments via parameters in the URL. First, you create a report against the iTunes music video catalog. Next, you simplify the report to include a preview of the music video and a link to watch a clip of the music video.
@@ -15,9 +15,9 @@ Watch the video below for a quick walk through of the lab.
 
 [](youtube:lwQ3lvul9iE)
 -->
--->
+
 ### Objectives
-<!--
+
 In this lab, you will:
 - Set the following pages as public pages:
     - Products
@@ -26,7 +26,7 @@ In this lab, you will:
 
 - Disable the Navigation Menu
 
-- Enhance the Navigation Bar -->
+- Enhance the Navigation Bar 
 
 ## Task 1: Enable Remote Database schema to Oracle REST Data Services.
 
@@ -96,11 +96,11 @@ insert into emp_1(empno, emp_name, mgr) values (40, 'MATT', null);
 
   ![](images/copy-url1.png " ")
 
-## Task 2: Creating application and Integrating Application Data from REST Data Source.
+## Task 2: Creating an application and Integrating Application Data from REST Data Source
 
-In this Lab, you will create a **New Application** and then  Consume **REST Data Source** we created in the previous task, then, We will **Synchronise** the Data from REST Data Source to the Local Database table using **REST Data Synchronization**.
+In this Lab, you create a **New Application** and then consume the **REST Data Source** we created in the previous task. Then, you will **Synchronise** the Data from REST Data Source to the Local Database table using **REST Data Synchronization**.
 
-1. Log in to the Actual Workspace, where we have created multiple applications already.
+1. Log in to the first Workspace, where we have already created multiple applications.
 
   ![](images/login-to-workspace1.png " ")
 
@@ -145,7 +145,9 @@ In this Lab, you will create a **New Application** and then  Consume **REST Data
 
   ![](images/create-rds2.png " ")
 
-11. For Authentication, Set **Authentication Required** to **No**.
+11. For Pagination Type, leave the default as **No Pagination** and click **Next**.
+
+11. For Authentication, Set **Authentication Required** to **No**. Click **Discover**.
 
   ![](images/create-rds3.png " ")
 
@@ -170,11 +172,9 @@ In this example, select New Table for Synchronize To and enter **EMP_1** for Tab
 
 3. The synchronization table is not created yet. You can view the SQL that is used to create the table. Click **Show SQL**.
 
-4. Under Table Status, click Create Table.
+4. Under Table Status, click **Create Table**. The table **EMP_1** is now ready for synchronization. Notice the message **The synchronization table exists and matches the Data Profile**.
 
   ![](images/create_rest_data_sync2.png " ")
-
-5. The table **EMP_1** is now ready for synchronization. Notice the message **The synchronization table exists and matches the Data Profile**.
 
 6. You will define a **synchronization schedule** now. In the Synchronization Schedule field, you can use the Database Scheduler calendaring syntax to define repeating synchronization schedules, such as "every Tuesday and Friday at 4:00 p.m." or "the second Wednesday of every month." This calendaring syntax can be provided manually.
 
@@ -195,7 +195,7 @@ In this example, select New Table for Synchronize To and enter **EMP_1** for Tab
 
 ## Task 4: Creating and Customising Tasks in Leave Request Approval application
 
-In this Lesson, you will design a simple Leave Request Application where an Employee can make a request to apply for leave and the Manager of the Employee either approves or rejects the leave.
+In this task, you design a simple Leave Request Application where an Employee can make a request to apply for leave and the Manager of the Employee either approves or rejects the leave.
 
 1. Navigate to the **Leave Request Approval** application you created in the previous Task and then click **Shared Components**.
 
@@ -205,13 +205,13 @@ In this Lesson, you will design a simple Leave Request Application where an Empl
 
   ![](images/select-task-def.png " ")
 
-3. click **Create**.
+3. Click **Create**.
 
   ![](images/click-create.png " ")
 
 4. Fill in the Create Task Definition Wizard fields as shown below, and hit Create. Under **Create Task Definition** enter the following:  
   - For **Name**, Enter **Leave Request**.
-  - For **Subject**, enter **Request for &LEAVE_TYPE. Leave for &EMP_NAME.
+  - For **Subject**, enter **Request for &LEAVE_TYPE. Leave for &EMP_NAME**.
   - For **Static ID**, enter **LEAVE_REQUEST**.
   - For **Priority**, select **2-High**  
 
@@ -276,8 +276,8 @@ Under **Action**:
   - For **Outcome**, click **Approved**.  
 
 Under **Send Email Settings**:
-  - For **From**, Enter **&APP_EMAIL.
-  - For **To**, Enter **Your E-Mail**
+  - For **From**, Enter **&APP_EMAIL**.
+  - For **To**, Enter **Your E-Mail**.
   - For **Subject**, Enter **Leave Approval**.
   - For **Body Plain Text**, enter **Your Text**.
 
