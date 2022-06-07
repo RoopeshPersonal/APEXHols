@@ -209,9 +209,9 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
   ![](images/click-create.png " ")
 
-4. Fill in the Create Task Definition Wizard fields as shown below, and hit Create. Under **Create Task Definition** enter the following:  
+4. Fill in the Create Task Definition Wizard fields as shown below, and click **Create**. Under **Create Task Definition** enter the following:  
   - For **Name**, Enter **Leave Request**.
-  - For **Subject**, enter **Request for &LEAVE_TYPE. Leave for &EMP_NAME**.
+  - For **Subject**, enter **Request for &LEAVE_TYPE. Leave for &EMP_NAME.**
   - For **Static ID**, enter **LEAVE_REQUEST**.
   - For **Priority**, select **2-High**  
 
@@ -223,14 +223,14 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
   For **Action Source** Select **SQL Query** as the action source and add the following SQL statement in the Actions SQL Query editor.       
 
-    ```
+  ```
     <copy>
     select e.empno, e.emp_name, m.emp_name as mgr_name
       from emp_1 e, emp_1 m
      where m.empno(+)=e.mgr
        and e.empno=:APEX$TASK_PK
     </copy>
-    ```
+  ```
 
   ![](images/create-tasks3.png " ")
 
@@ -246,7 +246,7 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
   ![](images/create-tasks6.png " ")
 
-9. In the **Participants** section, Click on **Add Row** and select Participant Type as **Potential Owner** and Value Type as **SQL Query**. In the Value field, add the following SQL query.
+9. Navigate to the **Participants** tab in the Leave Request task definition, click **Add Row** and select Participant Type as **Potential Owner** and Value Type as **SQL Query**. In the Value field, add the following SQL query.
 
   ```
   <copy>
@@ -259,8 +259,8 @@ In this task, you design a simple Leave Request Application where an Employee ca
   ![](images/create-tasks-participants.png " ")
 
 11. Add the following entries to the Task **Parameters** section.
-    - Click **Add Row** and then for **Static ID**, enter **LEAVE_TYPE**
-    - Click **Add Row** and then for **Static ID**, enter **NO_OF_DAYS**
+    - Click **Add Row** and then for **Static ID**, enter **LEAVE_TYPE**; for data type, select **String**.
+    - Click **Add Row** and then for **Static ID**, enter **NO_OF_DAYS**; for data type, select **String**.
 
   ![](images/create-tasks-parameters.png " ")
 
@@ -272,14 +272,15 @@ In this task, you design a simple Leave Request Application where an Employee ca
 Under **Action**:
   - For **Name**, Enter **On Approval**.
   - For **Type**, Select **Send E-Mail**.
+  - For **Event Sequence**, enter **10**.
   - For **On Event**, Select **Complete**.
   - For **Outcome**, click **Approved**.  
 
 Under **Send Email Settings**:
-  - For **From**, Enter **&APP_EMAIL**.
+  - For **From**, Enter **&APP_EMAIL.**
   - For **To**, Enter **Your E-Mail**.
   - For **Subject**, Enter **Leave Approval**.
-  - For **Body Plain Text**, enter **Your Text**.
+  - For **Body Plain Text**, enter **Your leave request has been approved. No further action is required**.
 
 Click **Create**.
 
@@ -298,6 +299,8 @@ Click **Create**.
 2. Under **Create a Page**, Select **Blank Page**.
 
   ![](images/create-page1.png " ")
+  
+3. For Name, enter **Apply for Leave** and click **Create Page**.
 
 3. In the **Left Pane**, Right click on **Body** and click **Create Region**.
 
@@ -323,7 +326,7 @@ Under Identification:
 
   ![](images/create-form-region.png " ")
 
-5. Right click on **Create Page Item** and click **Create Page Item**. Add two new page items **P3_NO_OF_DAYS** and **P3_LEAVE_TYPE**.
+5. Right click on **New Page Request** and click **Create Page Item**. Add two new page items **P3_NO_OF_DAYS** and **P3_LEAVE_TYPE**.
 
   ![](images/create-item1.png " ")
 
@@ -403,11 +406,13 @@ Under Identification:
 
   ![](images/change-process.png " ")
 
+15. Click **Save**.
+16. 
 ## Task 6: Creating the My Approvals and My Requests Pages
 
-In this lab, you will create pages where :  
-a) The manager of the employee can go to approve or reject a leave request  
-b) The employee can go and check the status of his request. For this we will create two Unified Task Lists.  
+In this lab, you will create pages for the following tasks:  
+a) The manager of the employee can approve or reject a leave request . 
+b) The employee can go and check the status of his request. For this, we will create two Unified Task Lists.  
 
 1. Navigate to Create button **+** and click **Page**.
 
