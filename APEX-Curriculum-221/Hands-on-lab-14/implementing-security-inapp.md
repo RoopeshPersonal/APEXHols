@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Application security is very important in the majority of applications, except for "Public" applications. You must ensure users enter valid credentials, generally username and password (Authentication), and that once logged in that each user has appropriate rights within the application (Authorization).
+Application security is very important for majority of the applications. You must ensure that users enter valid credentials, generally username and password (Authentication), and the logged in user has appropriate rights within the application (Authorization).
 This exercise includes three hands-on-labs.
 <!--
  you build a web application on top of the Apple iTunes Search API, which is a simple API over HTTP that takes input arguments via parameters in the URL. First, you create a report against the iTunes music video catalog. Next, you simplify the report to include a preview of the music video and a link to watch a clip of the music video.
@@ -10,11 +10,9 @@ This exercise includes three hands-on-labs.
 
 Estimated Time: 20 minutes
 
-<!--
 Watch the video below for a quick walk through of the lab.
 
 [](youtube:lwQ3lvul9iE)
--->
 -->
 ### Objectives
 <!--
@@ -54,7 +52,7 @@ In this lab, you will:
 
   ![](images/verify-your-account1.png " ")
 
-6. Navigate to **Settings** and then select **Basic**. There you can see the App ID and App Secret. Copy the **App ID** and **App secret** and paste in your Notepad, It will be used to create the **web credential** in your **APEX application** later.
+6. Navigate to **Settings** and then select **Basic**. There, you can see the App ID and App Secret. Copy the **App ID** and **App secret** and paste in your Notepad, It will be used to create the **web credential** in your **APEX application** later.
 
   ![](images/copy-credentials.png " ")
 
@@ -66,7 +64,7 @@ In this lab, you will:
 
   ![](images/select-facebook.png " ")
 
-9. Navigate to **Settings** under **Facebook Login** in the navigation menu. You have to enable Client OAuth Login and add https://apexea.oracle.com/pls/apex/apex_authentication.callback (If you are using apex.oracle.com) Valid OAuth Redirect URIs. Then click on **Save Changes**.
+9. Navigate to **Settings** under **Facebook Login** in the navigation menu. You have to enable Client OAuth Login and add https://apex.oracle.com/pls/apex/apex_authentication.callback (If you are using apex.oracle.com) Valid OAuth Redirect URIs. Then click on **Save Changes**.
 
   ![](images/apex-callback.png " ")
 
@@ -146,9 +144,9 @@ In this lab, you will:
 
 
 
-## Task 2: Creating and Using an Authorization Scheme\
+## Task 2: Creating and Using an Authorization Scheme
 
-In this hands-on lab, you create an **Authorization Scheme** to ensure only people entered as Team Members can log into the **Online Shopping Application**. You apply the authorization scheme to the application properties.
+In this task, you create an **Authorization Scheme** to ensure only people entered as Team Members can log into the **Online Shopping Application**. You apply the authorization scheme to the application properties.
 
 1. Navigate to App Builder and select **Online Shopping Application**.
 
@@ -168,8 +166,8 @@ In this hands-on lab, you create an **Authorization Scheme** to ensure only peop
 
 5. In the **Role** Page, enter the following and click **Create Role**.
 
-    - For **Name**, Enter **Administrator**.
-    - For **Static Identifier**, select **ADMINISTRATOR**.
+    - For **Name**, Enter **Administrator**
+    - For **Static Identifier**, select **ADMINISTRATOR**
 
   ![](images/add-role1.png " ")
 
@@ -180,7 +178,7 @@ In this hands-on lab, you create an **Authorization Scheme** to ensure only peop
 7. In the **User Assignment** Page, enter the following and click **Create Assignment**.
 
     - For **User Name**, Enter **AUTHORIZED USER**.
-    - For **Applicatio Role**, Check **ADMINISTRATOR** to **Yes**.
+    - For **Application Role**, Check **ADMINISTRATOR** to **Yes**.
 
   ![](images/assign-user2.png " ")
 
@@ -202,7 +200,7 @@ In this hands-on lab, you create an **Authorization Scheme** to ensure only peop
 
   - For **Name**, Enter **Admin**.
   - For **Scheme Type**, Select **Is In Role or Group**.
-  - For **Type**, Enter **Application Role**
+  - For **Type**, select **Application Role**
   - For **Name(s)**, Select **Administrator**.
   - For **Identify error message displayed**, enter **You are not Authorized to view this.**
 
@@ -214,17 +212,17 @@ In this hands-on lab, you create an **Authorization Scheme** to ensure only peop
 
   ![](images/navigate-to-sa.png " ")
 
-13. In the **Edit Security Attributes** Page, under **Authorization**, select **Admin** for **Authorization Scheme**.
+13. In the **Edit Security Attributes** Page, under **Authorization**, select **Admin** for **Authorization Scheme**. Click **Apply Changes**.
 
   ![](images/select-authorization-scheme.png " ")
 
 14. Navigate to the runtime environment (tab or window). Click Sign Out in the navigation bar (top right).
 
-15. Run the application by navigating to **Online Shopping Application** and click Run. In the User Interface, click **Administration**. Login using your Facebook Credentials.
+15. Run the application by navigating to **Online Shopping Application** and click Run. In the User Interface, click **Administration**.
 
   ![](images/login1.png " ")
 
-16. Since your name is not **Authorized User**, Verify the access denied message is displayed.
+16. Since your name is not **Authorized User**, verify the access denied message is displayed.
 
   ![](images/login2.png " ")
 
