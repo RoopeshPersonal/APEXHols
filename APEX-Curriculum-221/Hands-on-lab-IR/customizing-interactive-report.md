@@ -1,0 +1,366 @@
+# Implementing Security in your Application
+
+## Introduction
+
+In this Hands-on-lab, you will Manage and Customise the Interactive report we have in **Sample Report** application both as an **End-user** and as a **Developer**.
+<!--
+ you build a web application on top of the Apple iTunes Search API, which is a simple API over HTTP that takes input arguments via parameters in the URL. First, you create a report against the iTunes music video catalog. Next, you simplify the report to include a preview of the music video and a link to watch a clip of the music video.
+
+
+Estimated Time: 20 minutes
+
+<!--
+Watch the video below for a quick walk through of the lab.
+
+[](youtube:lwQ3lvul9iE)
+-->
+
+### Objectives
+<!--
+In this lab, you will:
+- Set the following pages as public pages:
+    - Products
+    - Shopping Cart
+    - Order Information
+
+- Disable the Navigation Menu
+
+- Enhance the Navigation Bar -->
+
+## Task 1: Customizing an Interactive report as an end-user.
+
+ In this lab, you customize and use an interactive report as an end user.
+
+ 1. First, you run the **Sample Reporting** application. Click **App Builder**.
+
+  ![](images/navigate-to-app-builder.png " ")
+
+2.  Navigate to **Sample Reporting** and then click **Run Application**.
+
+  ![](images/navigate-to-sr.png " ")
+
+  ![](images/run-application.png " ")
+
+3. In the **navigation menu** or in the **Cards Region**, click **Interactive Report**.
+
+  ![](images/click-ir.png " ")
+
+4. You do not want to display the **Start Date** and **End Date** columns in the report. Also, you want the Purchase Date column to display just before the Purchase Price column. Perform the following steps:  
+  a) Click Actions and select Columns.
+
+  ![](images/select-columns.png " ")
+
+  b) The **Select Columns** dialog appears. The columns on the right are displayed, and the columns on the left are hidden. Select **Start Date** and **End Date**  in **Display in Report group**, and click the Remove icon.
+
+  ![](images/select-columns1.png " ")
+
+  c) You can reorder the displayed columns using the arrows on the far right.
+  Select **Status** in the Display in Report group and click the Down arrow once. Then, click **Apply**.
+
+  ![](images/select-columns3.png " ")
+
+  ![](images/select-columns2.png " ")
+
+  d) The changes you made to the interactive report display are reflected now.
+
+  ![](images/run-ir1.png " ")
+
+5. You want to create filters on the report. First, you want to filter the report to display rows which meet the criteria **Cost <= 2000**. Within these filtered results, you then create another filter to display rows with **Project is Bug Tracker**. Perform the following steps:  
+
+  a) Click Actions and select Filter.
+
+  ![](images/select-filter1.png " ")
+
+  b) For Filter Type, select Column.  
+  For Column, select **Cost**, for **Operator**, select **<=** and select **2000** from the Expression list.  
+  Then, click **Apply**.
+
+  ![](images/create-filter1.png " ")
+
+  c) In this lab, you want to add another filter on the **Project** column. Click the **Actions** menu and select **Filter**.
+
+  ![](images/select-filter2.png " ")
+
+  d) Select **Project** for Column, select **=** for Operator and select **Bug Tracker** from the Expression list.
+  Click **Apply**.
+
+  ![](images/create-filter2.png " ")
+
+  ![](images/run-ir2.png " ")
+
+  e) Notice that two filters are applied now. The rows displayed are fewer now because they are only the rows that meet both the filter criteria. You can remove each filter by clicking the Remove Filter icon, next to the filter you want to remove.  
+  Click the **Remove Filter** icon next to both the filters
+
+  ![](images/delete-filter1.png " ")
+
+6. You want to sort the report on the **Cost** column.   
+  a) Select **Actions** > **Data** > **Sort**.
+
+  ![](images/select-sort.png " ")
+
+  b) Remove the existing sort columns under **Column**.
+
+  ![](images/create-sort1.png " ")
+
+  c) Select **Cost** for Column, **Descending** for **Direction** and click **Apply**.
+
+  ![](images/create-sort2.png " ")
+
+  d) The report is now sorted in the **Descending** order of **Cost**.
+
+7. Create an aggregation against the **Available Budget** column. You want to display the sum of the **Available Budget**.  
+  a) Select Actions > Data > Aggregate.
+
+  ![](images/select-aggregate.png " ")
+
+  b) In the **Aggregate** dialog, select **Sum** for Function, **Available Budget** for Column. Click **Apply**.
+
+  ![](images/create-aggregate1.png " ")
+
+  c) The aggregate function is applied on the column. Notice that the sum of **Available Budget** is displayed at the end of the report under the column.
+
+  ![](images/run-ir3.png " ")
+
+8. In the report, you want to include **Cost** calculated with tax. The computation you want to make is **Cost * 1.05**. You create a computed column in the interactive report.
+
+  a) Select **Actions** > **Data** > **Compute**.
+
+  ![](images/select-compute1.png " ")
+
+  b) The Compute dialog appears.  
+  For Column Label, enter **Cost with Tax**.  
+  For Computation Expression, click **Cost** under Columns. Click *1.05 under Keypad.  
+  Click **Apply**.
+
+  ![](images/create-compute1.png " ")
+
+  c) The new computed column **Cost with Tax** now appears in the report.
+
+  ![](images/run-ir5.png " ")
+
+9. Create a Control Break on the **Project** column.  
+    a) Select **Actions** > **Format** > **Control Break**.
+
+    ![](images/create-control-break.png " ")
+
+    b) In the Control Break dialog, select **Project** for Column, and click **Apply**.
+
+    ![](images/create-cb1.png " ")  
+
+    c) The control break is applied now. Notice that the aggregation that you created in a previous step appears at the end of each control break.
+
+    ![](images/run-ir6.png " ")  
+
+10. You want to highlight those rows with **Cost** values less than or equals **500**. You add the highlighting to rows while continuing with the control break that you created in the previous step.  
+  a) Select **Actions** > **Format** > **Highlight**.
+
+    ![](images/select-highlight.png " ")
+
+  b) In the Highlight dialog, enter **Cost less than or equals 500** for Name.  
+  Select **Green** for Background Color and **Black** for Text Color.  
+  For Highlight Condition: Select **Cost** column, and **<=** Operator. Enter  **500** for Expression.  
+  Click **Apply**.
+
+    ![](images/create-highlight1.png " ")  
+
+  c) Notice that the rows that meet the condition are highlighted now.
+
+    ![](images/run-ir7.png " ")    
+
+
+11. Now, You want to control the number of rows to display in your **Interactive Report** page.
+
+  a) Select **Actions** > **Rows Per Page** > **50**.
+
+    ![](images/select-rpp.png " ")
+
+  b) Notice that the **Rows Per Page** in your Interactive Report is now **1-50**.
+
+    ![](images/run-ir8.png " ")
+
+
+12. In your interactive report, you want to include a Chart to display the Average **Cost** for each **Project**. Your interactive report should include both the Report and Chart views to toggle.
+
+  a) Select **Actions** > **Chart**.
+
+    ![](images/select-chart1.png " ")
+
+  b) In the Chart dialog, select / enter the following:  
+
+      • Chart Type: **Bar**  
+      • Label: **Project**  
+      • Value: **Cost**  
+      • Function: **Average**  
+
+      Click **Apply**.
+
+      ![](images/create-chart1.png " ")
+
+  c) The chart is created. Toggle between the View Chart and View Report.
+
+      ![](images/run-ir9.png " ")
+
+13. Create a Group By report to display each Cpu Type with the total purchase price.  
+  a) Click View Report.  
+  Select Actions > Group By.
+
+      ![](images/select-groupby.png " ")    
+
+  b) In the Group By dialog enter / select the following:  
+    • Group By Column: Cpu Type  
+    • Function: Sum  
+    • Column: Purchase Price  
+    • Label: Total Price  
+    • Format Mask: $5,234.10  
+    Make sure you enable Sum and click Apply.
+
+      ![](images/create-groupby.png " ")   
+
+  c)  The Group By report is created. You also see the sum of the purchase price. Notice that the icon for View Group By is also added.
+
+      ![](images/run-ir10.png " ")
+
+  d) Click the **X** to the right of Edit Group By to remove the filter.
+
+    ![](images/run-ir11.png " ")
+
+14. You want to display the **Sum** of Cost that are available with each **Project** and **Assigned To**. The results should be in a crosstab format. Create a Pivot Report.  
+  a) Click **Actions** > **Pivot**.
+
+    ![](images/select-pivot.png " ")
+
+  b)  In the Pivot dialog enter / select:  
+      - Pivot Columns: **Assigned To**
+      - Row Columns: **Project**
+      - Functions: **Sum**
+      - Column: **Cost** and **Budget**
+      - Label: **Total Cost** and **Total Budget**
+      - Set **Sum** to **Yes**.
+
+    Click **Apply**.
+
+    ![](images/create-pivot1.png " ")
+
+  c) The Pivot report is displayed, and a View Pivot icon is created.
+
+    ![](images/run-ir12.png " ")
+
+15. You want to save the report with all the customization.  
+    a) Select **Actions** > **Report** > **Save Report**.
+
+      ![](images/save-report.png " ")
+
+    b) Enter **My Private Report** for Name and click **Apply**.
+
+      ![](images/save-report1.png " ")
+
+16. A drop-down list automatically appears with the report you just created being selected. You can view the default primary report.
+You want to reset the **Primary Report** back to the default settings and remove any customizations that you have made so far.  
+
+  a) Select **Primary Report** from the Reports drop down list. The primary report is now displayed. You can make any changes to this report and it will not be reflected in the 'My Private Report' private report you just created.
+
+  ![](images/nav-primary-report.png " ")
+
+  b)  Select **Actions** > **Report** > **Reset**.
+
+  ![](images/reset-report.png " ")
+
+  c) In the Reset dialog, click **Apply**.
+
+  ![](images/apply-reset.png " ")
+
+  d) From the Reports drop down list, select **My Private Report**.
+
+  ![](images/nav-to-priv.png " ")
+
+17. You want to download the customized report as a CSV.  
+  a)  Select **Actions** > **Download**.
+
+  ![](images/download1.png " ")
+
+  b)  In the Download dialog, select **CSV**.
+
+  ![](images/download2.png " ")  
+
+  c) The report is now downloaded as a CSV.
+
+  ![](images/download3.png " ")   
+
+
+## Task 2: Customizing an Interactive report as a Developer.
+
+In this lab, you edit an interactive report in page designer and customize it for end users.
+1. First, view the Interactive Report in page designer. In the Developer Toolbar,
+click Edit Page <n>.
+
+  ![](images/click-page1.png " ")  
+
+2. When the end users click an edit icon for a specified row, they should be directed to a page which shows the column values for that row. The interactive report currently have a link column to a Form Page. Modify your interactive report to have a link to single row view.
+In the Developer Toolbar, click Edit Page <n>.  
+  a) Under Rendering, navigate to **Projects** Interactive Report and then on the Property Editor select **Attributes**. Under **Link**, for **Link Column**, select **Link to Single Row View**. Click **Save and Run Page**.
+
+  ![](images/change-srw.png " ")
+
+  b)  In the report, click the **edit icon** (**pencil**) for any row.
+
+  ![](images/view-srw1.png " ")
+
+  c) The single row view is displayed. Click **Report View** button to return to the report.
+
+  ![](images/view-srw2.png " ")
+
+3. The current pagination type of the interactive report is **Row Ranges X to Y**. You want this to be changed for the end users display of the report. In the Developer Toolbar, click Edit Page <n>.  
+
+  a) Under Rendering, navigate to **Projects** Interactive Report and select **Attributes** in the **Property Editor**.  
+
+  b) In the **property editor**, Under **Attributes**, locate Pagination. For Type, **select Row Ranges X to Y of Z**.
+
+  ![](images/change-pagination.png " ")
+
+4. You want to customize the display of the Search Bar. End users should be able to select the display of desired number of rows per page.  
+In the property editor, locate **Search Bar** under **Attributes**. Enable Rows Per Page Selector. Enter **10** for **Maximum Rows Per Page**.
+
+  ![](images/enable-rpp.png " ")
+
+  ![](images/enable-rpp1.png " ")
+
+5. You want to disable the Email and RTF formats in the Download option of the Actions menu. In the property editor, navigate to Download. Deselect Email and RTF download formats.
+
+  ![](images/enable-rpp1.png " ")
+
+6. You want to enable the **Excel** and **PDF** formats in the Download option of the **Actions** menu. In the property editor, navigate to Download. Select **Excel** and **PDF** download formats.
+
+  ![](images/enable-downloads.png " ")
+
+7. Now that you finished the customization for end users, click **Save** and **Run Page**.
+
+8. Notice that the **row selector** and the **New pagination type** are available on the report.
+
+  ![](images/run-ir13.png " ")
+
+9. Select **Actions** > **Report** > **Save Report**.
+
+  ![](images/save-report2.png " ")
+
+10. The Save Report dialog displays. Notice that the **Public** check box is now available. For Save, select **As Named Report**, enter **Projects Public Report** for **Name**.
+
+  ![](images/save-report4.png " ")
+
+11. This report is now saved as a public report and is available in the Reports drop down list.
+
+  ![](images/view-public-report.png " ")
+
+12. Click **Actions** > **Download**.
+
+13. Notice that the **Excel** and **PDF** formats are available. Click **Close** icon.
+
+  ![](images/view-download1.png " ")
+
+  ![](images/view-download2.png " ")
+
+14. From the Reports drop down list, select **Primary Report**.
+
+## **Acknowledgments**
+
+- **Author** - Roopesh Thokala, Product Manager
+- **Last Updated By/Date** - Roopesh Thokala, Product Manager, May 2021
