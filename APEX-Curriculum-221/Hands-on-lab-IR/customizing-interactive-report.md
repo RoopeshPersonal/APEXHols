@@ -1,8 +1,8 @@
-# Implementing Security in your Application
+# Customizing the Interactive Report
 
 ## Introduction
 
-In this Hands-on-lab, you will Manage and Customise the Interactive report we have in **Sample Report** application both as an **End-user** and as a **Developer**.
+In this Hands-on-lab, you will Manage and Customise the Interactive report in the **Sample Report** application both as an **End-user** and as a **Developer**.
 <!--
  you build a web application on top of the Apple iTunes Search API, which is a simple API over HTTP that takes input arguments via parameters in the URL. First, you create a report against the iTunes music video catalog. Next, you simplify the report to include a preview of the music video and a link to watch a clip of the music video.
 
@@ -31,7 +31,7 @@ In this lab, you will:
 
  In this lab, you customize and use an interactive report as an end user.
 
- 1. First, you run the **Sample Reporting** application. Click **App Builder**.
+ 1. To start with, run the **Sample Reporting** application. Click **App Builder**.
 
   ![](images/navigate-to-app-builder.png " ")
 
@@ -61,7 +61,7 @@ In this lab, you will:
 
   ![](images/select-columns2.png " ")
 
-  d) The changes you made to the interactive report display are reflected now.
+  d) The interactive report is displayed with the changes made in the above steps. 
 
   ![](images/run-ir1.png " ")
 
@@ -71,8 +71,10 @@ In this lab, you will:
 
   ![](images/select-filter1.png " ")
 
-  b) For Filter Type, select Column.  
-  For Column, select **Cost**, for **Operator**, select **<=** and select **2000** from the Expression list.  
+  b) For Filter Type, select Column. Select the following:
+   - For **Column**, select **Cost**
+   - For **Operator**, select **<=**
+   - For **Expression**, enter **2000**   
   Then, click **Apply**.
 
   ![](images/create-filter1.png " ")
@@ -81,14 +83,17 @@ In this lab, you will:
 
   ![](images/select-filter2.png " ")
 
-  d) Select **Project** for Column, select **=** for Operator and select **Bug Tracker** from the Expression list.
+  d) In the Filter Dialog, select the following:
+   - For Column, select **Project**
+   - For Operator, select **=** 
+   - From the Expression list, select **Bug Tracker**
   Click **Apply**.
 
   ![](images/create-filter2.png " ")
 
   ![](images/run-ir2.png " ")
 
-  e) Notice that two filters are applied now. The rows displayed are fewer now because they are only the rows that meet both the filter criteria. You can remove each filter by clicking the Remove Filter icon, next to the filter you want to remove.  
+  e) Notice that two filters are applied. Fewer rows are displayed because only the rows that meet both the filter criteria are disaplyed. You can remove each filter by clicking the Remove Filter icon, next to the filter you want to remove.  
   Click the **Remove Filter** icon next to both the filters
 
   ![](images/delete-filter1.png " ")
@@ -109,7 +114,7 @@ In this lab, you will:
   d) The report is now sorted in the **Descending** order of **Cost**.
 
 7. Create an aggregation against the **Available Budget** column. You want to display the sum of the **Available Budget**.  
-  a) Select Actions > Data > Aggregate.
+  a) Select **Actions** > **Data** > **Aggregate**.
 
   ![](images/select-aggregate.png " ")
 
@@ -117,7 +122,7 @@ In this lab, you will:
 
   ![](images/create-aggregate1.png " ")
 
-  c) The aggregate function is applied on the column. Notice that the sum of **Available Budget** is displayed at the end of the report under the column.
+  c) The aggregate function is applied on the column. Notice that the sum of **Available Budget** is displayed at the end of the report under the column. Navigate till the last page to view the sum.
 
   ![](images/run-ir3.png " ")
 
@@ -147,36 +152,36 @@ In this lab, you will:
 
     ![](images/create-cb1.png " ")  
 
-    c) The control break is applied now. Notice that the aggregation that you created in a previous step appears at the end of each control break.
+    c) The control break is now applied. Notice that the aggregation that you created in a previous step appears at the end of each control break.
 
     ![](images/run-ir6.png " ")  
 
-10. You want to highlight those rows with **Cost** values less than or equals **500**. You add the highlighting to rows while continuing with the control break that you created in the previous step.  
+10. You want to highlight those rows with **Cost** value less than or equal to **500**. You add the highlighting to rows while continuing with the control break that you created in the previous step.  
   a) Select **Actions** > **Format** > **Highlight**.
 
-    ![](images/select-highlight.png " ")
+   ![](images/select-highlight.png " ")
 
   b) In the Highlight dialog, enter **Cost less than or equals 500** for Name.  
   Select **Green** for Background Color and **Black** for Text Color.  
   For Highlight Condition: Select **Cost** column, and **<=** Operator. Enter  **500** for Expression.  
   Click **Apply**.
 
-    ![](images/create-highlight1.png " ")  
+   ![](images/create-highlight1.png " ")  
 
-  c) Notice that the rows that meet the condition are highlighted now.
+  c) Notice that the rows that meet the condition are highlighted in Green color.
 
-    ![](images/run-ir7.png " ")    
+   ![](images/run-ir7.png " ")    
 
 
 11. Now, You want to control the number of rows to display in your **Interactive Report** page.
 
-  a) Select **Actions** > **Rows Per Page** > **50**.
+  a) Select **Actions** > **Format** > **Rows Per Page** > **50**.
 
-    ![](images/select-rpp.png " ")
+   ![](images/select-rpp.png " ")
 
   b) Notice that the **Rows Per Page** in your Interactive Report is now **1-50**.
 
-    ![](images/run-ir8.png " ")
+   ![](images/run-ir8.png " ")
 
 
 12. In your interactive report, you want to include a Chart to display the Average **Cost** for each **Project**. Your interactive report should include both the Report and Chart views to toggle.
@@ -194,17 +199,17 @@ In this lab, you will:
 
       Click **Apply**.
 
-      ![](images/create-chart1.png " ")
+   ![](images/create-chart1.png " ")
 
   c) The chart is created. Toggle between the View Chart and View Report.
 
-      ![](images/run-ir9.png " ")
+   ![](images/run-ir9.png " ")
 
 13. Create a Group By report to display each Cpu Type with the total purchase price.  
   a) Click View Report.  
   Select Actions > Group By.
 
-      ![](images/select-groupby.png " ")    
+   ![](images/select-groupby.png " ")    
 
   b) In the Group By dialog enter / select the following:  
     • Group By Column: Cpu Type  
@@ -214,20 +219,20 @@ In this lab, you will:
     • Format Mask: $5,234.10  
     Make sure you enable Sum and click Apply.
 
-      ![](images/create-groupby.png " ")   
+   ![](images/create-groupby.png " ")   
 
   c)  The Group By report is created. You also see the sum of the purchase price. Notice that the icon for View Group By is also added.
 
-      ![](images/run-ir10.png " ")
+   ![](images/run-ir10.png " ")
 
   d) Click the **X** to the right of Edit Group By to remove the filter.
 
-    ![](images/run-ir11.png " ")
+   ![](images/run-ir11.png " ")
 
 14. You want to display the **Sum** of Cost that are available with each **Project** and **Assigned To**. The results should be in a crosstab format. Create a Pivot Report.  
   a) Click **Actions** > **Pivot**.
 
-    ![](images/select-pivot.png " ")
+   ![](images/select-pivot.png " ")
 
   b)  In the Pivot dialog enter / select:  
       - Pivot Columns: **Assigned To**
@@ -239,20 +244,20 @@ In this lab, you will:
 
     Click **Apply**.
 
-    ![](images/create-pivot1.png " ")
+   ![](images/create-pivot1.png " ")
 
   c) The Pivot report is displayed, and a View Pivot icon is created.
 
-    ![](images/run-ir12.png " ")
+   ![](images/run-ir12.png " ")
 
 15. You want to save the report with all the customization.  
     a) Select **Actions** > **Report** > **Save Report**.
 
-      ![](images/save-report.png " ")
+     ![](images/save-report.png " ")
 
     b) Enter **My Private Report** for Name and click **Apply**.
 
-      ![](images/save-report1.png " ")
+     ![](images/save-report1.png " ")
 
 16. A drop-down list automatically appears with the report you just created being selected. You can view the default primary report.
 You want to reset the **Primary Report** back to the default settings and remove any customizations that you have made so far.  
@@ -292,8 +297,8 @@ You want to reset the **Primary Report** back to the default settings and remove
 In this lab, you edit an interactive report in page designer and customize it for end users.
 1. First, view the Interactive Report in page designer. In the Developer Toolbar,
 click Edit Page <n>.
-
-  ![](images/click-page1.png " ")  
+ 
+ ![](images/click-page1.png " ")  
 
 2. When the end users click an edit icon for a specified row, they should be directed to a page which shows the column values for that row. The interactive report currently have a link column to a Form Page. Modify your interactive report to have a link to single row view.
 In the Developer Toolbar, click Edit Page <n>.  
