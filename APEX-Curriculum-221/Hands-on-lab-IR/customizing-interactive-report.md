@@ -188,7 +188,7 @@ In this lab, you will:
 
   a) Select **Actions** > **Chart**.
 
-    ![](images/select-chart1.png " ")
+  ![](images/select-chart1.png " ")
 
   b) In the Chart dialog, select / enter the following:  
 
@@ -207,17 +207,17 @@ In this lab, you will:
 
 13. Create a Group By report to display each Cpu Type with the total purchase price.  
   a) Click View Report.  
-  Select Actions > Group By.
+  Select **Actions** > **Group By**.
 
    ![](images/select-groupby.png " ")    
 
   b) In the Group By dialog enter / select the following:  
-    • Group By Column: Cpu Type  
-    • Function: Sum  
-    • Column: Purchase Price  
-    • Label: Total Price  
-    • Format Mask: $5,234.10  
-    Make sure you enable Sum and click Apply.
+    • Group By Column: **Project**  
+    • Function: **Sum**  
+    • Column: **Budget**  
+    • Label: **Total Budget**  
+    • Format Mask: **$5,234.10**  
+    Make sure you enable Sum and click **Apply**.
 
    ![](images/create-groupby.png " ")   
 
@@ -225,7 +225,7 @@ In this lab, you will:
 
    ![](images/run-ir10.png " ")
 
-  d) Click the **X** to the right of Edit Group By to remove the filter.
+  d) Click the **X** to the right of **Edit Group By** to remove the filter.
 
    ![](images/run-ir11.png " ")
 
@@ -235,20 +235,19 @@ In this lab, you will:
    ![](images/select-pivot.png " ")
 
   b)  In the Pivot dialog enter / select:  
-      - Pivot Columns: **Assigned To**
-      - Row Columns: **Project**
-      - Functions: **Sum**
-      - Column: **Cost** and **Budget**
-      - Label: **Total Cost** and **Total Budget**
-      - Set **Sum** to **Yes**.
-
+   - Pivot Columns: **Assigned To**
+   - Row Columns: **Project**
+   - Functions: **Sum**
+   - Column: **Cost** and **Budget**
+   - Label: **Total Cost** and **Total Budget**
+   - Set **Sum** to **Yes**.
     Click **Apply**.
 
    ![](images/create-pivot1.png " ")
 
-  c) The Pivot report is displayed, and a View Pivot icon is created.
+  c) The Pivot report is displayed, and a View Pivot icon is created next to Actions button.
 
-   ![](images/run-ir12.png " ")
+  ![](images/run-ir12.png " ")
 
 15. You want to save the report with all the customization.  
     a) Select **Actions** > **Report** > **Save Report**.
@@ -292,11 +291,11 @@ You want to reset the **Primary Report** back to the default settings and remove
   ![](images/download3.png " ")   
 
 
-## Task 2: Customizing an Interactive report as a Developer.
+## Task 2: Customizing an Interactive report as a Developer
 
 In this lab, you edit an interactive report in page designer and customize it for end users.
 1. First, view the Interactive Report in page designer. In the Developer Toolbar,
-click Edit Page <n>.
+click **Edit Page \<n\>**.
  
  ![](images/click-page1.png " ")  
 
@@ -311,25 +310,26 @@ In the Developer Toolbar, click Edit Page <n>.
   ![](images/view-srw1.png " ")
 
   c) The single row view is displayed. Click **Report View** button to return to the report.
+   ![](images/view-srw2.png " ")
 
-  ![](images/view-srw2.png " ")
-
-3. The current pagination type of the interactive report is **Row Ranges X to Y**. You want this to be changed for the end users display of the report. In the Developer Toolbar, click Edit Page <n>.  
+3. The current pagination type of the interactive report is **Row Ranges X to Y**. You want this to be changed for the end users display of the report. In the Developer Toolbar, click **Edit Page \<n\>**.  
 
   a) Under Rendering, navigate to **Projects** Interactive Report and select **Attributes** in the **Property Editor**.  
 
-  b) In the **property editor**, Under **Attributes**, locate Pagination. For Type, **select Row Ranges X to Y of Z**.
+  b) In the **Property Editor**, Under **Attributes**, locate **Pagination**. For Type, **select Row Ranges X to Y of Z**.
 
   ![](images/change-pagination.png " ")
 
 4. You want to customize the display of the Search Bar. End users should be able to select the display of desired number of rows per page.  
-In the property editor, locate **Search Bar** under **Attributes**. Enable Rows Per Page Selector. Enter **10** for **Maximum Rows Per Page**.
+In the property editor, locate **Search Bar** under **Attributes**. Perform the following:
+  - Enable Rows Per Page Selector. 
+  - Enter **10** for **Maximum Rows Per Page**.
 
   ![](images/enable-rpp.png " ")
 
   ![](images/enable-rpp1.png " ")
 
-5. You want to disable the Email and RTF formats in the Download option of the Actions menu. In the property editor, navigate to Download. Deselect Email and RTF download formats.
+5. You want to disable the Email in the Download option of the Actions menu. In the property editor, navigate to Download. Deselect **Send as Email** download format.
 
   ![](images/enable-rpp1.png " ")
 
@@ -347,7 +347,10 @@ In the property editor, locate **Search Bar** under **Attributes**. Enable Rows 
 
   ![](images/save-report2.png " ")
 
-10. The Save Report dialog displays. Notice that the **Public** check box is now available. For Save, select **As Named Report**, enter **Projects Public Report** for **Name**.
+10. The Save Report dialog displays. Notice that the **Public** check box is now available. Perform the following:
+ - For Save, select **As Named Report** 
+ - For **Name**, enter **Projects Public Report**
+ - Enable the **Public** checkbox
 
   ![](images/save-report4.png " ")
 
