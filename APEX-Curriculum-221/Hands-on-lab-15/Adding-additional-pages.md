@@ -65,7 +65,9 @@ In this lab, you will:
 
     ![](images/create-calendar-page4.png " ")
 
-6. Click **Save** and **Run Page**. Enter your credentials. In the Developer Toolbar, click **Edit Page <n>**.
+6. Click **Save** and **Run Page**. Login to the application with your credentials. 
+
+6. In the Developer Toolbar, click **Edit Page \<n\>**.
 
     ![](images/view-page1.png " ")
 
@@ -79,7 +81,7 @@ In this lab, you will:
 
    Click **OK**.
 
-    ![](images/edit-calendar2.png " ")
+   ![](images/edit-calendar2.png " ")
 
 ## Task 2: Creating a Form page on DEMO_PROJECTS Tables.
 
