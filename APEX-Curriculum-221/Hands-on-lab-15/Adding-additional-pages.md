@@ -197,14 +197,7 @@ In this hands-on lab, you create the **Employee** Tree. You also create a **blan
 
     ```
     <copy>
-    begin
-    update DEMO_PROJECTS
-       set start_date = to_date(:APEX$NEW_START_DATE,
-    'YYYYMMDDHH24MISS'),
-           end_date = to_date(:APEX$NEW_END_DATE,
-    'YYYYMMDDHH24MISS')
-     where ID = :APEX$PK_VALUE;
-    end;
+   Insert correct code here
     </copy>
     ```
 
