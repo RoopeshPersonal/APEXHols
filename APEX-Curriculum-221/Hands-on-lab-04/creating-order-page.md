@@ -25,6 +25,10 @@ In this lab, you will:
 - Navigate and Review the Page Designer panes.
 - Create a page to review the items that customer just bought.
 
+### Downloads
+
+- [Click here](Online-shopping-cart-1.sql). To run the app, please run the steps described in Lab 1, 2, and 3.
+
 ## Task 1: Navigate and Review the Page Designer panes
 Open the home page in page designer, navigate through and review the page designer panes.
 
