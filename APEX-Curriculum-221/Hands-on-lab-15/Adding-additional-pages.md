@@ -65,7 +65,7 @@ In this lab, you will:
 
     ![](images/create-calendar-page4.png " ")
 
-6. Click **Save** and **Run Page**. Login to the application with your credentials. 
+6. Click **Save** and **Run Page**. Login to the application with your credentials.
 
 6. In the Developer Toolbar, click **Edit Page \<n\>**.
 
@@ -197,7 +197,19 @@ In this hands-on lab, you create the **Employee** Tree. You also create a **blan
 
     ```
     <copy>
-   Insert correct code here
+    select case when connect_by_isleaf = 1 then 0
+             when level = 1             then 1
+             else                           -1
+        end as status,
+        level,
+        "ENAME" as title,
+        null as icon,
+        "EMPNO" as value,
+        "ENAME" as tooltip
+     from EBA_DEMO_IR_EMP
+     start with "MGR" is null
+     connect by prior "EMPNO" = "MGR"
+     order siblings by "ENAME"
     </copy>
     ```
 
