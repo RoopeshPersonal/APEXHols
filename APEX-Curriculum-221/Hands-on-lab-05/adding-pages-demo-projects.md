@@ -24,6 +24,10 @@ Watch the video below for a quick walk through of the lab.
 In this lab, you will:
 - Create Pages to Search and Edit the Projects and Tasks in **Demo Projects** Application.
 
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](Demo-projects1.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
+
 ## Task 1: Add Interactive Grid to Demo Projects Application.
 In this lab, you create an interactive grid on the **DEMO_PROJECTS** table. You already created the **Demo Projects** application in HOL-3. Now, you create an **Interactive Grid** in the **Demo Projects** application.
 
@@ -49,9 +53,9 @@ In this lab, you create an interactive grid on the **DEMO_PROJECTS** table. You 
 
   Under **Navigation**
     - For **Breadcrumb**, Set it to **No**.
-  
+
   Click **Create Page**.
-  
+
   ![](./images/create-ig-2.png " ")
 
 5. Now that you have created an **Interactive Grid** Page, you can view the page by clicking **Save and Run Page**.
@@ -79,9 +83,9 @@ In this lab, you create a Smart Filters report on the DEMO_PROJECTS table. You a
 
    Under **Navigation**
       - For **Breadcrumb**, Set it to **No**.
-   
+
    Click **Next**.
-   
+
   ![](./images/create-sf-page13.png " ")
 
 5. For **Select the Filters** page:

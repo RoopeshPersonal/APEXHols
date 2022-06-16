@@ -20,6 +20,10 @@ In this lab, you will:
 - Improve both Faceted Search and Cards region
 - Add Dynamic Actions to the page
 
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-5.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
+
 ## Task 1: Navigate to Products Page.
 In the Runtime environment, navigate to **Products**. This is the page where your customers can explore the products and select what they wish to buy.
 As you can see, it's hard to find the products and it would be beneficial to see additional details related to the products.

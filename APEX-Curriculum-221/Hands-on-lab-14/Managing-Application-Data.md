@@ -14,19 +14,15 @@ Estimated Time: 20 minutes
 Watch the video below for a quick walk through of the lab.
 
 [](youtube:lwQ3lvul9iE)
--->
+
 
 ### Objectives
 
-In this lab, you will:
-- Set the following pages as public pages:
-    - Products
-    - Shopping Cart
-    - Order Information
 
-- Disable the Navigation Menu
+### Downloads
 
-- Enhance the Navigation Bar 
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-9.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
+-->
 
 ## Task 1: Enable Remote Database schema to Oracle REST Data Services.
 
@@ -299,7 +295,7 @@ Click **Create**.
 2. Under **Create a Page**, Select **Blank Page**.
 
   ![](images/create-page1.png " ")
-  
+
 3. For Name, enter **Apply for Leave** and click **Create Page**.
 
 3. In the **Left Pane**, Right click on **Body** and click **Create Region**.
@@ -407,11 +403,11 @@ Under Identification:
   ![](images/change-process.png " ")
 
 15. Click **Save**.
-16. 
+16.
 ## Task 6: Creating the My Approvals and My Requests Pages
 
 In this lab, you will create pages for the following tasks:  
-a) The manager of the employee can approve or reject a leave request . 
+a) The manager of the employee can approve or reject a leave request .
 b) The employee can go and check the status of his request. For this, we will create two Unified Task Lists.  
 
 1. Navigate to Create button **+** and click **Page**.

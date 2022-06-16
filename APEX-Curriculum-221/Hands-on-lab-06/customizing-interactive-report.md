@@ -2,30 +2,14 @@
 
 ## Introduction
 
-In this Hands-on-lab, you will Manage and Customise the Interactive report in the **Sample Report** application both as an **End-user** and as a **Developer**.
-<!--
- you build a web application on top of the Apple iTunes Search API, which is a simple API over HTTP that takes input arguments via parameters in the URL. First, you create a report against the iTunes music video catalog. Next, you simplify the report to include a preview of the music video and a link to watch a clip of the music video.
+In this Hands-on-lab, you will Manage and Customise the Interactive report in the **Sample Reports** application both as an **End-user** and as a **Developer**.
 
-
-Estimated Time: 20 minutes
-
-<!--
-Watch the video below for a quick walk through of the lab.
-
-[](youtube:lwQ3lvul9iE)
--->
 
 ### Objectives
-<!--
-In this lab, you will:
-- Set the following pages as public pages:
-    - Products
-    - Shopping Cart
-    - Order Information
 
-- Disable the Navigation Menu
+In this lab, you:
+- Customise the Interactive Report page you have have in **Sample Reports** Application both as a **Developer** and an **End-user**.
 
-- Enhance the Navigation Bar -->
 
 ## Task 1: Customizing an Interactive report as an end-user.
 
@@ -61,7 +45,7 @@ In this lab, you will:
 
   ![](images/select-columns2.png " ")
 
-  d) The interactive report is displayed with the changes made in the above steps. 
+  d) The interactive report is displayed with the changes made in the above steps.
 
   ![](images/run-ir1.png " ")
 
@@ -85,7 +69,7 @@ In this lab, you will:
 
   d) In the Filter Dialog, select the following:
    - For Column, select **Project**
-   - For Operator, select **=** 
+   - For Operator, select **=**
    - From the Expression list, select **Bug Tracker**
   Click **Apply**.
 
@@ -296,7 +280,7 @@ You want to reset the **Primary Report** back to the default settings and remove
 In this lab, you edit an interactive report in page designer and customize it for end users.
 1. First, view the Interactive Report in page designer. In the Developer Toolbar,
 click **Edit Page \<n\>**.
- 
+
  ![](images/click-page1.png " ")  
 
 2. When the end users click an edit icon for a specified row, they should be directed to a page which shows the column values for that row. The interactive report currently have a link column to a Form Page. Modify your interactive report to have a link to single row view.
@@ -322,7 +306,7 @@ In the Developer Toolbar, click Edit Page <n>.
 
 4. You want to customize the display of the Search Bar. End users should be able to select the display of desired number of rows per page.  
 In the property editor, locate **Search Bar** under **Attributes**. Perform the following:
-  - Enable Rows Per Page Selector. 
+  - Enable Rows Per Page Selector.
   - Enter **10** for **Maximum Rows Per Page**.
 
   ![](images/enable-rpp.png " ")
@@ -348,7 +332,7 @@ In the property editor, locate **Search Bar** under **Attributes**. Perform the 
   ![](images/save-report2.png " ")
 
 10. The Save Report dialog displays. Notice that the **Public** check box is now available. Perform the following:
- - For Save, select **As Named Report** 
+ - For Save, select **As Named Report**
  - For **Name**, enter **Projects Public Report**
  - Enable the **Public** checkbox
 

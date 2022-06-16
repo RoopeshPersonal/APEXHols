@@ -5,6 +5,10 @@ In this lab, you will learn how to Create and Customize a Form and then you will
 
 Estimated Time: 20 minutes
 
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-6.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
+
 ## Task 1: Enhancing the Interactive Report
 
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.

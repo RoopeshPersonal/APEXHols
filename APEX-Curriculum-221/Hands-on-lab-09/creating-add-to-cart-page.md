@@ -22,6 +22,9 @@ Watch the video below for a quick walk through of the lab.
 In this lab, you will:
 - Create a page that allows users to add and edit products in the Shopping Cart
 
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](Online-shopping-cart-4.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
 
 ## Task 1: Add Computation to Calculate the Number of Items for a Product
 1. Navigate to **Page Finder** and click on **File symbol**. Then in the popup  **Page Finder**, Select **Page 17**.

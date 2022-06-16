@@ -12,7 +12,6 @@ Customers will be able to:
 - Review the items in the shopping cart
 - Edit the quantity of the items
 - Remove an item
-- Clear the shopping cart
 - Proceed to checkout
 
 Estimated Time: 20 minutes
@@ -25,6 +24,12 @@ Watch the video below for a quick walk through of the lab.
 In this lab, you will:
 - Create a page to list the products in the Shopping Cart
 - Create Pages to Search and Edit the Projects in Demo Projects Application.
+
+
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](Online-shopping-cart-2.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
+
 
 ## Task 1: Create Application Items
 These items are needed to count the number of items in the shopping cart and the icon to display in the Navigation Bar.
@@ -123,11 +128,11 @@ The shopping cart page allows users to review and edit the products in the cart,
     Under **Page Definition**
     - Page Number - enter **16**
     - For Name - enter **Shopping Cart**
-    
+
     Under **Navigation**
     - For Breadcrumb - Set as **No**
     - For Navigation - Set as **No**
-   
+
    Click **Create Page**.
  ![](./images/create-blank-page21.png " ")
 
@@ -183,7 +188,7 @@ This region will list the items that have been added temporarily to the shopping
         Quantity: &QUANTITY.
         </copy>
        ```
-     
+
      ![](./images/change-attributes11.png " ")
 
     - Under Secondary Body section:
@@ -200,8 +205,8 @@ This region will list the items that have been added temporarily to the shopping
     - Under Media section:
        - For Source - select **BLOB Column**
        - For BLOB Column - select **PRODUCT_IMAGE**  
-     
- 
+
+
     ![](./images/change-attributes12.png " ")
 
     - Under Messages section:
@@ -227,7 +232,7 @@ This action allows customers to open a page to edit a particular item in the sho
       - For Page - enter **17**  
         *{Note: Page 17 wil be created in the next lab}*
       - Set items as follows:
-           
+
           | Name             |  Value       |
           | ---              |  ---         |
           | P17\_PRODUCT\_ID | &PRODUCT_ID. |
@@ -237,7 +242,7 @@ This action allows customers to open a page to edit a particular item in the sho
     - For Icon - enter **fa-cart-edit**
 
    Click **Save**.
-   
+
   ![](./images/create-action12.png " ")
 
 This configures the (Edit) button to open page 17, passing the value of the PRODUCT_ID column of the current card as the value for the page item P17\_PRODUCT\_ID in the called page.
@@ -305,8 +310,8 @@ This region allows users to review the details of the product, such as brand, pr
       - For **Style** - select **Style C**
       - Click **Ok**
     ![](./images/create-cards-region12.png " ")
-        
-        
+
+
 
 4. Click **Attributes** and enter the following:
 
@@ -327,7 +332,7 @@ This region allows users to review the details of the product, such as brand, pr
   - Under Secondary Body section:    
         - Set Advanced Formatting to **On**.
         - For HTML Expression - enter the following:
-         
+
          ```
          <copy>
          Price: &UNIT_PRICE.
@@ -340,11 +345,11 @@ This region allows users to review the details of the product, such as brand, pr
     - For Position - select **First**
     - For Appearance - select **Square**
     - For Sizing - select **Fit**  
-      
-      
+
+
    ![](./images/change-cards-attributes12.png " ")
 
-  
+
   - Under Card section:
       - For Primary Key Column 1 - select **PRODUCT_ID**    
 
@@ -375,7 +380,7 @@ This region lets users read the customer reviews for this product.
                 order by m.rating desc
             </copy>
       ```
-            
+
     - Under Appearance section:
       - For Template - select **Standard**
 
@@ -402,9 +407,9 @@ This region lets users read the customer reviews for this product.
      - For When No Data Found - enter **There are no customer reviews yet.**
 
       ![](./images/create-cards-region24.png " ")
-   
+
  5. Click **Save**.
- 
+
 ## Task 9: Add the Products Page.
 
 1. Navigate to Create button **+** and click **Page**.

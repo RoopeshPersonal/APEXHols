@@ -22,6 +22,10 @@ In this lab, you will:
 
 - Enhance the Navigation Bar
 
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-7.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
+
 ## Task 1: Set Products page as the Home Page.
 
 In this Lesson, you will set the products page as Home page and then you will remove the **Home** page under Navigation Menu.
@@ -93,7 +97,7 @@ Follow these steps for the four listed pages:
 4. Navigate to Page Finder and select **Page 15** from Dialog Page.
 
     ![](./images/navigate-to-page-finder.png " ")
-    
+
 5. Repeat steps 2-4 for **Page 16: Shopping Cart** and **Page 17: Add to Cart**.
 
 ## Task 3: Clean the Navigation Menu
@@ -141,7 +145,7 @@ Add a new navigation menu entry to allow:
   ![](./images/create-entry1.png " ")
 
   ![](./images/create-entry2.png " ")
-    
+
    - For Sequence - enter **1**
    - For Image/Class - **&SHOPPING\_CART\_ICON.**
    - For List Entry Label - **Shopping Cart**

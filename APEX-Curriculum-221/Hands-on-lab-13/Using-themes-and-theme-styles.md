@@ -10,9 +10,8 @@ Estimated Time: 10 minutes
 Watch the video below for a quick walk through of the lab.
 
 [](youtube:lwQ3lvul9iE)
--->
+
 ### Objectives
-<!--
 In this lab, you will:
 - Set the following pages as public pages:
     - Products
@@ -22,6 +21,10 @@ In this lab, you will:
 - Disable the Navigation Menu
 
 - Enhance the Navigation Bar -->
+
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-8.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
 
 ## Task 1: Using Themes and Theme Styles.
 

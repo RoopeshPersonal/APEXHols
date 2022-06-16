@@ -13,7 +13,7 @@ Estimated Time: 20 minutes
 Watch the video below for a quick walk through of the lab.
 
 [](youtube:lwQ3lvul9iE)
--->
+
 
 ### Objectives
 <!--
@@ -28,6 +28,12 @@ In this lab, you will:
 - Enhance the Navigation Bar -->
 
 ## Task 1: Creating a Calendar
+
+
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](demo-projects4.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
+
 
 1. Navigate to **App Builder** and in the **Home Page**, click **Demo Projects**. application.
 
@@ -249,6 +255,10 @@ In this hands-on lab, you create the **Employee** Tree. You also create a **blan
 ## Task 5: Creating a Store Details Map page and adding it to Desktop Navigation Bar.
 
 In this Lab, You will first create a Map Page with Store Details and then you will create an entry for Store Details Map in the navigation Menu Entry.
+
+### Downloads
+
+- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-10.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
 
 1. Navigate to **App Builder** and in the **Home Page**, click **Online Shopping Application**.
 
