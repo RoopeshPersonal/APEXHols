@@ -285,7 +285,7 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
     Under **Navigation**:
     - For **Breadcrumb**, Set it to **No**.
 
-  ![](images/create-map5.png " ")
+    ![](images/create-map5.png " ")
 
 5. For **Create Map**, enter the following and click **Create Page**. For **Map Style**, Select **Points**.  
   Under **Map Attributes**:
