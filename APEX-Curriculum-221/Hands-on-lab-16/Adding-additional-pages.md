@@ -296,6 +296,9 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
 
   ![](images/create-map6.png " ")
 
+5. The Store Locations Map should be visible to the public. To set the page as Public, select **Page \<n\>: Store Locations Map** in the Rendering tree. In the Property Editor, navigate to **Security**, for **Authentication**, select **Page is Public**.
+    ![](images/make-page-public.png)
+ 
 6. Then, click **Save** and **Run Page**.
 
   ![](images/create-map7.png " ")
