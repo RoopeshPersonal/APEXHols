@@ -1,8 +1,8 @@
-# Create the add to cart page
+# Install and Run a Sample Application
 
 ## Introduction
 
-In this lab, you will navigate through the major components of Oracle APEX. This lab also covers installing and running a packaged application.
+In this lab, you will navigate through the major components of Oracle APEX. This lab also covers installing and running a sample application.
 
 ### Objectives
 In this lab, you will:
@@ -16,15 +16,15 @@ To log in to Oracle APEX, you need a Workspace Name, username, and the password 
 1. Log in to **Oracle APEX Workspace**. Perform the following steps:
     -	Open your browser and enter the URL to sign in to the APEX development environment.
 
-    - The login page appears. Enter the Workspace name, username, and password. Click Sign In.  
+    - The login page appears. Enter the Workspace name, username, and password. Click **Sign In**.  
 
   ![](images/login-to-workspace2.png " ")
 
-2. The **Workspace** home page appears.
+2. The **Workspace** home page appears. Click **App Builder**.
 
   ![](images/workspace-home-page.png " ")
 
-3. Click **App Builder**. You do not have any applications listed right now. You can create a new app or install a **sample** or **starter app**.
+3. You do not have any applications listed right now. You can create a new app or install a **sample** or **starter app**.
 Review the components.
 
   ![](images/app-builder2.png " ")
@@ -47,21 +47,21 @@ Review the components.
 
 ## Task 2: Installing a Sample Application
 
-This lab covers installing and running a packaged application.
+This lab covers installing and running a sample application.
 
 1. Once you Navigate to Gallery, Click **Samples**.
 
    ![](images/gallery-page3.png " ")
 
-2. Now that you are in **Sample Apps**, Scroll down and navigate to **Sample Reporting** and click **Install** Button.
+2. Now that you are in **Sample Apps**, scroll down and navigate to **Sample Reporting** and click the **Install** Button.
 
   ![](images/install-sample-app.png " ")
 
-3. On the Install Application page, Click the **Install Application** Button.
+3. On the Install Application page, click the **Install Application** Button.
 
    ![](images/install-app.png " ")
 
-4. You can now see that the application is installed, and you can run the application by Selecting **Run Application**.
+4. You can now see that the application is installed. Run the application by selecting **Run Application**.
 
    ![](images/click-run-application.png " ")
 
@@ -82,6 +82,7 @@ This lab covers installing and running a packaged application.
 
    ![](images/display-as-report1.png " ")
 
+## **Summary**
 You now know how to Navigate through the major Components of Oracle APEX
 and Install and run a packaged application . You may now **proceed to the next lab**.
 
