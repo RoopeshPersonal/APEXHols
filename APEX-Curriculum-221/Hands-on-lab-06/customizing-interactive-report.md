@@ -315,11 +315,11 @@ In the property editor, locate **Search Bar** under **Attributes**. Perform the 
 
 5. You want to disable the Email in the Download option of the Actions menu. In the property editor, navigate to Download. Deselect **Send as Email** download format.
 
-  ![](images/enable-rpp1.png " ")
+  ![](images/disable-email1.png " ")
 
 6. You want to enable the **Excel** and **PDF** formats in the Download option of the **Actions** menu. In the property editor, navigate to Download. Select **Excel** and **PDF** download formats.
 
-  ![](images/enable-downloads.png " ")
+  ![](images/enable-downloads2.png " ")
 
 7. Now that you finished the customization for end users, click **Save** and **Run Page**.
 
