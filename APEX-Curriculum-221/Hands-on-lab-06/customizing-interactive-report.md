@@ -348,7 +348,7 @@ In the property editor, locate **Search Bar** under **Attributes**. Perform the 
 
   ![](images/view-download1.png " ")
 
-  ![](images/view-download2.png " ")
+  ![](images/save-report5.png " ")
 
 14. From the Reports drop down list, select **Primary Report**.
 
