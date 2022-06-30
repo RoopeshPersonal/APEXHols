@@ -87,9 +87,9 @@ Repeat the steps for **Demo Projects Report** and **Calendar**.
 
 ## Task 4: Running and exploring the new app
 
-1.  Click **Run Application**. This will open the runtime application in a new browser tab, allowing you to see how end users will view the app.
+1.  Navigate back to **DEMO_PROJECTS** application and then click **Run Application**. This will open the runtime application in a new browser tab, allowing you to see how end users will view the app.
 
-    ![](images/enable-pwa.png " ")
+    ![](images/run-application1.png " ")
 
 2.  Enter your user credentials and click **Sign In**.
 

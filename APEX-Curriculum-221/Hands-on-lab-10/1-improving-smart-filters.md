@@ -22,7 +22,8 @@ The **Project Tasks Search** page utilizes Smart Filters to display the records.
 
     ![](images/run-application.png " ")
 
-3. Navigate to **Project Tasks Search** page and click **Page 8** in the **Developer toolbar**
+3. Navigate to **Project Tasks Search** page and click **Page 8** in the **Developer toolbar**.
+  **Note** that your page number might be different.
 
     ![](images/navigate-to-page8.png " ")
 

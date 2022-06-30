@@ -6,16 +6,20 @@ In this lab, you learn to install sample tables and views from Sample Datasets. 
 
 Estimated Time: 5 minutes
 
+<!--
 Watch the video below for a quick walk through of the lab.
 
 [](youtube:ynUk8q6S1qo)
+-->
 
 ### Objectives
 In this lab, you will:
 - Install a sample dataset into your Oracle APEX Workspace
 
 ## Task 1: Create Customer Orders Tables
-1. Log into your workspace.
+1. Log into your workspace. If you are already logged in, click on the **APEX** Logo in the upper left hand corner of the page to return to the APEX workspace home page.
+
+
 2. From the APEX workspace home page, select the down-arrow to the right of  **SQL Workshop**, then select **Utilities** to display the options, and choose **Sample Datasets**.
 
     ![](images1/navigate-to-sample-datasets1.png " ")
@@ -24,9 +28,10 @@ In this lab, you will:
 
     ![](images1/install-sample-dataset1.png " ")
 
-4. Click **Next**.
+4. Leave the settings to default and then click **Next**.
 
    *The schema name defaults to your current schema and hence will be different from the schema name shown below.*
+
     ![](images1/manage-sample-dataset1.png " ")
 
 5. Click **Install Dataset**.

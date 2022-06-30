@@ -31,7 +31,7 @@ Estimated Time: 45 minutes
         date hired
         job vc255
 
-     view emp_v departments employees
+    view emp_v departments employees
      </copy>
     ```
 

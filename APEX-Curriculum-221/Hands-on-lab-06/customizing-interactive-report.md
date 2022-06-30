@@ -29,12 +29,12 @@ In this lab, you:
 
   ![](images/click-ir.png " ")
 
-4. You do not want to display the **Start Date** and **End Date** columns in the report. Also, you want the Purchase Date column to display just before the Purchase Price column. Perform the following steps:  
+4. Suppose that you do not want to display the **Start Date** and **End Date** columns in the report. Also, you want the **Status** column to display just after the **Assigned To** column. Perform the following steps:  
   a) Click Actions and select Columns.
 
   ![](images/select-columns.png " ")
 
-  b) The **Select Columns** dialog appears. The columns on the right are displayed, and the columns on the left are hidden. Select **Start Date** and **End Date**  in **Display in Report group**, and click the Remove icon.
+  b) The **Select Columns** dialog appears. The columns on the right are displayed, and the columns on the left are hidden. Select **Start Date** and **End Date** in **Display in Report group**, and move the selected columns into the **Do Not Display** list by clicking the left arrow **<**.
 
   ![](images/select-columns1.png " ")
 
@@ -49,7 +49,7 @@ In this lab, you:
 
   ![](images/run-ir1.png " ")
 
-5. You want to create filters on the report. First, you want to filter the report to display rows which meet the criteria **Cost <= 2000**. Within these filtered results, you then create another filter to display rows with **Project is Bug Tracker**. Perform the following steps:  
+5. Next, let's say you want to filter the report results. First, you want to filter the report to display rows which meet the criteria **Cost <= 2000**. Within these filtered results, you then create another filter to display rows with **Project is Bug Tracker**. Perform the following steps:  
 
   a) Click Actions and select Filter.
 
@@ -63,7 +63,7 @@ In this lab, you:
 
   ![](images/create-filter1.png " ")
 
-  c) In this lab, you want to add another filter on the **Project** column. Click the **Actions** menu and select **Filter**.
+  c) Next, add the second filter on the **Project** column. Click the **Actions** menu and select **Filter**.
 
   ![](images/select-filter2.png " ")
 
@@ -82,12 +82,12 @@ In this lab, you:
 
   ![](images/delete-filter1.png " ")
 
-6. You want to sort the report on the **Cost** column.   
+6. Now imagine you want to sort the report on the **Cost** column.   
   a) Select **Actions** > **Data** > **Sort**.
 
   ![](images/select-sort.png " ")
 
-  b) Remove the existing sort columns under **Column**.
+  b) Remove the existing sort columns under **Column** by using the select list in rows 2 and 3 of the Column column to restore the value to the default **- Select Column -**.
 
   ![](images/create-sort1.png " ")
 
@@ -102,7 +102,7 @@ In this lab, you:
 
   ![](images/select-aggregate.png " ")
 
-  b) In the **Aggregate** dialog, select **Sum** for Function, **Available Budget** for Column. Click **Apply**.
+  b) In the **Aggregate** dialog, select **Sum** for Function, **Available Budget** for Column. Click **Apply** to add the aggregation at the end of the last column of the report
 
   ![](images/create-aggregate1.png " ")
 
@@ -110,7 +110,7 @@ In this lab, you:
 
   ![](images/run-ir3.png " ")
 
-8. In the report, you want to include **Cost** calculated with tax. The computation you want to make is **Cost * 1.05**. You create a computed column in the interactive report.
+8. In the report, suppose you want to include **Cost** calculated with tax. The computation you want to make is **Cost * 1.05**. You create a computed column in the interactive report.
 
   a) Select **Actions** > **Data** > **Compute**.
 
@@ -132,7 +132,7 @@ In this lab, you:
 
     ![](images/create-control-break.png " ")
 
-    b) In the Control Break dialog, select **Project** for Column, and click **Apply**.
+    b) In the Control Break dialog, in row number 1, select **Project** for Column, and click **Apply**.
 
     ![](images/create-cb1.png " ")  
 
@@ -140,7 +140,7 @@ In this lab, you:
 
     ![](images/run-ir6.png " ")  
 
-10. You want to highlight those rows with **Cost** value less than or equal to **500**. You add the highlighting to rows while continuing with the control break that you created in the previous step.  
+10. Let's say, you want to highlight those rows with **Cost** value less than or equal to **500**. You add the highlighting to rows while continuing with the control break that you created in the previous step.  
   a) Select **Actions** > **Format** > **Highlight**.
 
    ![](images/select-highlight.png " ")
@@ -189,7 +189,7 @@ In this lab, you:
 
    ![](images/run-ir9.png " ")
 
-13. Create a Group By report to display each Cpu Type with the total purchase price.  
+13. Create a Group By report to display each **Project** with the **Total Budget**.  
   a) Click View Report.  
   Select **Actions** > **Group By**.
 
@@ -200,12 +200,12 @@ In this lab, you:
     • Function: **Sum**  
     • Column: **Budget**  
     • Label: **Total Budget**  
-    • Format Mask: **$5,234.10**  
+    • Format Mask: Select **$5,324.10** from the Format Mask list of example formats.
     Make sure you enable Sum and click **Apply**.
 
    ![](images/create-groupby.png " ")   
 
-  c)  The Group By report is created. You also see the sum of the purchase price. Notice that the icon for View Group By is also added.
+  c)  The Group By report is created. You also see the sum of the Budget. Notice that the icon for View Group By is also added.
 
    ![](images/run-ir10.png " ")
 
@@ -249,7 +249,7 @@ You want to reset the **Primary Report** back to the default settings and remove
 
   ![](images/nav-primary-report.png " ")
 
-  b)  Select **Actions** > **Report** > **Reset**.
+  b)  To restore the primary report back to its default settings, Select **Actions** > **Report** > **Reset**.
 
   ![](images/reset-report.png " ")
 
@@ -283,24 +283,24 @@ click **Edit Page \<n\>**.
 
  ![](images/click-page1.png " ")  
 
-2. When the end users click an edit icon for a specified row, they should be directed to a page which shows the column values for that row. The interactive report currently have a link column to a Form Page. Modify your interactive report to have a link to single row view.
-In the Developer Toolbar, click Edit Page <n>.  
+2. When the end users click an edit icon for a specified row, they should be directed to a page which shows the column values for that row. The interactive report currently has a link column to a Form Page. Modify your interactive report to have a link to single row view.
+<!-- In the Developer Toolbar, click Edit Page <n>.  -->
   a) Under Rendering, navigate to **Projects** Interactive Report and then on the Property Editor select **Attributes**. Under **Link**, for **Link Column**, select **Link to Single Row View**. Click **Save and Run Page**.
 
   ![](images/change-srw.png " ")
 
-  b)  In the report, click the **edit icon** (**pencil**) for any row.
+  b)  In the report, ensure that you've selected the "1. Primary Report" the report toolbar. click the **edit icon** (**pencil**) for any row.
 
   ![](images/view-srw1.png " ")
 
   c) The single row view is displayed. Click **Report View** button to return to the report.
    ![](images/view-srw2.png " ")
 
-3. The current pagination type of the interactive report is **Row Ranges X to Y**. You want this to be changed for the end users display of the report. In the Developer Toolbar, click **Edit Page \<n\>**.  
+3. The current pagination type of the interactive report is **Row Ranges X to Y**. Suppose you want to always show your end users the total number of rows in the report as part of the pagination display. In the Developer Toolbar, click **Edit Page \<n\>**.  
 
   a) Under Rendering, navigate to **Projects** Interactive Report and select **Attributes** in the **Property Editor**.  
 
-  b) In the **Property Editor**, Under **Attributes**, locate **Pagination**. For Type, **select Row Ranges X to Y of Z**.
+  b) In the **Property Editor**, Under **Attributes**, Search for **Pagination**. For Type, **select Row Ranges X to Y of Z**.
 
   ![](images/change-pagination.png " ")
 
@@ -336,9 +336,11 @@ In the property editor, locate **Search Bar** under **Attributes**. Perform the 
  - For **Name**, enter **Projects Public Report**
  - Enable the **Public** checkbox
 
+  Click **Apply**.
+
   ![](images/save-report4.png " ")
 
-11. This report is now saved as a public report and is available in the Reports drop down list.
+11. This report is now saved as a public report for all users and is available in the Reports drop down list.
 
   ![](images/view-public-report.png " ")
 

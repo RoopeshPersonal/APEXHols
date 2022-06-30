@@ -9,7 +9,7 @@ Estimated Time: 20 minutes
 
 - Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-6.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
 
-## Task 1: Enhancing the Interactive Report
+## Task 1: Creating a Product Details Form
 
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
 
@@ -34,15 +34,17 @@ Estimated Time: 20 minutes
   Under **Data Source**:
     - For **Table/View Name**, Select **PRODUCTS**.
 
+  Click **Next.**
+
   ![](./images/create-form3.png " ")
 
-5. Under Primary key, for Primary Key Column1 - Select a primary key column, or accept the default **PRODUCT_ID**. Then click **Create Page**.
+5. Under Primary key, for Primary Key Column1 - Ensure the **PRODUCT_ID** is selected as the primary key. Then click **Create Page**.
 
-![](./images/create-form4.png " ")
+  ![](./images/create-form4.png " ")
 
-## Task 2: Linking Form to a Report
+## Task 2: Linking a Report to a Form
 
-1. From the runtime application, navigate to the **Manage Products** page in **Page Designer**.
+1. Navigate to the **App Builder**. Then Click on **Online Shopping Application** and run **Application**. From the runtime application, navigate to the **Manage Products** page in **Page Designer**.
 
     Given that you run this app from the APEX App Builder, you will find the Developer Toolbar at the bottom of the screen.
     *{Note: End users who log directly into the app will not see this toolbar.}*
@@ -72,22 +74,25 @@ Estimated Time: 20 minutes
             - For Clear Cache, enter **21**
             - Click **Ok**.
 
+    Click **Save.**      
 
-  ![](./images/linking-a-form2.png " ")
+    ![](./images/linking-a-form2.png " ")
 
 4. Click **Save** and then reload the **Manage Products** page in the runtime environment.
+
+5. Now, In the **Manage Products** page, click **Pencil Icon** on the first row. Verify the **Product Details** model dialog page.
 
   ![](./images/refresh-manage-products.png " ")
 
   ![](./images/refresh-manage-products1.png " ")
 
-## Task 3: Enhancing the Form:
+## Task 3: Enhancing the Form
 
 1.  Navigate to the **Page 21** in the **App Builder**. Then Click on **P21_PRODUCT_NAME** in the Rendering Tree. Now, change the Identification Type to **Text Field** in the Property Editor.
 
     ![](images/navigate-to-page21.png " ")
 
-2. Items can readily be moved using drag-and-drop within Layout. If required you can also drag new components (regions, items, and buttons) from the Gallery, below Layout, into the Layout.  
+2. Items can readily be moved using drag-and-drop within Layout. If required you can also drag new components like regions, items, and buttons into the Layout pane from the Gallery, located directly below it.
 
   In Page Designer, with **Page 21** loaded, within Layout (middle pane), click **P21_UNIT_PRICE** and continue to hold the mouse down. Drag the item up and to the right, until it is directly after **P21_PRODUCT_NAME**, and a dark yellow box is displayed. Release the mouse to drop the item in the new location.
 

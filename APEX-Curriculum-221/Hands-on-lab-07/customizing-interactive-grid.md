@@ -1,5 +1,4 @@
 <!--# Create the shopping cart page -->
-
 ## Introduction
 
 In this lab, you customize:
@@ -47,7 +46,7 @@ This lab uses the **Demo Projects** application. In this lab, you customize the 
   - Schedule: Start_Date, End_Date columns
   - Project Financing: Cost, Budget columns  
 
-  a) In the page designer, under Rendering > Regions, navigate to **Project Tasks** Interactive Grid region and right-click **Column Groups**. Select **Create Column Group**.
+  a) In the page designer, under Components > Body, navigate to **Project Tasks** Interactive Grid region and right-click **Column Groups**. Select **Create Column Group**.
 
  ![](./images/create-column-group11.png " ")
 
@@ -87,7 +86,7 @@ This lab uses the **Demo Projects** application. In this lab, you customize the 
 
   ![](./images/rearrange-column12.png " ")
 
-5. You want to make **ID** Column as **Primary Key**. This will help you to make the Interactive Grid editable.
+5. Click **Page n** in the runtime developer toolbar. You want to make **ID** Column as **Primary Key**. This will help you to make the Interactive Grid editable.
 
   ![](./images/define-primary-key.png " ")
 
@@ -113,7 +112,7 @@ This lab uses the **Demo Projects** application. In this lab, you customize the 
 
 ![](./images/delete-column-group11.png " ")
 
-9. You want to display the ID column and exclude the ID column from DML operations. Under **Page Rendering > Project Tasks** Interactive Grid, expand Columns and select **ID**.    
+9. Suppose you want to display the ID column and exclude the ID column from DML operations. Under **Page Rendering > Project Tasks** Interactive Grid, expand Columns and select **ID**.    
 Navigate to **Identification** and Set Type to **Display Only**, then Navigate to **Source** and Click on **Query Only** to enable.
 Click **Save and Run Page**.
 ![](./images/set-id-col-attributes11.png " ")
@@ -145,7 +144,7 @@ Now, in the search bar, click the **magnifying glass** and select **Task Name** 
 
   ![](./images/search5.png " ")
 
-6. You want to update another row. This time, click the row header for the project with Id **2** and select **Single Row View**.
+6. You want to update another row. This time, click the Row Actions menu icon at the edge of the row for the project with Id **2** and select **Single Row View**.
 
   ![](./images/single-row-view.png " ")
 

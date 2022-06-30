@@ -48,7 +48,7 @@ These items are needed to count the number of items in the shopping cart and the
 
     ![](./images/click-create1.png " ")
 
-4. Create two items as follow:
+4. Create two items as follows:
 
     | Name |  Scope  |
     | --- |  --- |
@@ -140,7 +140,7 @@ The shopping cart page allows users to review and edit the products in the cart,
 This region will list the items that have been added temporarily to the shopping cart.
 
 1. In the new page created, navigate to the **Gallery Menu**.
-2. Drag a **Cards** region and drop it to the Content Body section.
+2. Drag a **Cards** region and drop it to the  **Body** section.
 
     ![](./images/create-cards11.png " ")
 
@@ -264,6 +264,7 @@ Create a Modal Page to add products to the cart.
   - For Name - enter **Add to Cart**
   - For Page Mode - select **Modal Dialog**  
 
+  Click **Create Page**.
   ![](./images/create-modal-dialog13.png " ")
 
 

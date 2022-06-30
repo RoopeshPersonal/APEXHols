@@ -80,7 +80,7 @@ In this lab, you will:
         <copy>
         select STORES.STORE_NAME as STORE_NAME,
             STORES.STORE_ID as STORE_ID
-        from STORES STORES
+        from STORES
         </copy>
         ```
     - Set Display Extra Values - to **Off**

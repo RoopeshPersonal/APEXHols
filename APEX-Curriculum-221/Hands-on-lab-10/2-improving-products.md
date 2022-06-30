@@ -11,10 +11,6 @@ Once you have finished the workshop and updated all the products as described in
 
 Estimated Time: 20 minutes
 
-Watch the video below for a quick walk through of the lab.
-
-[](youtube:N3Kd2XuudG4)
-
 ### Objectives
 In this lab, you will:
 - Improve both Faceted Search and Cards region
@@ -25,7 +21,8 @@ In this lab, you will:
 - Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-5.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
 
 ## Task 1: Navigate to Products Page.
-In the Runtime environment, navigate to **Products**. This is the page where your customers can explore the products and select what they wish to buy.
+
+In this Lab, you will be using Online Shopping Application. Navigate to **Online Shopping Application**. In the Runtime environment, navigate to **Products**. This is the page where your customers can explore the products and select what they wish to buy.
 As you can see, it's hard to find the products and it would be beneficial to see additional details related to the products.
 
 
@@ -49,7 +46,7 @@ As you can see, it's hard to find the products and it would be beneficial to see
 ## Task 2: Reorder Facets
 Unit price is not a common search criteria, so you want to put this facet at the bottom.
 
-1. In the Rendering tree (left pane), under Search, within Facets, click and hold **P1\_UNIT\_PRICE** and drag it down until it is under **P1\_CLOTHING\_ID**, then release the mouse.
+1. In the Rendering tree (left pane), under Search, within Facets, click and hold **P19\_UNIT\_PRICE** and drag it down until it is under **P19\_CLOTHING\_ID**, then release the mouse.
 
     ![](./images/reorder-facets.png " ")
 
@@ -67,7 +64,6 @@ Unit price is not a common search criteria, so you want to put this facet at the
 
 1.  In the Rendering tree (left pane), navigate to **Search Results** and in the Property Editor (right pane), do the following:
     - For SQL Query - enter the following SQL code:
-
         ```
         <copy>
         SELECT "PRODUCT_ID",
@@ -100,7 +96,7 @@ Unit price is not a common search criteria, so you want to put this facet at the
         </copy>
         ```
 
-    ![](./images/change-sql-query.png " ")
+        ![](./images/change-sql-query.png " ")
 
     - Under Appearance section:
         - Click **Template Options**. For Style - select **Style A**
@@ -112,7 +108,7 @@ Unit price is not a common search criteria, so you want to put this facet at the
 
     ![](./images/change-attributes1.png " ")
 
-    - Under Apperance section:
+    - Under Appearance section:
         - For Layout - select **Grid**
         - For Grid Columns - select **Auto**
 
@@ -143,6 +139,7 @@ Unit price is not a common search criteria, so you want to put this facet at the
     - Under Card section:
         -   For Primary Key Column 1 - select **PRODUCT_ID**
 
+      Click **Save.**
         ![](./images/change-attributes2.png " ")        
 
 ## Task 5: Create Actions
@@ -156,12 +153,12 @@ Customers need a way to shop the products, so in this task you will add an actio
 3. In the Property Editor (right pane), enter the following:
     -   For Type - select **Full Card**
     -   For Target - Click **No Link Defined** and do the following:
-        - For Page - enter **18**.
+        - For Page - enter **17**.
         - For Set Items, enter:
 
             | Name | Value |
             | --- | --- |
-            | P18\_PRODUCT\_ID | &PRODUCT_ID. |
+            | P17\_PRODUCT\_ID | &PRODUCT_ID. |
 
         - For Clear Cache, enter **18**
         - Click **Ok**.
