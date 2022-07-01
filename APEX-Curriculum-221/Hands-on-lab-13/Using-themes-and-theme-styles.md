@@ -26,7 +26,7 @@ In this lab, you will:
 
 - Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-8.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
 
-## Task 1: Using Themes and Theme Styles.
+## Task 1: Using Themes and Theme Styles
 
 In this hands-on lab, you use the Theme Roller to save a Theme Style. Then, you enable end users to apply this style while running the application.
 
@@ -34,10 +34,10 @@ In this hands-on lab, you use the Theme Roller to save a Theme Style. Then, you 
 
   ![](images/navigate-to-theme-roller.png " ")
 
-2. The current Theme Style is **Vita**.
-  Under **Global Colors**, click the color swatch to select new colors.
+2. The current Theme Style is **Vita**. Under **Global Colors**, click the color swatch to select new colors.
 To edit a specific component, expand a group and select new colors or styling of the component you wish to edit.
-Modify the look by specifying colors of your choice and preview the changes. Once you are done, click Save As.  
+
+  Modify the look by specifying colors of your choice and preview the changes. Once you are done, click **Save As**.
 
   ![](images/change-color.png " ")
 
@@ -54,13 +54,15 @@ Modify the look by specifying colors of your choice and preview the changes. Onc
   - For Body Header, Select **Dark**.
   - For Body Background, Select **Dark**.  
 
+  click **Save As**.
+
   ![](images/change-redwood-theme-options1.png " ")
 
 5. In the Save As dialog, enter **Redwood Light (Copy_1)** for Style Name and click **Save**.
 
   ![](images/save-theme-as.png " ")
 
-6. Click **App < n >** in the Developer Toolbar.
+6. Close the **Theme Roller** by clicking **X**. Click **App < n >** in the Developer Toolbar.
 
   ![](images/select-application.png " ")
 
