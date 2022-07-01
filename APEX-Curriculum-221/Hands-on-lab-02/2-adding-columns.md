@@ -2,8 +2,9 @@
 
 ## Introduction
 
-The **PRODUCTS** table includes some columns such as image, price, and details. But there are other characteristics that customers would appreciate knowing about a  product, such as color, type of clothing, and department. For the same reason, you add these columns to the Products table.
-To avoid data redundancy, you need to create three additional tables to normalize the data. Instead of creating these three tables for yourself, you'll use the **Create Lookup Table** feature.
+The **PRODUCTS** table includes some columns such as image, price, and details. But there are other characteristics that customers would appreciate knowing about a  product, such as color, type of clothing, and department. In this lab, you will add these columns to the Products table.
+
+Since many products will share the same colors, clothing type, and department, to avoid data redundancy it is best practise to create three addi�tional tables to store the unique values of color, type, and department data. Instead of creating these three tables for yourself, you'll use the **Create Lookup Table** feature.
 
 In this lab, you learn how to add these three new columns to the **PRODUCTS** table and then create lookup tables for those new columns.
 
@@ -22,7 +23,7 @@ In this lab, you will:
 
 ## Task 1: Add Columns to the Products Table
 
-1. From your APEX workspace home page, click **SQL Workshop**.
+1. From the APEX Main Menu, click **SQL Workshop**.
 
 2. Click **Object Browser**.
 
@@ -37,7 +38,7 @@ In this lab, you will:
     * Add Column - enter **COLOR**
     * Type - select **VARCHAR2**
     * Length - enter **200**.  
-    
+
     Click **Next**.
 
     ![](images2/add-color-column.png " ")
@@ -55,7 +56,7 @@ In this lab, you will:
     * Add Column - enter **DEPARTMENT**
     * Type - select **VARCHAR2**
     * Length - enter **200**.
-    
+
     Click **Next**.
 
     ![](images2/add-department-column2.png " ")
@@ -73,7 +74,7 @@ In this lab, you will:
     * Add Column - enter **CLOTHING**
     * Type - select **VARCHAR2**
     * Length - enter **200**.
-    
+
     Click **Next**.
 
     ![](images2/add-clothing-column2.png " ")
@@ -84,7 +85,7 @@ In this lab, you will:
 
 ## Task 2: Populate the new columns
 
-1. From the Oracle APEX Home, click **SQL Workshop**.
+1. From the APEX main menu, click **SQL Workshop**.
 
 2. Click **SQL Scripts**.
 
@@ -97,8 +98,9 @@ In this lab, you will:
 4. For Script Name, enter **Populating new columns**.
 
 5. Copy the following script and paste into the editor.
-    ```
-    <copy>
+
+  ```
+  <copy>
     UPDATE
         (
                 SELECT p.product_id,
@@ -117,8 +119,8 @@ In this lab, you will:
         (
                 SELECT g.department
                 FROM   json_table (p.product_details, '$' COLUMNS ( department VARCHAR2(4000) path '$.gender') ) g)
-    </copy>
-    ```
+  </copy>
+  ```
 
     This script inserts the unique product type values (e.g. Shirt, Jacket, Skirt, etc.) into the CLOTHING column in the **Products** table. Similary, it inserts the unique department names (e.g. Boy's, Girl's, Men's, Women's) and color names into the DEPARTMENT and COLOR columns respectively based on information found in the JSON product details column in the **Products** table.
 
@@ -157,9 +159,9 @@ In this lab, you will:
 ## Task 3: Create Lookup Tables
 Since multiple products may have the same values for Color, Department, and Clothing, to avoid repetition and make updates easy, you can create a lookup table for each. A lookup table stores the value of the available colors, departments, or clothing in a single place, and then each product can reference the value from the lookup table.
 
-In this lab, you create lookup tables based on the new three columns. After you create a lookup table, you will notice that a new table was created and the column in the PRODUCTS table has been renamed and the data type was changed to NUMBER.
+In this lab, you create lookup tables based on the new three columns. After you create a lookup table, this allows the PRODUCTS table to reference the new color, clothing type, and department lookup value by its new numeric primary key value in the lookup table.
 
-1. From your APEX workspace home page, click **SQL Workshop**.
+1. From the APEX main menu, click **SQL Workshop**.
 
 2. Click **Object Browser**.
 
@@ -176,7 +178,7 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
     ![](./images2/create-color-lookup.png " ")
 
-7. Leave the table and sequence name by default:
+6. Leave the default table and sequence names:
 
     * New Table Name: **COLOR_LOOKUP**
     * New Sequence: **COLOR\_LOOKUP\_SEQ**
@@ -185,23 +187,23 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
     ![](./images2/create-color-lookup1.png " ")
 
-9. Click **Create Lookup Table**.
+7. Click **Create Lookup Table**.
 
     ![](./images2/create-color-lookup2.png " ")
 
     *Note: Click the **Create Lookup Table** button only once. Then you will find the new table listed in the Object Browser.*
 
-10. To create **Department** lookup table, navigate back to the **Products** table and Click **Create Lookup Table** button.
+8. To create **Department** lookup table, navigate back to the **Products** table and Click **Create Lookup Table** button.
 
     ![](./images2/create-lookup-tables2.png " ")
 
-11. For Column, select **DEPARTMENT - varchar2**.
+9. For Column, select **DEPARTMENT - varchar2**.
 
     Click **Next**.
 
     ![](./images2/create-department-lookup.png " ")
 
-13. Leave the table and sequence name by default:
+10. Leave the default table and sequence names:
 
     * New Table Name: **DEPARTMENT_LOOKUP**
     * New Sequence: **DEPARTMENT\_LOOKUP\_SEQ**
@@ -210,22 +212,22 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
     ![](./images2/create-department-lookup1.png " ")
 
-15. Click **Create Lookup Table**.
+11. Click **Create Lookup Table**.
 
     ![](./images2/create-department-lookup2.png " ")
     *Note: Click the **Create Lookup Table** button only once. Then you will find the new table listed in the Object Browser.*
 
-16. To create **Clothing** lookup table, navigate back to the **Products** table and Click **Create Lookup Table** button.
+12. To create **Clothing** lookup table, navigate back to the **Products** table and Click **Create Lookup Table** button.
 
     ![](./images2/create-lookup-tables3.png " ")
 
-17. For Column, select **CLOTHING - varchar2**.
+13. For Column, select **CLOTHING - varchar2**.
 
     Click **Next**.
 
     ![](./images2/create-clothing-lookup.png " ")
 
-19. Leave the table and sequence name by default:
+14. Leave the default table and sequence names:
 
     * New Table Name: **CLOTHING_LOOKUP**
     * New Sequence: **CLOTHING\_LOOKUP\_SEQ**
@@ -234,12 +236,12 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
     ![](./images2/create-clothing-lookup1.png " ")
 
-21. Click **Create Lookup Table**.
+15. Click **Create Lookup Table**.
 
     ![](./images2/create-clothing-lookup2.png " ")
     *Note: Click the **Create Lookup Table** button only once. Then you will find the new table listed in the Object Browser.*
 
-22. The columns COLOR, DEPARTMENT, and CLOTHING in the **Products** table are renamed to COLOR\_ID, DEPARTMENT\_ID, and CLOTHING\_ID respectively, and their data type changed to NUMBER. Also, there are new tables containing the values of the products:
+16. The columns COLOR, DEPARTMENT, and CLOTHING in the **Products** table are renamed to COLOR\_ID, DEPARTMENT\_ID, and CLOTHING\_ID respectively, and their data type changed to NUMBER. Also, there are new tables containing the values of the products:
     - COLOR_LOOKUP
     - DEPARTMENT_LOOKUP
     - CLOTHING_LOOKUP

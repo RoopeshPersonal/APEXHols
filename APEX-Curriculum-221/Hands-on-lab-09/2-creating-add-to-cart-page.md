@@ -82,7 +82,9 @@ In this Task, you call the *manage\_orders.add_product* procedure that will add 
   ![](./images/create-process22.png " ")  
 
  - Under Server-side Condition section:
-   - For When Button Pressed - select **Add**      
+   - For When Button Pressed - select **Add**
+
+  Click **Save.**
 
 ## Task 3: Create a Process to Edit Products in the Shopping Cart
 In this Task, you call the *manage\_orders.remove\_product* and *manage\_orders.add\_product* procedures to remove a product from the shopping cart and add it again with the updated quantity.
@@ -113,6 +115,8 @@ In this Task, you call the *manage\_orders.remove\_product* and *manage\_orders.
    - Under Server-side Condition section:
     - For When Button Pressed, select **Edit**
 
+    Click **Save.**
+
   ![](./images/create-process31.png " ")
 
 ## Task 4: Create a Process to Delete Products from the Shopping Cart
@@ -142,7 +146,11 @@ In this Task, you call the *manage\_orders.remove\_product* to remove a product 
     - Under Server-side Condition section:
         - For When Button Pressed - select **Delete**   
 
+        Click **Save.**
+
   ![](./images/create-process41.png " ")
+
+
 
 ## Task 5: Create a Process to Calculate the Shopping Cart Items
 In this task, you call the *manage\_orders.get\_quantity* to get the total number of products in the shopping cart.
@@ -163,7 +171,8 @@ In this task, you call the *manage\_orders.get\_quantity* to get the total numbe
         </copy>
         ```
 
-  ![](./images/create-process51.png " ")
+  Click **Save.**
+![](./images/create-process51.png " ")
 
 
 ## Task 6: Create a Process to Close the Modal Page
@@ -177,10 +186,11 @@ After the customer has taken an action (add/edit/delete) about the product, the 
         - For Name - enter **Close Dialog**
         - For Type - select **Close Dialog**
     - Under Settings section:
-        - For Items to Return - enter **P17\_SHOPPING\_CART\_ITEMS,P17\_PRODUCT\_ID,P17\_ACTION,P18\_QUANTITY**
+        - For Items to Return - enter **P17\_SHOPPING\_CART\_ITEMS,P17\_PRODUCT\_ID,P17\_ACTION,P17\_QUANTITY**
 
+    Click **Save.**
 
-![](./images/create-close-dialog.png " ")
+    ![](./images/create-close-dialog.png " ")
 
 ## Task 7: Enhance the Modal Page
 
@@ -188,10 +198,10 @@ After the customer has taken an action (add/edit/delete) about the product, the 
 
      ![](./images/rendering-tab.png " ")  
 
-2. Navigate to **Page 17: Add to Cart**
+2.In the rendering tree, select the root node in the component tree **Page 17: Add to Cart**
 3. In the Property Editor, do the following changes:
     - Under Identification section:
-        For Title, enter **Manage your Cart**
+        For Title, enter **Manage Your Cart**
     - Under Dialog section:
         - For Width, enter **600**
         - For Height, enter **600**
@@ -205,6 +215,5 @@ You now know how to customize and enhance the APEX page. You may now **proceed t
 
 ## **Acknowledgments**
 
-- **Author** - Mónica Godoy, Principal Product Manager
-- **Contributors** - Shakeeb Rahman, Architect
-- **Last Updated By/Date** - Arabella Yao, Database Product Manager, October 2021
+- **Author** - Roopesh Thokala, Product Manager
+- **Last Updated By/Date** - Roopesh Thokala, Product Manager, May 2021

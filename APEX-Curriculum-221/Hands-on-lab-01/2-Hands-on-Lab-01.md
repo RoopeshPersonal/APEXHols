@@ -25,7 +25,6 @@ To log in to Oracle APEX, you need a Workspace Name, username, and the password 
   ![](images/workspace-home-page.png " ")
 
 3. You do not have any applications listed right now. You can create a new app or install a **sample** or **starter app**.
-Review the components.
 
   ![](images/app-builder2.png " ")
 
@@ -49,11 +48,11 @@ Review the components.
 
 This lab covers installing and running a sample application.
 
-1. Once you Navigate to Gallery, Click **Samples**.
+1. Once you Navigate to Gallery, Click **Sample Apps**.
 
    ![](images/gallery-page3.png " ")
 
-2. Now that you are in **Sample Apps**, scroll down and navigate to **Sample Reporting** and click the **Install** Button.
+2. Now that you are in **Sample Apps**, search for apps by typing "**Reporting**" into the "Search Apps" search box and navigate to **Sample Reporting** and click the **Install** Button.
 
   ![](images/install-sample-app.png " ")
 
@@ -65,19 +64,19 @@ This lab covers installing and running a sample application.
 
    ![](images/click-run-application.png " ")
 
-5. Log in to the **Sample Reporting** application. Enter your **Username** and **Password** (Same as your Workspace credentials) and click **Sign In**.
+5. Log in to the **Sample Reporting** application as an End User. Enter your **Username** and **Password** (Same as your Workspace credentials) and click **Sign In**.
 
    ![](images/run-application1.png " ")
 
-6. You now see the Sample Reporting application home page. In the Runtime Developer Toolbar, click **Home**.
+6. You now see the Sample Reporting application home page. In your Runtime environment under **Developer Toolbar**, click **Home** to return to the home page of the APEX development environment.
 
    ![](images/navigate-to-sample-reports.png " ")
 
-13. Click **App Builder**.
+7. Click **App Builder**.
 
    ![](images/navigate-to-app-builder.png " ")
 
-14. Toggle between the **View Icons** and the **View Reports** buttons. You see that applications are displayed along with their icons and report format.
+8. Toggle between the **View Icons** and the **View Reports** buttons. You see that applications are displayed along with their icons and report format.
    ![](images/display-as-icons1.png " ")
 
    ![](images/display-as-report1.png " ")
@@ -89,5 +88,5 @@ and Install and run a packaged application . You may now **proceed to the next l
 ## **Acknowledgments**
 
 - **Author** - Roopesh Thokala, Product Manager
-- **Contributors** -
-- **Last Updated By/Date** - Roopesh Thokala, March 2021
+- **Contributors** - Roopesh Thokala, Product Manager
+- **Last Updated By/Date** - Roopesh Thokala, March 2022

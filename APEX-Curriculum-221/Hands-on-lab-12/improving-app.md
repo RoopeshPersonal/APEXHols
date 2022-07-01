@@ -100,7 +100,7 @@ Follow these steps for the four listed pages:
 
 5. Repeat steps 2-4 for **Page 16: Shopping Cart** and **Page 17: Add to Cart**.
 
-## Task 3: Clean the Navigation Menu
+## Task 3: Remove the Navigation Menu
 Since the home page is the Products page and this is a public access page, we do not need a navigation menu.
 In this task, you will turn off displaying the navigation menu.
 
@@ -124,8 +124,9 @@ In this task, you will turn off displaying the navigation menu.
 
 5. Click **Apply Changes**.
 
-## Task 3: Enhance the Navigation Bar List
-Add a new navigation menu entry to allow:
+## Task 4: Enhance the Navigation Bar List
+
+Add a new navigation bar entry to allow:
 - Customers to go directly to the Shopping Cart
 - Administrators to login and access to administration page
 
@@ -140,10 +141,11 @@ Add a new navigation menu entry to allow:
 
     ![](./images/navigation-bar1.png " ")
 
-4. Click **Create Entry** and enter the following:
+4. Click **Create Entry**.
 
   ![](./images/create-entry1.png " ")
 
+5. In the **List Entry** page, enter the following and click **Create List Entry**.
   ![](./images/create-entry2.png " ")
 
    - For Sequence - enter **1**
@@ -153,23 +155,23 @@ Add a new navigation menu entry to allow:
    - For Clear cache - enter **16**
 
 
-5. Scroll under **User Defined Attributes** and enter the following:
+6. Scroll under **User Defined Attributes** and enter the following:
     - For 1. Badge Value - enter  **&SHOPPING\_CART\_ITEMS.**
     - For 2. List Item CSS Classes - enter **js-shopping-cart-item**
 
-6. Click **Create List Entry**.
+7. Click **Create List Entry**.
     ![](./images/create-entry3.png " ")
 
-7. Click the **Pencil Icon** before **&APP_USER.**
+8. Click the **Pencil Icon** before **&APP_USER.**
 
     ![](./images/click-app-user.png " ")
 
-8. Under Authorization, for Authorization Scheme, select **Administration Rights**.
+9. Under Authorization, for Authorization Scheme, select **Administration Rights**.
 
-9. Click **Apply Changes**.
+10. Click **Apply Changes**.
     ![](./images/set-admin-rights.png " ")
 
-4. Click **Create Entry**  and enter the following:
+11. Click **Create Entry**  and enter the following:
 
     ![](./images/create-entry11.png " ")
 
@@ -179,7 +181,7 @@ Add a new navigation menu entry to allow:
     - For Page - select **10000**
 
 
-5. Click **Create List Entry**.
+12. Click **Create List Entry**.
 
     ![](./images/create-entry12.png " ")
 <!--

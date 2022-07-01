@@ -1,28 +1,10 @@
-# Managing Application data and Using Approvals and Unified Tasks Lists
+# Managing REST data and Use Approvals and Unified Tasks Lists
 
 ## Introduction
 
-Oracle APEX allows you to build robust, feature-rich applications against remote, web, and REST data sources. In this lab, you login to a remote database, create a database table and then **Register a schema with RESTful Services**.
+Oracle APEX allows you to build robust, feature-rich applications against remote, web, and REST data sources. In this lab, you login to a remote database, create a database table and then **Register a schema with RESTful Services**. You will then create a **New Application** and then consume the **REST Data Source** we created. Then, you will **Synchronise** the Data from REST Data Source to the Local Database table using **REST Data Synchronization**.
+In the second half of this lab, You will create a new **Leave Request Application** where an Employee can make a request to apply for leave and the Manager of the Employee either approves or rejects the leave.
 
-<!--
- you build a web application on top of the Apple iTunes Search API, which is a simple API over HTTP that takes input arguments via parameters in the URL. First, you create a report against the iTunes music video catalog. Next, you simplify the report to include a preview of the music video and a link to watch a clip of the music video.
-
-
-Estimated Time: 20 minutes
-
-<!--
-Watch the video below for a quick walk through of the lab.
-
-[](youtube:lwQ3lvul9iE)
-
-
-### Objectives
-
-
-### Downloads
-
-- Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](online-shopping-cart-9.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
--->
 
 ## Task 1: Enable Remote Database schema to Oracle REST Data Services.
 
@@ -132,8 +114,9 @@ In this Lab, you create a **New Application** and then consume the **REST Data S
   ![](images/click-next-button.png " ")
 
 9.  Under **Create REST Data Source**, Enter the following and click **Next**.
+  - For **REST Data Source Type** - select **Oracle REST Data Services**
   - For Name - enter **Employee Details API**
-  - For URL Endpoint - Enter the URI we **copied** in **Task 1**.
+  - For URL Endpoint - Enter the URI we **copied** in **Task 1**
 
   ![](images/create-rds1.png " ")
 
@@ -141,7 +124,6 @@ In this Lab, you create a **New Application** and then consume the **REST Data S
 
   ![](images/create-rds2.png " ")
 
-11. For Pagination Type, leave the default as **No Pagination** and click **Next**.
 
 11. For Authentication, Set **Authentication Required** to **No**. Click **Discover**.
 
@@ -172,19 +154,19 @@ In this example, select New Table for Synchronize To and enter **EMP_1** for Tab
 
   ![](images/create_rest_data_sync2.png " ")
 
-6. You will define a **synchronization schedule** now. In the Synchronization Schedule field, you can use the Database Scheduler calendaring syntax to define repeating synchronization schedules, such as "every Tuesday and Friday at 4:00 p.m." or "the second Wednesday of every month." This calendaring syntax can be provided manually.
+5. You will define a **synchronization schedule** now. In the Synchronization Schedule field, you can use the Database Scheduler calendaring syntax to define repeating synchronization schedules, such as "every Tuesday and Friday at 4:00 p.m." or "the second Wednesday of every month." This calendaring syntax can be provided manually. Click the **Schedule Builder Button** next to **Synchronization Schedule**.
 
   ![](images/create_rest_data_sync3.png " ")
 
-7. The Interval Builder dialog displays. In this example, for Frequency select **Minutely** and enter **10** for Interval. Then, click **Set Execution Interval**.
+6. The Interval Builder dialog displays. In this example, for Frequency select **Minutely** and enter **10** for Interval. Then, click **Set Execution Interval**.
 
   ![](images/create_rest_data_sync4.png " ")
 
-8. You are now ready to test the data synchronization. Click **Save and Run**.
+7. You are now ready to test the data synchronization. Click **Save and Run**.
 
   ![](images/create_rest_data_sync5.png " ")
 
-9. You can see that **the data synchronization is triggered**.
+8. You can see that **the data synchronization is triggered**.
 
   ![](images/create_rest_data_sync6.png " ")
 
@@ -260,7 +242,7 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
   ![](images/create-tasks-parameters.png " ")
 
-12. You will now add additional actions when an event occurs on a task. Click on **Add Action** as shown below. This will take you to the Task Definition Actions **Edit Action** Page
+12. You will now add actions when an event occurs on a task. Navigate to **Actions Tab** under **Task Definition: Leave Request**. Click on **Add Action** as shown below. This will take you to the Task Definition Actions **Edit Action** Page.
 
   ![](images/create-tasks-action1.png " ")
 
@@ -288,7 +270,7 @@ Click **Create**.
 
 ## Task 5: Creating the Apply for Leave page
 
-1. Click  **Create Page** in your **Leave Request Approvals** application.
+1. Navigate back to Application **Home Page**. Click  **Create Page** in your **Leave Request Approvals** application.
 
   ![](images/create-page.png " ")
 
@@ -296,13 +278,13 @@ Click **Create**.
 
   ![](images/create-page1.png " ")
 
-3. For Name, enter **Apply for Leave** and click **Create Page**.
+3. For Page Number, set it to **3**. For Name, enter **Apply for Leave** and click **Create Page**.
 
-3. In the **Left Pane**, Right click on **Body** and click **Create Region**.
+4. In the **Left Pane**, Right click on **Body** and click **Create Region**.
 
   ![](images/create-region1.png " ")
 
-4. Now, In the property editor, enter the following:  
+5. Now, In the property editor, enter the following:  
 Under Identification:
   - For **Title**: Enter **New Leave Request**.
   - For **Type** : Select **Form**.  
@@ -322,11 +304,11 @@ Under Identification:
 
   ![](images/create-form-region.png " ")
 
-5. Right click on **New Page Request** and click **Create Page Item**. Add two new page items **P3_NO_OF_DAYS** and **P3_LEAVE_TYPE**.
+6. Right click on **New Leave Request** and click **Create Page Item**. Add two new page items **P3_NO_OF_DAYS** and **P3_LEAVE_TYPE**.
 
   ![](images/create-item1.png " ")
 
-6. Select **P3_LEAVE_TYPE** and then in the **Property Editor**:  
+7. Select **P3_LEAVE_TYPE** and then in the **Property Editor**:  
 
   - Under Identification **Type** to **Select List**.
   - Under **List of Values**,
@@ -336,16 +318,16 @@ Under Identification:
           | ----------- | ----------- |
           | Bereavement      | BEREAVEMENT       |
           | Paternal   | PATERNAL        |
-          | Maternity  | MATERNAL        |
+          | Maternity  | MATERNITY        |
           | Sick   | SICK        |
           | Casual   | CASUAL        |
           | Vacation   | VACATION        |
 
   ![](images/change-item-type.png " ")
 
-7. In the **Rendering** tab in the left pane, Expand **Pre-Rendering** and then right click on **Process**, Click **Create Process**.
+8. In the **Rendering** tab in the left pane, Expand **Pre-Rendering** and then right click on **Process**, Click **Create Process**.
 
-8. Now, In the Property Editor, Enter the following Information.  
+9. Now, In the Property Editor, Enter the following Information.  
   Under **Identification**:
     - For **Name**, Enter **Fetch Employee Details for User**.
     - For **Type**, Select **Execute Code**.
@@ -362,11 +344,11 @@ Under Identification:
 
   ![](images/create-pre-process.png " ")
 
-9. Navigate to **Processing** in Left Page and right click on **Processing**, then select **Create Process**.
+10. Navigate to **Processing** in Left Page and right click on **Processing**, then select **Create Process**.
 
   ![](images/create-process.png " ")
 
-10. In the Property Editor, Enter the following Information.  
+11. In the Property Editor, Enter the following Information.  
   Under **Identification**:
     - For **Name**, Enter **Submit Leave Request**.
     - For **Type**, Select **Human Task - Create**.
@@ -382,28 +364,28 @@ Under Identification:
 
   ![](images/create-process2.png " ")
 
-11. You will notice Leave Type and Number Of Days under the Parameters on the Left pane to be highlighted in RED. Click on each parameter and set it to the corresponding page item (P3_NO_OF_DAYS and P3_LEAVE_TYPE) you had created earlier.
+12. You will notice Leave Type and Number Of Days under the Parameters on the Left pane to be highlighted in RED. Click on each parameter and set it to the corresponding page item (P3_NO_OF_DAYS and P3_LEAVE_TYPE) you had created earlier.
 
   ![](images/create-process3.png " ")
 
   ![](images/create-process4.png " ")
 
-12. Navigate back to the Rendering Section. Right Click on **Region Body** under **New Leave Request** and click **Create Button**.
+13. Navigate back to the Rendering Section. Right Click on **Region Body** under **New Leave Request** and click **Create Button**.
 
   ![](images/create-buttom.png " ")
 
-13. In the Property Editor:  
+14. In the Property Editor:  
     - For **Button Name**, enter **SUBMIT_REQUEST**.
     - Under **Appearance**, Set **Hot** to **Yes**.
 
   ![](images/create-button2.png " ")
 
-14. Navigate back to **Processing** in the left pane and select **Submit Leave Request**. In the **Property Editor**, Under **Server-side Condition**, for **When Button Pressed** select **SUBMIT_REQUEST**.
+15. Navigate back to **Processing** in the left pane and select **Submit Leave Request**. In the **Property Editor**, Under **Server-side Condition**, for **When Button Pressed** select **SUBMIT_REQUEST**.
 
   ![](images/change-process.png " ")
 
-15. Click **Save**.
-16.
+16. Click **Save**.
+
 ## Task 6: Creating the My Approvals and My Requests Pages
 
 In this lab, you will create pages for the following tasks:  

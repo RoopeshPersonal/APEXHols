@@ -16,9 +16,6 @@ Customers will be able to:
 
 Estimated Time: 20 minutes
 
-Watch the video below for a quick walk through of the lab.
-
-[](youtube:Cvl9xMAqnm8)
 
 ### Objectives
 In this lab, you will:
@@ -29,7 +26,8 @@ In this lab, you will:
 - Did you miss out trying the previous labs? Don’t worry! You can download the application from [here](Online-shopping-cart-4.sql) and import it into your workspace. To run the app, please run the steps described in **Hands-on-lab-01** and **Hands-on-Lab-02**.
 
 
-## Task 1: Create Validations to the Page
+## Task 1: Create Validations on the Page
+
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
 
     ![](./images/click-app-builder1.png " ")
@@ -223,7 +221,7 @@ In this task, you will create a dynamic actions to:
 
      ![](./images/create-opp-action.png " ")
 
-9. Navigate to **Execute JavaScript Code** Action.
+9. Navigate to **Execute JavaScript Code** Action under the False heading.
     - Under Identification section:
         - For Action - select **Execute JavaScript Code**
     - Under Settings section:        

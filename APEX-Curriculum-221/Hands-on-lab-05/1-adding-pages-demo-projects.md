@@ -58,7 +58,7 @@ In this lab, you create an interactive grid on the **DEMO_PROJECTS** table. You 
 
   ![](./images/create-ig-2.png " ")
 
-5. Now that you have created an **Interactive Grid** Page, you can view the page by clicking **Save and Run Page**.
+5. Now that you have created an **Interactive Grid** Page, you can view the page by clicking **Save** and **Run Page** on the top Right.
 
     ![](./images/view-interactive-grid11.png " ")
 

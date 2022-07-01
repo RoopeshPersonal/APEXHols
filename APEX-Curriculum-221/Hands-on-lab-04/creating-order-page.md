@@ -32,10 +32,10 @@ In this lab, you will:
 ## Task 1: Navigate and Review the Page Designer panes
 Open the home page in page designer, navigate through and review the page designer panes.
 
-1. In the App Builder, run the Online Shopping Application. You are now in the application runtime environment.
-In the Developer Toolbar, click Edit Page 1.
-Note: If you are not on the Home page then the Developer Toolbar will show the current page number, and clicking on Edit Page xx will navigate to that page, instead of Page 1.
+1. In the App Builder, run the Online Shopping Application. You are now in the application runtime environment. Use the application menu to navigate to the Home page.
+Use the application menu to navigate to the Home page. In the Developer Toolbar, click  **Page n**.
 
+  Note: If you are not on the Home page then the Developer Toolbar will show the current page number, and clicking on Edit Page xx will navigate to that page, instead of Page n.
     ![](images/click-page-1.png " ")
 
 2. The Page Designer is displayed for Page 1. There are three main panes within Page Designer: Left Pane, Central Pane, and Right Pane.
@@ -43,12 +43,13 @@ You can change the size of each pane by selecting the dividers and sliding them 
 
     ![](images/navigate-through-page1.png " ")
 
-3. In the Page Designer, you can invoke help on any attribute by clicking **Help** icon on the toolbar. Select a component and then select an attribute in the Property Editor to display help on that attribute.  
-For Example, in this screenshot below, you select **Online Shopping Application** in the Rendering tree on the left, and then select **Sequence > Layout** in the Property Editor on the right. The help text for **Sequence** is displayed.
+3. In the Page Designer, you can invoke help on any attribute by clicking **Help** icon on the toolbar. Select a component and then select an attribute in the Property Editor to display help on that attribute.
+
+  For Example, in this screenshot below, you select **Online Shopping Application** in the Rendering tree on the left, and then select **Sequence > Layout** in the Property Editor on the right. The help text for **Sequence** is displayed.
 
     ![](images/navigate-through-page2.png " ")
 
-4. Add a Dashboard page and include a bar chart that shows projects with the number of tasks. In the page designer, click Create (the + icon) and select Page.
+4. In the page designer, click Create (the **+** icon) and select **Page**.
 
     ![](images/create-page2.png " ")
 
@@ -74,16 +75,16 @@ Create a Normal Page to review the Order that customer has made.
 Add a region to the page to display order details.
 
 1. In the new page created, navigate to the **Gallery Menu** at the bottom of the page showing Regions, Items, and Buttons categories and ensure that **Regions** is selected.
-2. Drag a **Static Content** region and drop it to the Content Body section.
+2. Drag a **Static Content** region and drop it to the **Body** section.
 
     ![](images/create-static-region1.png " ")
 
 3. In the Property Editor, enter the following:
     - For Title - enter **Thank you for your order!**
     - For Template - select **Content Block**
-    - For Template Options - check **Show Region Icon** and click **Ok**
+    - For Template Options - Click on the rectangular area next to the Template Options label to open the Template Options dialog. In the Dialog page, Check **Show Region Icon** and click **Ok**.
 
-        ![](images/create-static-region13.png " ")
+    ![](images/create-static-region13.png " ")
     - For Icon, enter **fa-heart**
 
         ![](images/create-static-region14.png " ")
@@ -91,7 +92,7 @@ Add a region to the page to display order details.
 ## Task 4: Add Items to the Page
 Add a hidden item used to store the order ID without the user's being able to see it.
 
-1. In the Rendering tree (left pane), navigate to the **Thank you for your order!** region.
+1. In the Rendering tree (left pane), click on the **Thank you for your order!** region to select it.
 2. Right-click the region and click **Create Page Item**.
 
     ![](images/create-page-item11.png " ")
@@ -104,10 +105,10 @@ Add a hidden item used to store the order ID without the user's being able to se
 
     ![](./images/create-page-item12.png " ")    
 
-## Task 4: Add Static Content Region
+## Task 5: Add Static Content Region
 Add a region to contain Order details and items.
 
-1. In the Rendering tree (left pane), navigate to the **Thank you for your order!** region.
+1. In the Rendering tree (left pane), click on **Thank you for your order!** region.
 2. Right click the region and click **Create Sub Region**.
 
     ![](./images/create-sub-region11.png " ")
@@ -118,7 +119,7 @@ Add a region to contain Order details and items.
 
   ![](./images/create-sub-region12.png " ")
 
-## Task 5: Add Order Details Region
+## Task 6: Add Order Details Region
 Add a region to display Order details.
 
 1. In the Rendering tree (left pane), navigate to the **Order: &P15_ORDER.** region.
@@ -164,7 +165,7 @@ Add a region to display Order details.
             ```
       ![](./images/create-sub-region4.png " ")
 
-## Task 6: Add Items Region
+## Task 7: Add Items Region
 Add a region to display items in the order.
 
 1. In the Rendering tree (left pane), navigate to the **Order: &P15_ORDER.** region.
@@ -189,14 +190,12 @@ Add a region to display items in the order.
             FROM   order_items o,
                 products p
             WHERE  p.product_id = o.product_id
-            AND  order_id = :P16_ORDER
+            AND  order_id = :P15_ORDER
             </copy>
             ```
     ![](./images/create-sub-region32.png " ")
 
 4. Click **Attributes** and do the following:
-    - Under Card:
-        - For Primary Key Column 1 - select **ITEM**
 
     - Under Title section:
         - For Column - select **PRODUCT**    
