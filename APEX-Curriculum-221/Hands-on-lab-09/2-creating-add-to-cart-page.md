@@ -14,10 +14,6 @@ Customers will be able to:
 
 Estimated Time: 20 minutes
 
-Watch the video below for a quick walk through of the lab.
-
-[](youtube:8HoOOhY8omU)
-
 ### Objectives
 In this lab, you will:
 - Create a page that allows users to add and edit products in the Shopping Cart
