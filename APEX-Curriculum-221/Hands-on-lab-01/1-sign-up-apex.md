@@ -1,4 +1,4 @@
-# Sign up for an APEX Workspace
+# Provision an APEX Workspace
 
 ## Introduction
 
@@ -32,7 +32,7 @@ To determine which release of Oracle APEX you are currently running, do one of t
 
 ### Where to Run the Lab
 
-You can run this lab in any Oracle Database with APEX 22.1 installed. This includes the new APEX Application Development Service, the "Always Free" Oracle Autonomous Database, the free, "Development Only" apex.oracle.com service, your on-premises Oracle Database (providing APEX 22.1 is installed), on a third party cloud provider where APEX 22.1 is installed, or even on your laptop by installing Oracle XE or Oracle VirtualBox App Dev VM and installing APEX 22.1.
+You can run this lab in any Oracle Database with APEX 22.1 installed. This includes the APEX Application Development Service, the "Always Free" Oracle Autonomous Database, the free, "Development Only" apex.oracle.com service, your on-premises Oracle Database (providing APEX 22.1 is installed), on a third party cloud provider where APEX 22.1 is installed, or even on your laptop by installing Oracle XE or Oracle VirtualBox App Dev VM and installing APEX 22.1.
 
 Below are steps on how to sign up for an *APEX Application Development* Service, or for an *Oracle Autonomous Database* cloud service or *apex.oracle.com* service.
 - The **APEX Application Development Service** is great if you would like to go with a flexible paid option that allows to concentrate your efforts on APEX development without worrying about the database management. It provides 1 OCPU and 1 TB and can be extended as needed.

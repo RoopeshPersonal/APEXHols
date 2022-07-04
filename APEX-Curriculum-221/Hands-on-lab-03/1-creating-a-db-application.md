@@ -3,9 +3,7 @@
 
 ## Introduction
 
-In this lab, you will create:
-1. A database application based on existing tables.
-2. A database application from a file.
+In this lab, you will create a database application based on existing tables.
 
 Estimated Time: 15 minutes
 

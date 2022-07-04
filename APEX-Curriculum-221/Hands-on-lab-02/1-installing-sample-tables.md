@@ -1,4 +1,4 @@
-# Install a sample dataset
+# Install a Sample Dataset
 
 ## Introduction
 

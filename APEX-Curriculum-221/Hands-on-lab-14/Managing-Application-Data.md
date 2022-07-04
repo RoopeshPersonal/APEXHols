@@ -364,7 +364,7 @@ Under Identification:
 
   ![](images/create-process2.png " ")
 
-12. You will notice Leave Type and Number Of Days under the Parameters on the Left pane to be highlighted in RED. Click on each parameter and set it to the corresponding page item (P3_NO_OF_DAYS and P3_LEAVE_TYPE) you had created earlier.
+12. You will notice Leave Type and Number Of Days under the Parameters on the Left pane to be highlighted in RED. Click on each parameter, Change the **Type** to **Item** and set it to the corresponding page item (**P3_NO_OF_DAYS** and **P3_LEAVE_TYPE**) you had created earlier.
 
   ![](images/create-process3.png " ")
 

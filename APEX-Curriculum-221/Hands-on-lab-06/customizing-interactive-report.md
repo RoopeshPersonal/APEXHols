@@ -1,4 +1,4 @@
-# Customizing the Interactive Report
+# Customizing Interactive Reports
 
 ## Introduction
 

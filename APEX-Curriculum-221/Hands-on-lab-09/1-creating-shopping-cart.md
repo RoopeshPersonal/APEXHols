@@ -5,7 +5,6 @@
 In this lab, you will create a new page to review the items added to the Shopping Cart.
 
 Once you have finished the workshop and updated all the products as described in the steps, your page will look like the following image:
-![](./images/creating-sc.png " ")
 
 Customers will be able to:
 - Review the items in the shopping cart
