@@ -2,11 +2,8 @@
 
 ## Introduction
 
-In this lab, you will create a new modal page to add or edit existing items in the Shopping Cart.
+This Hands-on Lab is a collection of seven tasks. After completing this lab, your application will enable customers to:
 
-Once you have finished the workshop and updated all the products as described in the steps, your page will look like the following image:
-
-Customers will be able to:
 - Review the product details
 - Add, edit, or remove the product from the shopping cart
 - Read the customer reviews
