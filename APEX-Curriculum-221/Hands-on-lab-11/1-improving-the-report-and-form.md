@@ -69,7 +69,7 @@ Estimated Time: 20 minutes
 
                 | Name | Value |
                 | --- | --- |
-                | P21\_PRODUCT\_ID | &PRODUCT_ID. |
+                | P21\_PRODUCT\_ID | #PRODUCT_ID# |
 
             - For Clear Cache, enter **21**
             - Click **Ok**.

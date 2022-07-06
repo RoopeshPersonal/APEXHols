@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Memorising the SQL to create and maintain database objects can be difficult. However, there are tools that can generate the code for you based on a shorthand syntax or a graphical user interface. In this lab, you will create database objects using Quick SQL and then view the objects in Database Actions. Then you will then use Data Workshop page to load data from a file into your workspace.
+Memorizing the SQL to create and maintain database objects can be difficult. However, there are tools that can generate the code for you based on a shorthand syntax or a graphical user interface. In this lab, you will create database objects using Quick SQL and then view the objects in Database Actions. Then you will then use Data Workshop page to load data from a file into your workspace.
 
 Estimated Time: 45 minutes
 
@@ -36,7 +36,7 @@ Estimated Time: 45 minutes
     view emp_v departments employees
      </copy>
     ```
-
+    *Note that the Indentation from the code you copied should be similar to the one we have in the screenshot below*
 3. Review the shorthand code. How many tables will be created and how are they related? What types of columns and constraints will be created for the tables? Note that the **Help** button provides details on the shorthand syntax along with several examples of its usage.
 
     When ready, in the Quick SQL (left pane) toolbar, click **Generate SQL**.
@@ -76,11 +76,11 @@ Estimated Time: 45 minutes
 
     ![](images4/navigate-to-object-browser1.png " ")
 
-12. Select the **DEPARTMENTS** table and review its columns.
+11. Select the **EMPLOYEES** table and review its columns.
 
-    ![](images4/select-departments-table1.png " ")
+    ![](images4/select-departments-table.png " ")
 
-13. Click the **Data** tab to see the data that was loaded.
+12. Click the **Data** tab to see the data that was loaded.
 
     ![](images4/view-departments-table-data1.png " ")
 

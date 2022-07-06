@@ -38,6 +38,12 @@ In this lab, you will:
 
   ![](images/click-myapps.png " ")
 
+  *Note: If you are logging in to the Facebook developer console for the first time, you must follow the below process before navigating to My Apps*
+  - *A new user must first click the Get Started link to Create a Facebook for Developers account.*
+  - *This then brings you to a welcome screen that gives you the option to Continue. Click Continue.*
+  - *Review your email and agree or not, to the marketing related communication from Facebook.*
+  - *Choose an option for who you are. Example, developer, product manager, etc.*
+
 2. Click **Create App**.
 
   ![](images/create-app.png " ")
@@ -87,7 +93,8 @@ In this lab, you will:
 13. In the **Web Credentials** enter the following and click **Create**.
 
     Under **Attributes**:
-    - For **Name**, Enter **FB_LOGIN_DEMO**.
+    - For **Name**, Enter **FB_LOGIN_DEMO**
+    - For **Static Identifier**, Enter **FB_LOGIN_DEMO**
     - For **Authentication Type**, select **OAuth2 Client Credentials Flow**.
     - For **Client ID or Username**, Enter the **APP ID** you copied in **Step 6**.
     - For **Client Secret or Password** and **Verify Client Secret or Password**, Enter the **App Secret** you copied in **Step 6**.

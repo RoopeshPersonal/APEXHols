@@ -50,12 +50,13 @@ In this lab, you will:
 
   ![](images/create-script2.png " ")
 
-8. Now set the following attributes an then click **Next**.
+8. Now set the following attributes and then click **Next**.
   - For **Table Options**, Select the **Checkbox**.
   - For **Object**, Select and Move the tables **DEMO_PROJECTS** and **EBA_DEMO_IR_EMP** to the right side.
 
   ![](images/create-script3.png " ")
 
+  *Note that it might take 5 to 10 seconds or more, please wait.*
 9. You will now see the **Scripts** created. Click **Create**.
 
   ![](images/create-script4.png " ")
@@ -66,7 +67,7 @@ In this lab, you will:
 
 11. Under **Script Attributes**, Select the following and click **Next**.
   - For **Name**, select **data.sql**
-  - For **Tables**, select **DEMO_PROJECTS** and **EBA_DEMO_IR_EMP** and move it to Right side.
+  - For **Tables**, ensure **DEMO_PROJECTS** and **EBA_DEMO_IR_EMP** are listed on the right side, and if not, select and shuttle these two tables over there.
 
   ![](images/create-data-packages.png " ")
 
@@ -86,11 +87,11 @@ In this lab, you will:
 
 15. In the **Export Application** page, Under **Export Preferences**, select **Yes and Install on Import Automatically**.  
 
-  Then Click **Create**.
+  Then Click **Export**.
 
   ![](images/export-app2.png " ")
 
-16. You will now notice that the applciation is downloaded as **f</>.sql**
+16. You will now notice that the applciation is downloaded as **fNNN.sql**
 
   ![](images/exported-app.png " ")
 
@@ -141,11 +142,11 @@ In this Lab, You will login into a new workspace or the Workspace you created in
 
   ![](images/install-app3.png " ")
 
-10. Click on the Arrow mark next to **Object Browser** and then click **Object Browser**.
+10. Click on the Arrow mark next to **SQL Workshop** and then click **Object Browser**.
 
   ![](images/object-browser1.png " ")
 
-11. Select **Demo Projects** table and then click **Data**. Verify the Data in the table **DEMO_PROJECTS**.
+11. Select **DEMO_PROJECTS** table and then click **Data**. Verify the Data in the table **DEMO_PROJECTS**.
 
   ![](images/object-browser2.png " ")
 
@@ -303,4 +304,4 @@ After making the above selections, click **Deploy**.
 ## **Acknowledgments**
 
 - **Author** - Roopesh Thokala, Product Manager
-- **Last Updated By/Date** - Roopesh Thokala, Product Manager, June 2021
+- **Last Updated By/Date** - Roopesh Thokala, Product Manager, June 2022

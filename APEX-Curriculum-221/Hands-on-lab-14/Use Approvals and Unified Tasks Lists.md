@@ -4,7 +4,7 @@
 
 In this lab, You will create a new **Leave Request Application** where an Employee can make a request to apply for leave and the Manager of the Employee either approves or rejects the leave.
 
-## Task 1: Creating and Customising Tasks in Leave Request Approval application
+## Task 1: Creating and Customizing Tasks in Leave Request Approval application
 
 In this task, you design a simple Leave Request Application where an Employee can make a request to apply for leave and the Manager of the Employee either approves or rejects the leave.
 

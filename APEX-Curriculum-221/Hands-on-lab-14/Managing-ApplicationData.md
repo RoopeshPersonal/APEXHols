@@ -94,7 +94,7 @@ In this Lab, you create a **New Application** and then consume the **REST Data S
   ![](images/click-new-application.png " ")
 
 5. Enter the following and click **Create Application**.
-  - Page Name - enter **Leave Request Approval**
+  - For **Name** - enter **Leave Request Approval**
 
   ![](images/create-an-application1.png " ")
 

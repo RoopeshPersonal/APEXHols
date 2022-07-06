@@ -85,8 +85,7 @@ In this lab, you will:
   - Header - select **Hidden but accessible**  
   - Style - select **Remove UI Decoration**  
 
-   Click **OK**.
-
+   Click **OK**. Then **Save** and **Refresh** the runtime environment to see the changes.
    ![](images/edit-calendar2.png " ")
 
 ## Task 2: Creating a Form page on DEMO_PROJECTS Tables.
@@ -104,6 +103,7 @@ In this Lab, you will create a Form Page on DEMO_PROJECTS Tables, then in the ne
 3. In the **Create Form** enter the following and click **Next**.
 
     Under **Page Definition**:
+    - For **Page Number**, Enter **9**.
     - For **Name**, Enter **Form on Projects**.
     - For **Page Mode**, Select **Modal Dialog**.
 
@@ -174,7 +174,7 @@ Notice that you can now drag and drop tasks in the calendar. In the Developer To
 
 ## Task 4: Creating and Customizing a Tree Page.
 
-In this hands-on lab, you create the **Employee** Tree. You also create a **blank page** and then add the **Tree region**.
+In this hands-on lab, you create the **Employee** Tree by first creating a **blank page** and then adding a **Tree region**.
 
 1. First, create a blank page in the **Demo Projects** application. In the application home page, click **Create Page**.
 
@@ -277,6 +277,7 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
 4. In the **Create Map** enter the following and click **Next**.
 
     Under **Page Definition**:
+    - For **Page Number**, Enter **20**.
     - For **Name**, Enter **Store Locations Map**.
 
     Under **Data Source**:
@@ -294,11 +295,13 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
     - For **Latitude Column**, Select **LATITUDE**.
     - For **Tooltip Column**, Select **STORE_NAME**.
 
+  Click **Create Page**.
+  
   ![](images/create-map6.png " ")
 
 5. The Store Locations Map should be visible to the public. To set the page as Public, select **Page \<n\>: Store Locations Map** in the Rendering tree. In the Property Editor, navigate to **Security**, for **Authentication**, select **Page is Public**.
     ![](images/make-page-public.png)
- 
+
 6. Then, click **Save** and **Run Page**.
 
   ![](images/create-map7.png " ")

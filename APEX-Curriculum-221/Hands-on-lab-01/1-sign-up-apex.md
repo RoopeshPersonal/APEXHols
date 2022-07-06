@@ -35,9 +35,10 @@ To determine which release of Oracle APEX you are currently running, do one of t
 You can run this lab in any Oracle Database with APEX 22.1 installed. This includes the APEX Application Development Service, the "Always Free" Oracle Autonomous Database, the free, "Development Only" apex.oracle.com service, your on-premises Oracle Database (providing APEX 22.1 is installed), on a third party cloud provider where APEX 22.1 is installed, or even on your laptop by installing Oracle XE or Oracle VirtualBox App Dev VM and installing APEX 22.1.
 
 Below are steps on how to sign up for an *APEX Application Development* Service, or for an *Oracle Autonomous Database* cloud service or *apex.oracle.com* service.
-- The **APEX Application Development Service** is great if you would like to go with a flexible paid option that allows to concentrate your efforts on APEX development without worrying about the database management. It provides 1 OCPU and 1 TB and can be extended as needed.
-- The **Always Free Oracle Autonomous Database** option is ideal for learning about the Oracle Database and APEX, and provides 1 OCPU and 20 GB of compressed storage. This service can also be utilized for production applications, and can readily be upgraded to a paid service as necessary.
 - On the other hand, **apex.oracle.com** is also a free service; however, it is only designated for development purposes, and running production apps is not allowed. For conducting labs in this workshop, any of these options can be utilized.
+
+- The **Always Free Oracle Autonomous Database** option is ideal for learning about the Oracle Database and APEX, and provides 1 OCPU and 20 GB of compressed storage. This service can also be utilized for production applications, and can readily be upgraded to a paid service as necessary.
+- The **APEX Application Development Service** is great if you would like to go with a flexible paid option that allows to concentrate your efforts on APEX development without worrying about the database management. It provides 1 OCPU and 1 TB and can be extended as needed.
 
 Click one of the options below to proceed.
 
@@ -254,14 +255,15 @@ In this part, you will create an Oracle APEX Application Development Service tri
 
     ![](images1/apxs-launch-apex.png " ")
 
-    *Note: APEX Application Development Service is a paid service. You will be able to use APEX Service trial only if you have a new Free Cloud account or you are within the trial period. To Stop the APEX Service from consuming your trial credit, you need to stop the Autonomous Database behind it. Click on the Database name under **APEX Instance Information** tab in the **APEX Instance Details** page:*
+    *Note: APEX Application Development Service is a paid service. You will be able to use APEX Service trial only if you have a new Free Cloud account or you are within the trial period. To Stop the APEX Service from consuming your trial credit, you need to stop the Autonomous Database behind it.*
+<!--
+     Click on the Database name under **APEX Instance Information** tab in the **APEX Instance Details** page:*
 
     ![](images1/apxs-apex-db-name.png " ")
 
     *Click* **Stop***
 
-    ![](images1/apxs-apex-stop-start-restart.png " ")
-
+    ![](images1/apxs-apex-stop-start-restart.png " ") -->
 8.  Enter the password for the Administration Services and click **Sign In to Administration**.     
     The password is the same as the one entered for the ADMIN user when creating the APEX instance: **```SecretPassw0rd```**
 
