@@ -3,8 +3,7 @@
 ## Introduction
 
 In this Lab, you will get a brief understanding of each and every Hands-on Lab.
-Then you will navigate to the
-
+Then you will refer to the Hands on Labs using the links provided below Each lab or Sub Labs.
 
 
 # Lab 1:
