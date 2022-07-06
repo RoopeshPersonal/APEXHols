@@ -2,11 +2,12 @@
 
 ## Introduction
 
-In this Lab, you will get a brief understanding of each and every Hands-on Lab.
-Then you will refer to the Hands on Labs using the links provided below Each lab or Sub Labs.
+In this Lab, you will get a brief understanding of every Hands-on Lab.
+Then you will refer to the Hands-on Labs using the links provided below, Each lab or Sub Labs. Please note that the labs are hosted in a GitHub environment, and you can access them by clicking the link shared under each Lab.
 
 
-# Lab 1:
+# Lab 1: Getting Started with Oracle APEX and Install a Sample Application
+
 ## Lab 1-1: Getting Started with Oracle APEX
 
 The primary environment for these Hands-on labs is APEX on Autonomous Database. You can also run these labs either on apex.oracle.com or on your own latest APEX Instance.
@@ -25,7 +26,7 @@ You will then install and run the sample application and review the application 
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-01/2-Hands-on-Lab-01.md
 
-# Lab 2:
+# Lab 2: Using SQL Workshop
 
 ## Lab 2-1: Install a Sample Dataset
 
@@ -63,7 +64,7 @@ In this lab, you learn how to create database objects using Quick SQL and then v
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-02/4-creating-db-objects-quickSQL.md
 
 
-# Lab 3:
+# Lab 3: Creating a Database Application
 
 ## Lab 3-1: Create a Database application based on Existing Tables
 
@@ -92,9 +93,9 @@ In this lab, you learn how to create an APEX application using data imported fro
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-03/2-creating-an-app-from-a-spreadsheet.md
 
-# Lab 4:
+# Lab 4: Working with Pages and Regions
 
-## Lab 4: Working with Pages and Regions
+<!-- ## Lab 4: Working with Pages and Regions -->
 
 Task 1: Navigate and Review the Page Designer panes
 Task 2: Create a Normal Page - Order Information
@@ -108,7 +109,7 @@ In this lab, you review the Page Designer. You create a new page that allows cus
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-04/creating-order-page.md
 
-# Lab 5:
+# Lab 5: Developing Reports
 
 ## Lab 5-1: Adding Pages to Demo Projects
 
@@ -139,9 +140,7 @@ In this lab, you create:
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-05/2-adding-pages-shopping-cart.md
 
-# Lab 6:
-
-## Lab 6: Managing and Customising Interactive Reports
+# Lab 6: Managing and Customising Interactive Reports
 
 Task 1: Customizing an Interactive report as an end-user
 Task 2: Customizing an Interactive report as a Developer
@@ -152,9 +151,9 @@ In the second lab, you customise the interactive report as an end-user.
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-06/customizing-interactive-report.md
 
-# Lab 7:
+# Lab 7: Managing and Customising Interactive Grids
 
-## Lab 7: Managing and Customising Interactive Grids
+<!-- ## Lab 7: Managing and Customising Interactive Grids -->
 
 Task 1: Manage and Customize Interactive Grid as a Developer
 Task 2: Customize interactive grid as an end-user
@@ -165,9 +164,9 @@ In the second lab, you customise the interactive grid as an end-user.
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-07/customizing-interactive-grid.md
 
-# Lab 8:
+# Lab 8: Creating Application Page Controls
 
-## Lab 8: Creating Application Page Controls
+<!-- ## Lab 8: Creating Application Page Controls -->
 
 Task 1: Add Items and Buttons to the Page
 Task 2: Add Items and Buttons
@@ -176,7 +175,7 @@ In this lab, you create new Page Items and Buttons in the Shopping Cart and Add 
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-08/creating-shopping-cart.md
 
-# Lab 9:
+# Lab 9: Adding Computations, Processes, Validations, and Dynamic Actions
 
 ## Lab 9-1: Adding Validations and Processes to the Shopping Cart Page
 
@@ -216,7 +215,7 @@ This Hands-on Lab is a collection of seven tasks. After completing this lab, you
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-09/2-creating-add-to-cart-page.md
 
 
-# Lab 10:
+# Lab 10: Managing Cards, Faceted Search, and Smart Filters
 
 ## Lab 10-1: Improving Smart Filters
 
@@ -242,7 +241,7 @@ In this lab, you learn how to improve the Products page by adding new facets and
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-10/2-improving-products.md
 
 
-# Lab 11:
+# Lab 11: Creating and Using Forms
 
 ## Lab 11: Create and Customize a Form
 
@@ -255,10 +254,9 @@ In this lab, you earn how to Create and Customize a Form and then you will link 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-11/1-improving-the-report-and-form.md
 
 
-# Lab 12:
+# Lab 12: Implementing Navigation in your Application
 
-#Lab 12: Implementing Navigation in your Application
-
+<!-- #Lab 12: Implementing Navigation in your Application -->
 Task 1: Set Products page as the Home Page
 Task 2: Set Pages to Public
 Task 3: Remove the Navigation Menu
@@ -273,9 +271,9 @@ In this lab, you will:
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-12/improving-app.md
 
 
-# Lab 13:
+# Lab 13: Using Themes and Theme Styles
 
-## Lab 13: Using Themes and Theme Styles
+<!-- ## Lab 13: Using Themes and Theme Styles -->
 
 Task 1: Using Themes and Theme Styles
 
@@ -283,7 +281,7 @@ In this lab, you use the Theme Roller to save a new Theme Style. Then, you enabl
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-13/Using-themes-and-theme-styles.md
 
-# Lab 14:
+# Lab 14: Managing Application Data
 
 ## Lab 14-1: Managing Application Data
 
@@ -309,9 +307,9 @@ This lab covers the Approvals component in Oracle APEX. In this lab, you create 
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-14/Use%20Approvals%20and%20Unified%20Tasks%20Lists.md
 
-# Lab 15:
+# Lab 15: Implementing Security in your Application
 
-## Lab 15: Implementing Security in your Application
+<!-- ## Lab 15: Implementing Security in your Application -->
 
 Task 1: Implementing Social Sign In(Facebook) Authentication in Online Shopping Cart Application
 Task 2: Creating and Using an Authorization Scheme
@@ -322,9 +320,9 @@ In the second task, you create an Authorization Scheme to ensure only people ent
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-15/implementing-security-inapp.md
 
-# Lab 16:
+# Lab 16: Adding Additional Pages to your Application
 
-## Lab 16: Adding Additional Pages to your Application
+<!-- ## Lab 16: Adding Additional Pages to your Application -->
 
 Task 1: Creating a Calendar
 Task 2: Creating a Form page on DEMO_PROJECTS Tables
@@ -336,9 +334,9 @@ In this Hands-on-lab, you add Calendars, Charts, Tree pages and Maps to Demo Pro
 
 https://github.com/RoopeshPersonal/APEXHols/blob/main/APEX-Curriculum-221/Hands-on-lab-16/Adding-additional-pages.md
 
-# Lab 17:
+# Lab 17: Migrating Application Development Between Environments
 
-## Lab 17: Migrating Application Development Between Environments
+<!-- ## Lab 17: Migrating Application Development Between Environments -->
 
 Task 1: Create Installation Scripts, Data packages and Export Application
 Task 2: Importing Application into the Target Workspace and Verify Database Objects
