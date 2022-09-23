@@ -20,7 +20,7 @@ To determine which release of Oracle APEX you are currently running, do one of t
 * View the release number on the Workspace home page:
     - Sign in to Oracle APEX. The Workspace home page appears. The current release version displays in bottom right corner.
 
-    ![](./images1/release-number.png " ")
+    ![APEX Release Number](./images1/release-number.png " ")
 
     ![](./images1/release-number2.png " ")
 
