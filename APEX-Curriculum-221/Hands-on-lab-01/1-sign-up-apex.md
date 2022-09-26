@@ -60,7 +60,7 @@ Signing up for apex.oracle.com is simply a matter of providing details on the wo
 
     Click **Next**.
 
-    ![Request a workspace](images1/request-new-workspace.png " ")
+    ![Workspace Request](images1/request-new-workspace.png " ")
 
 5. Complete the remaining wizard steps.
 
