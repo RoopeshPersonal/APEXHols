@@ -5,7 +5,7 @@
 In this lab, you will learn how to improve the Products page by adding new facets and customizing the cards.
 
 Once you have finished the workshop and updated all the products as described in the steps, your page will look like the following image:
-    ![](./images/products-page.png " ")
+    ![Online Shopping Application](./images/products-page.png " ")
 
 *Please note that customer can quickly identify the products that already have been added to the shopping cart.*
 
@@ -33,12 +33,12 @@ As you can see, it's hard to find the products and it would be beneficial to see
 
     In the Developer Toolbar click **Page 19**.
 
-    ![](./images/navigate-to-page19.png " ")
+    ![Navigate to page 19](./images/navigate-to-page19.png " ")
 
     Alternatively, you can also navigate back to the APEX App Builder tab in your browser manually by selecting the appropriate browser tab or window.   
     Once in the App Builder click **19 - Products**.
 
-    ![](./images/alt-app-builder.png " ")
+    ![19 - Products](./images/alt-app-builder.png " ")
 
     You should now be in Page Designer with **Page 19: Products** loaded.
 
@@ -48,7 +48,7 @@ Unit price is not a common search criteria, so you want to put this facet at the
 
 1. In the Rendering tree (left pane), under Search, within Facets, click and hold **P19\_UNIT\_PRICE** and drag it down until it is under **P19\_CLOTHING\_ID**, then release the mouse.
 
-    ![](./images/reorder-facets.png " ")
+    ![Reorder Facets](./images/reorder-facets.png " ")
 
 ## Task 3: Enhance the Faceted Search
 
@@ -58,7 +58,7 @@ Unit price is not a common search criteria, so you want to put this facet at the
     -   For Show Charts - select **No**
 
 
-  ![](./images/change-faceted-search-attr.png " ")    
+  ![Change faceted search](./images/change-faceted-search-attr.png " ")    
 
 ## Task 4: Enhance the Cards Region
 
@@ -96,17 +96,17 @@ Unit price is not a common search criteria, so you want to put this facet at the
         </copy>
         ```
 
-        ![](./images/change-sql-query.png " ")
+        ![Change SQL Query](./images/change-sql-query.png " ")
 
     - Under Appearance section:
         - Click **Template Options**. For Style - select **Style A**
 
-      ![](./images/template-options.png " ")  
+      ![Edit Template options](./images/template-options.png " ")  
         - Click **Ok**
 
 2. Click **Attributes** and apply the following changes:
 
-    ![](./images/change-attributes1.png " ")
+    ![Edit Attributes](./images/change-attributes1.png " ")
 
     - Under Appearance section:
         - For Layout - select **Grid**
@@ -140,7 +140,7 @@ Unit price is not a common search criteria, so you want to put this facet at the
         -   For Primary Key Column 1 - select **PRODUCT_ID**
 
       Click **Save.**
-        ![](./images/change-attributes2.png " ")        
+        ![Add Primary key](./images/change-attributes2.png " ")        
 
 ## Task 5: Create Actions
 Customers need a way to shop the products, so in this task you will add an action to allow customers to learn more about the product.
@@ -148,7 +148,7 @@ Customers need a way to shop the products, so in this task you will add an actio
 1. Navigate to **Search Results** (left pane).
 2. On Actions, right-click **Create Action**.
 
-    ![](./images/create-action1.png " ")
+    ![Create Action](./images/create-action1.png " ")
 
 3. In the Property Editor (right pane), enter the following:
     -   For Type - select **Full Card**
@@ -163,7 +163,7 @@ Customers need a way to shop the products, so in this task you will add an actio
         - For Clear Cache, enter **18**
         - Click **Ok**.
 
-    ![](./images/create-action2.png " ")
+    ![Add Link Attributes](./images/create-action2.png " ")
 
 ## Task 6: Add Dynamic Actions
 In this task, you will create two dynamic actions:
@@ -171,11 +171,11 @@ In this task, you will create two dynamic actions:
 - To update the badge and icon shown in the navigation bar after the customer has added/edited/removed a product from the shopping cart
 
 1. Navigate to **Dynamic Actions** tab (left pane).
-     ![](./images/navigate-to-da.png " ")  
+     ![Navigate to Dynamic Actions](./images/navigate-to-da.png " ")  
 
 2. Right-click **Dialog Closed** and click **Create Dynamic Action**.
 
-     ![](./images/create-da1.png " ")  
+     ![Create Dynamic Actions](./images/create-da1.png " ")  
 3. In the Property Editor, enter the following:
     - Under Identification section:
         - For Name - enter **Show Success Message**
@@ -184,7 +184,7 @@ In this task, you will create two dynamic actions:
         - For Selection Type - select **Region**
         - For Region - select **Search Results**
 
-      ![](./images/create-da2.png " ")
+      ![Show success Message](./images/create-da2.png " ")
 
 4. Navigate to **Refresh** Action.
     - Under Identification section:
@@ -207,11 +207,11 @@ In this task, you will create two dynamic actions:
             }
             </copy>
             ```
-            ![](./images/create-da3.png " ")
+            ![Navigate to Refresh action](./images/create-da3.png " ")
 
 5. Create a second dynamic action. Right-click **Dialog Closed** and click **Create Dynamic Action**.  
 
-     ![](./images/create-2-da1.png " ")
+     ![Create Dynamic Action2](./images/create-2-da1.png " ")
 6. In the Property Editor, enter the following:    
     - Under Identification section:
         - For Name - enter **Update Shopping Cart Header**
@@ -228,7 +228,7 @@ In this task, you will create two dynamic actions:
             parseInt(this.data.P18_SHOPPING_CART_ITEMS) > 0
             </copy>
             ```
-            ![](./images/create-2-da2.png " ")
+            ![Define Dynamic Action2](./images/create-2-da2.png " ")
 
 7. Navigate to **Refresh** Action.
     - Under Identification section:
@@ -245,12 +245,12 @@ In this task, you will create two dynamic actions:
             apex.jQuery(".js-shopping-cart-item .t-Icon").removeClass('fa-cart-empty').addClass('fa-cart-full');
             </copy>
             ```
-            ![](./images/create-2-da3.png " ")
+            ![Navigate to Refresh](./images/create-2-da3.png " ")
 
 8. Create an opposite action. In the Dynamic Actions tab (left pane), navigate to the newly dynamic action.
 9. Right-click **Execute JavaScript Code** and click **Create Opposite Action**.
 
-     ![](./images/create-2-opp-action.png " ")
+     ![Create Opposite Action](./images/create-2-opp-action.png " ")
 
 10. Navigate to **Execute JavaScript Code** Action.
     - Under Identification section:
@@ -267,7 +267,7 @@ In this task, you will create two dynamic actions:
             apex.jQuery(".js-shopping-cart-item .t-Icon").removeClass('fa-cart-full').addClass('fa-cart-empty');
             </copy>
             ```
-            ![](./images/create-2-opp-action1.png " ")
+            ![Javascript Code](./images/create-2-opp-action1.png " ")
 
 11. Click **Save and Run Page**.
 
@@ -275,7 +275,7 @@ In this task, you will create two dynamic actions:
 
 After running products page, your page will look like the following image:
 
-   ![](./images/products-page.png " ")
+   ![Products Page](./images/products-page.png " ")
 
 
 You now know how to enhance faceted search and cards region. You may now **proceed to the next lab**.

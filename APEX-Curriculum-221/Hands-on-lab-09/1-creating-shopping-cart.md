@@ -27,20 +27,20 @@ In this lab, you will:
 
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
 
-    ![](./images/click-app-builder1.png " ")
+    ![Click App builder](./images/click-app-builder1.png " ")
 
 2. Now you select **Shopping Cart** under **Page Icons**.
 
-    ![](./images/navigate-to-shopping-cart-page.png " ")
+    ![Navigate to shopping cart page](./images/navigate-to-shopping-cart-page.png " ")
 
 3. In the Rendering tree (left pane), click **Processing** tab.
 4. Over **Validating**, right-click **Create Validation**.
 
-     ![](./images/create-validation1.png " ")  
+     ![Create validation](./images/create-validation1.png " ")  
 
 5. Create three validations for the following items: Name, Email, and Store
 
-    ![](./images/create-validation2.png " ")
+    ![Define validation](./images/create-validation2.png " ")
 
     | Name |  Type (under Validation) | Item |
     | --- |  --- | --- |
@@ -56,7 +56,7 @@ In this lab, you will:
     | Please enter your email address | Inline with Field and in Notification | P16\_CUSTOMER\_EMAIL |
     | Please select a store | Inline with Field and in Notification | P16_STORE |
 
-     ![](./images/create-validation3.png " ")
+     ![Validation created](./images/create-validation3.png " ")
 
      As these validations only apply when user proceeds to checkout, let's create that condition.
      Under Server-side Condition, set the following:
@@ -67,17 +67,17 @@ In this lab, you will:
     | Validate Email | Proceed |
     | Validate Store | Proceed |   
 
-     ![](./images/create-validation4.png " ")       
+     ![Enable server-side](./images/create-validation4.png " ")       
 
 ## Task 2: Add a Process to Create the Order
 
 1. On the **Processing** tab (left pane).
 2. Right-click **Processing** and click **Create Process**.
 
-     ![](./images/create-process1.png " ")
+     ![Create process](./images/create-process1.png " ")
 
 3. In the Property Editor, enter the following:
-     ![](./images/create-process2.png " ")   
+     ![Define process](./images/create-process2.png " ")   
     - For Name - enter **Checkout**
     - For Type -select **Execute Code**
     - For PL/SQL Code - enter the following PL/SQL code:
@@ -98,7 +98,7 @@ In this lab, you will:
     - For Success Message, enter **Order successfully created: &P16\_ORDER\_ID.**
     - Under Server-side condition, for When Button Pressed, select **Proceed**
 
-  ![](./images/create-process3.png " ")
+  ![Define Success message](./images/create-process3.png " ")
 
 ## Task 3: Add Process to Clear the Shopping Cart
 
@@ -119,14 +119,14 @@ In this lab, you will:
 
     - Under Server-side condition, for When Button Pressed, select **Clear**.
 
-  ![](./images/create-process11.png " ")
+  ![Create process2](./images/create-process11.png " ")
 
 ## Task 4: Add Branches to the Page
 
 1. On the **Processing** tab (left pane).
 2. Right-click **After Processing** and click **Create Branch**.
 
-     ![](./images/create-branch1.png " ")  
+     ![Create branch](./images/create-branch1.png " ")  
 
 3. In the Property Editor, enter the following:     
     - For Name - enter **Go to Orders**
@@ -143,7 +143,7 @@ In this lab, you will:
         - Click **OK**.
     - Under Server-side condition, for When Button Pressed, select **Proceed**.
 
-  ![](./images/create-branch2.png " ")
+  ![Define link in branch](./images/create-branch2.png " ")
 
 4. Create a second branch when the user clears the shopping cart. Right-click on **After Processing** and click **Create Branch**.
 5. In the Property Editor, enter the following:
@@ -162,11 +162,11 @@ In this task, you will create a dynamic actions to:
 
 1. Navigate to **Dynamic Actions** tab (left pane).
 
-     ![](./images/navigate-to-dynamic-action.png " ")  
+     ![Navigate to dynamic actions](./images/navigate-to-dynamic-action.png " ")  
 
 2. Right-click **Dialog Closed** and click **Create Dynamic Action**.
 
-     ![](./images/create-dynamic-action1.png " ")  
+     ![Create dynamic action](./images/create-dynamic-action1.png " ")  
 3. In the Property Editor, enter the following:    
     - Under Identification section:
         - For Name - enter **Update Shopping Cart Header**
@@ -184,7 +184,7 @@ In this task, you will create a dynamic actions to:
             </copy>
             ```
 
-  ![](./images/create-da2.png " ")
+  ![Define dynamic action](./images/create-da2.png " ")
 
 4. Navigate to **Refresh** Action.
     - Under Identification section:
@@ -202,11 +202,11 @@ In this task, you will create a dynamic actions to:
             </copy>
             ```
 
-  ![](./images/create-da3.png " ")
+  ![Execute javascript code](./images/create-da3.png " ")
 
 5. Create a second action. In the Dynamic Actions tab (left pane), navigate to **True** under **Update Shopping Cart Header** Dynamic Action.
 
-     ![](./images/create-2da.png " ")
+     ![Create true action](./images/create-2da.png " ")
 6. In the Property Editor, enter the following:  
     - Under Identification section:
         - For Action - select **Refresh**
@@ -216,7 +216,7 @@ In this task, you will create a dynamic actions to:
 7. Create an opposite action. In the Dynamic Actions tab (left pane), navigate to **Execute JavaScript Code** action.
 8. Right-click  **Execute JavaScript Code** action and click **Create Opposite Action**.
 
-     ![](./images/create-opp-action.png " ")
+     ![Create opposite action](./images/create-opp-action.png " ")
 
 9. Navigate to **Execute JavaScript Code** Action under the False heading.
     - Under Identification section:
@@ -234,11 +234,11 @@ In this task, you will create a dynamic actions to:
             </copy>
             ```
 
-    ![](./images/create-opp-action2.png " ")
+    ![Create opposite action2](./images/create-opp-action2.png " ")
 
 10. Create a second action. In the Dynamic Actions tab (left pane), navigate to **False** under **Update Shopping Cart Header** Dynamic Action.
 
-    ![](./images/create-false-action.png " ")
+    ![Create false action](./images/create-false-action.png " ")
 
 11. In the Property Editor, enter the following:  
     - Under Identification section:
@@ -263,7 +263,7 @@ In this task, you will create a dynamic actions to:
             </copy>
             ```
 
-  ![](./images/inline-css.png " ")             
+  ![Define inline css](./images/inline-css.png " ")             
 
 3. Click **Save**.
 

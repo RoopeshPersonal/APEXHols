@@ -5,7 +5,7 @@
 In this lab, you create new Page Items and Buttons in the Shopping Cart and Add to Cart pages.
 
 Once you have finished the workshop and updated all the products as described in the steps, your page will look like the following image:
-![](./images/creating-sc.png " ")
+![Create SC](./images/creating-sc.png " ")
 
 Customers will be able to:
 - Review the items in the shopping cart
@@ -33,18 +33,18 @@ In this lab, you will:
 
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
 
-    ![](./images/click-app-builder.png " ")
+    ![Select App Builder](./images/click-app-builder.png " ")
 
-    ![](./images/navigate-to-osa.png " ")
+    ![Select Online Shopping Application](./images/navigate-to-osa.png " ")
 
 
 2. Now you select **Shopping Cart** under **Page Icons**.
 
-    ![](./images/select-shopping-cart-page.png " ")
+    ![Selech Shopping Cart](./images/select-shopping-cart-page.png " ")
 
 3. Drag a **Static Content** region and drop it to the right of the Shopping Cart region to create a second region of content.
 
-    ![](./images/drag-drop-static-content.png " ")
+    ![Drag and drop Static content](./images/drag-drop-static-content.png " ")
 
 4. In the Property Editor, enter the following:
     - For Title - enter **Order Information**
@@ -52,7 +52,7 @@ In this lab, you will:
 
 6. Right-click the **Order Information** region and click **Create Page Item**.
 
-    ![](./images/create-page-item1.png " ")
+    ![Create page item](./images/create-page-item1.png " ")
 
 7. In the **Property Editor**, Enter the following.
    - For Name, Enter **P16\_CUSTOMER\_EMAIL**
@@ -60,7 +60,7 @@ In this lab, you will:
    - For Label, Enter **Email Address**.
    - Under Validation, for Value Required, Set it to **Off**.
 
-   ![](./images/create-page-item2.png " ")
+   ![Define page item](./images/create-page-item2.png " ")
 
 7. Create four items as follows:
 
@@ -86,12 +86,12 @@ In this lab, you will:
     - Set Display Extra Values - to **Off**
     - For Null Display Value - enter **- Select a Store -**
 
-  ![](./images/create-store-item.png " ")
+  ![Define list of values](./images/create-store-item.png " ")
 
 7. Navigate to the **Order Information** (left pane) region.
 8. Right-click the **Order Information** region  and click **Create Button**.
 
-     ![](./images/right-click-button.png " ")  
+     ![Create button](./images/right-click-button.png " ")  
 
 9. Create two buttons as follows:
 
@@ -100,7 +100,7 @@ In this lab, you will:
     | Proceed | Proceed to Checkout | Create | Text | On | |
     | Clear | Clear Shopping Cart | Change | Text with Icon | Off | fa-cart-empty |
 
-    ![](./images/create-button1.png " ")
+    ![Define button](./images/create-button1.png " ")
 
      Under Server-side Condition:
     | Button Name | Type  | Item |
@@ -108,7 +108,7 @@ In this lab, you will:
     | Proceed | Item is NOT NULL | SHOPPING\_CART\_ITEMS |
     | Clear | Item is NOT NULL | SHOPPING\_CART\_ITEMS |
 
-     ![](./images/create-button2.png " ")
+     ![Define server-side condition](./images/create-button2.png " ")
 
 
 ## Task 2: Add Items and Buttons
@@ -120,22 +120,22 @@ In this task, you will create four-page items:
 
 1. Navigate to **Page Finder** and click on **File**. Then in the popup **Page Finder**, Select **Page 17**.
 
-      ![](./images/select-page-17.png " ")
+      ![Select page 17](./images/select-page-17.png " ")
 
 2. Drag a **Static Content** region and drop it to the **Dialog Footer**.
 
-     ![](./images/create-static-content1.png " ")  
+     ![Create static content](./images/create-static-content1.png " ")  
 
 3. In the Property Editor, enter the following:
     - For Title - enter **Buttons Bar**
     - For Template - select **Buttons Container**
 
-  ![](./images/create-button.png " ")
+  ![Select template as button container](./images/create-button.png " ")
 
 4. In the Rendering tree (left pane), navigate to **Buttons Bar** region.
 5. Right-click the **Buttons Bar** region and click  **Create Page Item**.
 
-     ![](./images/create-page-item3.png " ")
+     ![Create page item3](./images/create-page-item3.png " ")
 
 6. Create four items as follows. In the Property Editor, do the following:
 
@@ -163,11 +163,11 @@ In this task, you will create four-page items:
     - Set Display Extra Values to **Off**
     - Set Display Null Value to **Off**
 
-  ![](./images/create-quantity-column1.png " ")
+  ![Define static values](./images/create-quantity-column1.png " ")
 
 7. Navigate to **Buttons Bar** region (left side).
 8. Right-click the region and click **Create Button**.
-     ![](./images/create-button3.png " ")
+     ![Create button3](./images/create-button3.png " ")
 9. Create three buttons as follows:
 
     | Name | Label | Button Position |Button Template | Hot |
@@ -176,7 +176,7 @@ In this task, you will create four-page items:
     | Edit         | Update Quantity| Create   |Text  |  On | |
     | Delete       | Remove from Cart | Edit   |Text  |  Off |
 
-    ![](./images/create-button4.png " ")
+    ![Define button3](./images/create-button4.png " ")
 
      Under Server-side Condition section:
     | Name | Type | Item |
@@ -185,7 +185,7 @@ In this task, you will create four-page items:
     | Edit         | Item is NOT zero | P17_QUANTITY |
     | Delete       | Item is NOT zero | P17_QUANTITY |
 
-      ![](./images/enable-server-side.png " ")    
+      ![Enable server-side ](./images/enable-server-side.png " ")    
 
 10. For **Delete** button, apply the following changes:
     - Under Appearance section, click Template Options:
@@ -195,7 +195,7 @@ In this task, you will create four-page items:
     - Click **Ok**.
     - Click **Save**.
 
-    ![](./images/create-danger-button.png " ")
+    ![Create danger button](./images/create-danger-button.png " ")
 
 ## **Acknowledgments**
 
