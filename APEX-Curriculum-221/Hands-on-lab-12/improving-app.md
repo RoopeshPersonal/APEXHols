@@ -32,21 +32,21 @@ In this Lesson, you will set the products page as Home page and then you will re
 
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
 
-    ![](images/navigate-to-osa1.png " ")
+    ![App Builder](images/navigate-to-osa1.png " ")
 
-    ![](images/navigate-to-osa2.png " ")
+    ![Online Shopping Application](images/navigate-to-osa2.png " ")
 
 2. Now, select **Shared Components**.
 
-    ![](images/navigate-t-sc1.png " ")
+    ![Select Shared Components](images/navigate-t-sc1.png " ")
 
 3. Under User Interface, click **User Interface Attributes**.
 
-    ![](./images/select-uia.png " ")
+    ![Select User Interface Attributes](./images/select-uia.png " ")
 
 4. Now, Under **Attributes**, Select **≡** next to **Home URL**. Then, in the popup window, select **19 PRODUCTS** and click **Apply Changes**.
 
-    ![](./images/change-home-page.png " ")
+    ![Change Home Page](./images/change-home-page.png " ")
 
 5. Since you have changed the **Home Page** to **Products** page. you now need to remove **Home** Page under Navigation Menu.  
 Navigate to **Shared Components**.

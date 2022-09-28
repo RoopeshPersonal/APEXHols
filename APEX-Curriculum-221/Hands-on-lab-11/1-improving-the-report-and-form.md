@@ -13,17 +13,17 @@ Estimated Time: 20 minutes
 
 1. Navigate to the **App Builder**. Then Click on **Online Shopping Application**.
 
-    ![](images/navigate-to-osa1.png " ")
+    ![App Builder](images/navigate-to-osa1.png " ")
 
-    ![](images/navigate-to-osa2.png " ")
+    ![Online Shopping Application](images/navigate-to-osa2.png " ")
 
 2. Now, click Create Page.
 
-    ![](images/create-form1.png " ")
+    ![Create Page](images/create-form1.png " ")
 
 3. For Create a Page: Select Page Type - Select **Component** and then select **Form**.
 
-    ![](images/create-form2.png " ")
+    ![Create Form](images/create-form2.png " ")
 
 4. For Page Attributes, enter the following:
   Under **Page Definition**:
@@ -36,11 +36,11 @@ Estimated Time: 20 minutes
 
   Click **Next.**
 
-  ![](./images/create-form3.png " ")
+  ![Define Form](./images/create-form3.png " ")
 
 5. Under Primary key, for Primary Key Column1 - Ensure the **PRODUCT_ID** is selected as the primary key. Then click **Create Page**.
 
-  ![](./images/create-form4.png " ")
+  ![Define Primary key](./images/create-form4.png " ")
 
 ## Task 2: Linking a Report to a Form
 
@@ -51,13 +51,13 @@ Estimated Time: 20 minutes
 
     In the Developer Toolbar click **Page 14**.
 
-    ![](./images/navigate-to-mp1.png " ")
+    ![Navigate To Administration](./images/navigate-to-mp1.png " ")
 
-    ![](./images/navigate-to-mp2.png " ")
+    ![Navigate To Manage Products](./images/navigate-to-mp2.png " ")
 
 2. In the Rendering tree (left pane), navigate to **Products**.
 
-    ![](./images/linking-a-form1.png " ")
+    ![Navigate to Products in page designer](./images/linking-a-form1.png " ")
 
 3. In the Property Editor (right pane), click **Attributes** and do the following:
 
@@ -76,41 +76,41 @@ Estimated Time: 20 minutes
 
     Click **Save.**      
 
-    ![](./images/linking-a-form2.png " ")
+    ![Link a column](./images/linking-a-form2.png " ")
 
 4. Click **Save** and then reload the **Manage Products** page in the runtime environment.
 
 5. Now, In the **Manage Products** page, click **Pencil Icon** on the first row. Verify the **Product Details** model dialog page.
 
-  ![](./images/refresh-manage-products.png " ")
+  ![Click Pencil icon](./images/refresh-manage-products.png " ")
 
-  ![](./images/refresh-manage-products1.png " ")
+  ![View Product Details](./images/refresh-manage-products1.png " ")
 
 ## Task 3: Enhancing the Form
 
 1.  Navigate to the **Page 21** in the **App Builder**. Then Click on **P21_PRODUCT_NAME** in the Rendering Tree. Now, change the Identification Type to **Text Field** in the Property Editor.
 
-    ![](images/navigate-to-page21.png " ")
+    ![Navigate to Page 21](images/navigate-to-page21.png " ")
 
 2. Items can readily be moved using drag-and-drop within Layout. If required you can also drag new components like regions, items, and buttons into the Layout pane from the Gallery, located directly below it.
 
   In Page Designer, with **Page 21** loaded, within Layout (middle pane), click **P21_UNIT_PRICE** and continue to hold the mouse down. Drag the item up and to the right, until it is directly after **P21_PRODUCT_NAME**, and a dark yellow box is displayed. Release the mouse to drop the item in the new location.
 
- ![](images/enhance-form1.png " ")
+ ![Enhance form1](images/enhance-form1.png " ")
 
 3. As an alternative to using drag-and-drop you can also reposition items using attributes in the Property Editor.
 
   In Page Designer, within Layout (or the Rendering tree in the left pane), select **P21_IMAGE_CHARSET**. In the Property Editor (right pane), **deselect Layout > Start New Row**.
 
-  ![](images/enhance-form2.png " ")
+  ![Enhance form2](images/enhance-form2.png " ")
 
 4. You now need to Focus on **First item on Page**.  In **Page Rendering**(Left Pane), Select **Page 21: Product Details**. Then, In the **Property Editor**, Scroll down to Navigation and for **Cursor Focus**, select **First item on page**. Then, click **Save**.
 
-  ![](images/enhance-form3.png " ")
+  ![Enhance form3](images/enhance-form3.png " ")
 
 5. Now that you have customized the Form. You can reload **Manage Products** page in the runtime environment. Click on **Edit** to view the Form Page.
 
-  ![](images/enhanced-form.png " ")
+  ![Enhanced Form](images/enhanced-form.png " ")
 
 
 ## **Acknowledgements**
