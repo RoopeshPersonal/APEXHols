@@ -18,31 +18,31 @@ To log in to Oracle APEX, you need a Workspace Name, username, and the password 
 
     - The login page appears. Enter the Workspace name, username, and password. Click **Sign In**.  
 
-  ![](images/login-to-workspace2.png " ")
+  ![Workspace Login](images/login-to-workspace2.png " ")
 
 2. The **Workspace** home page appears. Click **App Builder**.
 
-  ![](images/workspace-home-page.png " ")
+  ![Workspace Home Page](images/workspace-home-page.png " ")
 
 3. You do not have any applications listed right now. You can create a new app or install a **sample** or **starter app**.
 
-  ![](images/app-builder2.png " ")
+  ![App Builder](images/app-builder2.png " ")
 
 4. Click **SQL Workshop**.  
 
     The SQL Workshop home page appears. Review each of the **SQL Workshop** components.
 
-    ![](images/sql-workshop.png " ")  
+    ![SQL Workshop](images/sql-workshop.png " ")  
 
-    ![](images/sql-workshop1.png " ")
+    ![SQL Workshop Screen](images/sql-workshop1.png " ")
 
 5. Click **Gallery**
 
-    ![](images/gallery.png " ")
+    ![Gallery](images/gallery.png " ")
 
 6. The Gallery Page displays a collection of starter Applications, Sample Applications and Custom Applications that you can install in your workspace.
 
-   ![](images/gallery-page2.png " ")
+   ![Sample Applications](images/gallery-page2.png " ")
 
 ## Task 2: Installing a Sample Application
 
@@ -50,36 +50,36 @@ This lab covers installing and running a sample application.
 
 1. Once you Navigate to Gallery, Click **Sample Apps**.
 
-   ![](images/gallery-page3.png " ")
+   ![Click Sample Apps](images/gallery-page3.png " ")
 
 2. Now that you are in **Sample Apps**, search for apps by typing "**Reporting**" into the "Search Apps" search box and navigate to **Sample Reporting** and click the **Install** Button.
 
-  ![](images/install-sample-app.png " ")
+  ![Install Sample Reporting](images/install-sample-app.png " ")
 
 3. On the Install Application page, click the **Install Application** Button.
 
-   ![](images/install-app.png " ")
+   ![Install Application](images/install-app.png " ")
 
 4. You can now see that the application is installed. Run the application by selecting **Run Application**.
 
-   ![](images/click-run-application.png " ")
+   ![Run Application](images/click-run-application.png " ")
 
 5. Log in to the **Sample Reporting** application as an End User. Enter your **Username** and **Password** (Same as your Workspace credentials) and click **Sign In**.
 
-   ![](images/run-application1.png " ")
+   ![Sign In Sample App](images/run-application1.png " ")
 
 6. You now see the Sample Reporting application home page. In your Runtime environment under **Developer Toolbar**, click **Home** to return to the home page of the APEX development environment.
 
-   ![](images/navigate-to-sample-reports.png " ")
+   ![Home Screen of Sample App](images/navigate-to-sample-reports.png " ")
 
 7. Click **App Builder**.
 
-   ![](images/navigate-to-app-builder.png " ")
+   ![Navigate App Builder](images/navigate-to-app-builder.png " ")
 
 8. Toggle between the **View Icons** and the **View Reports** buttons. You see that applications are displayed along with their icons and report format.
-   ![](images/display-as-icons1.png " ")
+   ![View Icons](images/display-as-icons1.png " ")
 
-   ![](images/display-as-report1.png " ")
+   ![View Reports](images/display-as-report1.png " ")
 
 ## **Summary**
 You now know how to Navigate through the major Components of Oracle APEX

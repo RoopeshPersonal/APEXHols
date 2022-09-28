@@ -22,25 +22,25 @@ In this lab, you will:
 
 2. From the APEX workspace home page, select the down-arrow to the right of  **SQL Workshop**, then select **Utilities** to display the options, and choose **Sample Datasets**.
 
-    ![](images1/navigate-to-sample-datasets1.png " ")
+    ![Sample Workshop Utilities](images1/navigate-to-sample-datasets1.png " ")
 
 3. On the **Customer Orders** row, click Install.
 
-    ![](images1/install-sample-dataset1.png " ")
+    ![Sample Datasets](images1/install-sample-dataset1.png " ")
 
 4. Leave the settings to default and then click **Next**.
 
    *The schema name defaults to your current schema and hence will be different from the schema name shown below.*
 
-    ![](images1/manage-sample-dataset1.png " ")
+    ![Manage Sample Datasets](images1/manage-sample-dataset1.png " ")
 
 5. Click **Install Dataset**.
 
-    ![](images1/load-sample-dataset1.png " ")
+    ![Load Sample Dataset](images1/load-sample-dataset1.png " ")
 
 6. Click **Exit**.
 
-    ![](images1/load-sample-dataset-results1.png " ")
+    ![Load Sample Dataset - Results](images1/load-sample-dataset-results1.png " ")
 
 >**Note:** You do NOT want to click Create Application, as you will manually create an application later.
 
