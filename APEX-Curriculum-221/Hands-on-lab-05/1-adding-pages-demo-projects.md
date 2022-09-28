@@ -33,15 +33,15 @@ In this lab, you create an interactive grid on the **DEMO_PROJECTS** table. You 
 
 1. On the Workspace home page, click the App Builder icon. Select **Demo Projects** Application.
 
-    ![](./images/select-demo-projects-app1.png " ")
+    ![Select Demo Projects](./images/select-demo-projects-app1.png " ")
 
 2. Click **Create Page**.
 
-    ![](./images/create-page11.png " ")
+    ![Create Page](./images/create-page11.png " ")
 
 3. For Create a Page: Select Page Type - Select **Component** and then select **Interactive Grid**.
 
-    ![](./images/create-ig-1.png " ")
+    ![Select Interactive Grid](./images/create-ig-1.png " ")
 
 4. For Page Attributes, enter the following:
   Under **Page Definition**:
@@ -56,11 +56,11 @@ In this lab, you create an interactive grid on the **DEMO_PROJECTS** table. You 
 
   Click **Create Page**.
 
-  ![](./images/create-ig-2.png " ")
+  ![Define IR Page](./images/create-ig-2.png " ")
 
 5. Now that you have created an **Interactive Grid** Page, you can view the page by clicking **Save** and **Run Page** on the top Right.
 
-    ![](./images/view-interactive-grid11.png " ")
+    ![View Interactive Grid](./images/view-interactive-grid11.png " ")
 
 
 ## Task 2: Add Smart Filters to Demo Projects Application.
@@ -68,11 +68,11 @@ In this lab, you create a Smart Filters report on the DEMO_PROJECTS table. You a
 
 1. Navigate to Create button and click **Page**.
 
-    ![](./images/create-sf-page11.png " ")
+    ![Select Page](./images/create-sf-page11.png " ")
 
 2. For Create a Page: Select Page Type - Under **Component** tab, select **Smart Filters**.
 
-    ![](./images/create-sf-page12.png " ")
+    ![Select Smart Filters](./images/create-sf-page12.png " ")
 
 3. For **Create Smart Filters**, enter the following:
    Under **Page Definition**:
@@ -87,17 +87,17 @@ In this lab, you create a Smart Filters report on the DEMO_PROJECTS table. You a
 
    Click **Next**.
 
-  ![](./images/create-sf-page13.png " ")
+  ![Define Page1](./images/create-sf-page13.png " ")
 
 4. For **Select the Filters** page:
   - Leave the remaining details to defaults.
   - Click **Create Page**.
 
-  ![](./images/create-sf-page14.png " ")
+  ![Select Filters](./images/create-sf-page14.png " ")
 
 5. Now that you have created a **Smart Filters** Page, You can view the Page by Clicking **Save and Run Page**
 
-  ![](./images/create-sf-page16.png " ")
+  ![View Smart Filter](./images/create-sf-page16.png " ")
 
 ## **Acknowledgments**
 
