@@ -27,11 +27,11 @@ In this lab, you will:
 
 2. Click **Object Browser**.
 
-    ![](images2/navigate-to-object-browser1.png " ")
+    ![Oject Browser](images2/navigate-to-object-browser1.png " ")
 
 3. Navigate to **PRODUCTS** Table. Click **Add Column** button.
 
-    ![](images2/products-add-column1.png " ")
+    ![Add Column](images2/products-add-column1.png " ")
 
 4. For Color column, enter the following:
 
@@ -41,15 +41,15 @@ In this lab, you will:
 
     Click **Next**.
 
-    ![](images2/add-color-column.png " ")
+    ![Add Column - Colors](images2/add-color-column.png " ")
 
 6. Click **Finish**.
 
-    ![](images2/add-color-column2.png " ")
+    ![Confirm your request](images2/add-color-column2.png " ")
 
 7. Click **Add Column** button.
 
-    ![](images2/add-department-column1.png " ")
+    ![Add column Department](images2/add-department-column1.png " ")
 
 8.  For Department column, enter the following:
 
@@ -59,15 +59,15 @@ In this lab, you will:
 
     Click **Next**.
 
-    ![](images2/add-department-column2.png " ")
+    ![Add Column Department2](images2/add-department-column2.png " ")
 
 10. Click **Finish**.
 
-    ![](images2/add-department-column3.png " ")
+    ![Confirm your request - Department](images2/add-department-column3.png " ")
 
 11. Click **Add Column** button.
 
-    ![](images2/add-clothing-column1.png " ")
+    ![Add column Clothing](images2/add-clothing-column1.png " ")
 
 12. For Clothing column, enter the following:
 
@@ -77,11 +77,11 @@ In this lab, you will:
 
     Click **Next**.
 
-    ![](images2/add-clothing-column2.png " ")
+    ![Add column Clothing2](images2/add-clothing-column2.png " ")
 
 14. Click **Finish**.
 
-    ![](images2/add-clothing-column3.png " ")
+    ![Confirm your request - Clothing](images2/add-clothing-column3.png " ")
 
 ## Task 2: Populate the new columns
 
@@ -89,11 +89,11 @@ In this lab, you will:
 
 2. Click **SQL Scripts**.
 
-    ![](images2/navigate-to-sql-scripts1.png " ")
+    ![SQL Scripts](images2/navigate-to-sql-scripts1.png " ")
 
 3. Click **Create**.
 
-    ![](images2/click-create-sql-scripts1.png " ")
+    ![Create SQL Scripts](images2/click-create-sql-scripts1.png " ")
 
 4. For Script Name, enter **Populating new columns**.
 
@@ -126,19 +126,19 @@ In this lab, you will:
 
 5. Click **Run**.
 
-    ![](images2/populate-column-data1.png " ")
+    ![Run SQL Scripts](images2/populate-column-data1.png " ")
 
 6. Click **Run Now**.
 
-    ![](images2/run-script1.png " ")
+    ![Run Script](images2/run-script1.png " ")
 
 7. The Script Results page is displayed listing the statements processed, successful, and with errors.
 
-    ![](images2/sql-scripts-results1.png " ")
+    ![Script Results](images2/sql-scripts-results1.png " ")
 
 8. To check the values in the Products table, click **SQL Workshop** and click **SQL Commands**.
 
-    ![](images2/open-sql-commands.png " ")
+    ![SQL Commands](images2/open-sql-commands.png " ")
 
 9. Copy the following SQL Query.
     ```
@@ -154,7 +154,7 @@ In this lab, you will:
 
 10. Click **Run**.
 
-    ![](images2/run-sql-query1.png " ")
+    ![Run SQL query](images2/run-sql-query1.png " ")
 
 ## Task 3: Create Lookup Tables
 Since multiple products may have the same values for Color, Department, and Clothing, to avoid repetition and make updates easy, you can create a lookup table for each. A lookup table stores the value of the available colors, departments, or clothing in a single place, and then each product can reference the value from the lookup table.
@@ -165,18 +165,18 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
 2. Click **Object Browser**.
 
-    ![](./images2/navigate-to-object-browser2.png " ")
+    ![Object Browser](./images2/navigate-to-object-browser2.png " ")
 
 3. Navigate to **PRODUCTS** Table.
 
 4. Click **Create Lookup Table** button.
 
-    ![](./images2/create-lookup-tables1.png " ")
+    ![Create lookup table1](./images2/create-lookup-tables1.png " ")
 
 5. For Column, select **COLOR - varchar2**.
    Click **Next**.
 
-    ![](./images2/create-color-lookup.png " ")
+    ![Create Color lookup](./images2/create-color-lookup.png " ")
 
 6. Leave the default table and sequence names:
 
@@ -185,23 +185,23 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
     Click **Next**.
 
-    ![](./images2/create-color-lookup1.png " ")
+    ![Create Color lookup1](./images2/create-color-lookup1.png " ")
 
 7. Click **Create Lookup Table**.
 
-    ![](./images2/create-color-lookup2.png " ")
+    ![Create Color lookup2](./images2/create-color-lookup2.png " ")
 
     *Note: Click the **Create Lookup Table** button only once. Then you will find the new table listed in the Object Browser.*
 
 8. To create **Department** lookup table, navigate back to the **Products** table and Click **Create Lookup Table** button.
 
-    ![](./images2/create-lookup-tables2.png " ")
+    ![Create Lookup Table2](./images2/create-lookup-tables2.png " ")
 
 9. For Column, select **DEPARTMENT - varchar2**.
 
     Click **Next**.
 
-    ![](./images2/create-department-lookup.png " ")
+    ![Create Department Lookup](./images2/create-department-lookup.png " ")
 
 10. Leave the default table and sequence names:
 
@@ -210,22 +210,22 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
     Click **Next**.
 
-    ![](./images2/create-department-lookup1.png " ")
+    ![Create Department Lookup1](./images2/create-department-lookup1.png " ")
 
 11. Click **Create Lookup Table**.
 
-    ![](./images2/create-department-lookup2.png " ")
+    ![Create Department Lookup2](./images2/create-department-lookup2.png " ")
     *Note: Click the **Create Lookup Table** button only once. Then you will find the new table listed in the Object Browser.*
 
 12. To create **Clothing** lookup table, navigate back to the **Products** table and Click **Create Lookup Table** button.
 
-    ![](./images2/create-lookup-tables3.png " ")
+    ![Create Lookup Table3](./images2/create-lookup-tables3.png " ")
 
 13. For Column, select **CLOTHING - varchar2**.
 
     Click **Next**.
 
-    ![](./images2/create-clothing-lookup.png " ")
+    ![Create Clothing Lookup](./images2/create-clothing-lookup.png " ")
 
 14. Leave the default table and sequence names:
 
@@ -234,11 +234,11 @@ In this lab, you create lookup tables based on the new three columns. After you 
 
     Click **Next**.
 
-    ![](./images2/create-clothing-lookup1.png " ")
+    ![Create Clothing Lookup1](./images2/create-clothing-lookup1.png " ")
 
 15. Click **Create Lookup Table**.
 
-    ![](./images2/create-clothing-lookup2.png " ")
+    ![Create Clothing Lookup2](./images2/create-clothing-lookup2.png " ")
     *Note: Click the **Create Lookup Table** button only once. Then you will find the new table listed in the Object Browser.*
 
 16. The columns COLOR, DEPARTMENT, and CLOTHING in the **Products** table are renamed to COLOR\_ID, DEPARTMENT\_ID, and CLOTHING\_ID respectively, and their data type changed to NUMBER. Also, there are new tables containing the values of the products:
@@ -249,7 +249,7 @@ In this lab, you create lookup tables based on the new three columns. After you 
 The numeric value of the COLOR\_ID column will now store a reference to the system-assigned unique id of a particular color, whose name is stored in the new COLOR\_LOOKUP table. Similarly, the DEPARTMENT\_ID column references the id of a row in the DEPARTMENT\_LOOKUP table and CLOTHING\_ID references the id of a row in the CLOTHING\_LOOKUP table.    
 
 
-![](./images2/lookup-table-results.png " ")
+![Lookup table results](./images2/lookup-table-results.png " ")
 
 You now know how to add new columns to your existing tables, how to create lookup tables for reference information, and how to create and run a SQL script to populate your tables. You may now **proceed to the next lab**.
 
