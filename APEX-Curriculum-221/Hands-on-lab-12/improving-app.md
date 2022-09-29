@@ -51,23 +51,23 @@ In this Lesson, you will set the products page as Home page and then you will re
 5. Since you have changed the **Home Page** to **Products** page. you now need to remove **Home** Page under Navigation Menu.  
 Navigate to **Shared Components**.
 
-    ![](./images/navigate-to-sc2.png " ")
+    ![Click on Application Id](./images/navigate-to-sc2.png " ")
 
-    ![](./images/navigate-to-sc3.png " ")
+    ![Navigate to Shared components](./images/navigate-to-sc3.png " ")
 
 6. Under **Navigation**, Select **Navigation Menu**.
 
-    ![](./images/select-navigation-menu.png " ")
+    ![Navigate to Navigation Menu](./images/select-navigation-menu.png " ")
 
 7. Select **Navigation Menu**, then select **Pencil Icon** before **Home**.
 
-    ![](./images/select-navigation-menu1.png " ")
+    ![Click on Navigation Menu](./images/select-navigation-menu1.png " ")
 
-    ![](./images/edit-home1.png " ")
+    ![Edit Home](./images/edit-home1.png " ")
 
 8. In the **List Entry** page, Click **Delete** button and then Confirm Delete by clicking **OK**.
 
-  ![](./images/delete-home-entry1.png " ")
+  ![Click on Delete](./images/delete-home-entry1.png " ")
 
 ## Task 2: Set Pages to Public
 Your customers don't need to log in the app to shop the products, so let's set the following pages as public:
@@ -82,7 +82,7 @@ Follow these steps for the four listed pages:
 
     In the Developer Toolbar click **Edit Page 19**.
 
-    ![](./images/navigate-to-page19.png " ")
+    ![Navigate to Page 19](./images/navigate-to-page19.png " ")
 
 2. Within Page Designer, in the Rendering tree (left pane), navigate to  **Page 19: Products**.
 
@@ -90,13 +90,13 @@ Follow these steps for the four listed pages:
     - Under Security section:
         - For Authentication - select **Page Is Public**  
 
-      ![](./images/edit-page19.png " ")
+      ![Edit Authentication as Public](./images/edit-page19.png " ")
 
 3. Click **Save**.
 
 4. Navigate to Page Finder and select **Page 15** from Dialog Page.
 
-    ![](./images/navigate-to-page-finder.png " ")
+    ![Navigate to Page finder](./images/navigate-to-page-finder.png " ")
 
 5. Repeat steps 2-4 for **Page 16: Shopping Cart** and **Page 17: Add to Cart**.
 
@@ -106,21 +106,21 @@ In this task, you will turn off displaying the navigation menu.
 
 1. Within Page Designer, click the Shared Components icon at the top right.
 
-    ![](./images/click-sc-icon.png " ")
+    ![Click on Shared Components icon](./images/click-sc-icon.png " ")
 
    Alternatively, if you are in the App Builder, click Shared Components.
 
-   ![](./images/navigate-t-sc1.png " ")
+   ![Click on Shared Components](./images/navigate-t-sc1.png " ")
 
 2. Under User Interface, click **User Interface Attributes**.
 
-    ![](./images/select-uia1.png " ")
+    ![Select User Interface Attributes](./images/select-uia1.png " ")
 
 3. Click **Navigation Menu**.
 
 4. Set Display Navigation to **Off**.
 
-    ![](./images/nav-menu-disp-off.png " ")
+    ![Disable Display Navigation](./images/nav-menu-disp-off.png " ")
 
 5. Click **Apply Changes**.
 
@@ -132,21 +132,21 @@ Add a new navigation bar entry to allow:
 
 1. Click the Shared Components icon at the top right.
 
-    ![](./images/click-sc-icon1.png " ")
+    ![Click Shared Components icon](./images/click-sc-icon1.png " ")
 2. Under Navigation, click **Navigation Bar List**.
 
-    ![](./images/navigation-bar.png " ")
+    ![Navigation Bar List](./images/navigation-bar.png " ")
 
 3. Click **Navigation Bar**.
 
-    ![](./images/navigation-bar1.png " ")
+    ![Click Navigation Bar](./images/navigation-bar1.png " ")
 
 4. Click **Create Entry**.
 
-  ![](./images/create-entry1.png " ")
+  ![Click Create Entry](./images/create-entry1.png " ")
 
 5. In the **List Entry** page, enter the following and click **Create List Entry**.
-  ![](./images/create-entry2.png " ")
+  ![Create Entry](./images/create-entry2.png " ")
 
    - For Sequence - enter **1**
    - For Image/Class - **&SHOPPING\_CART\_ICON.**
@@ -160,20 +160,20 @@ Add a new navigation bar entry to allow:
     - For 2. List Item CSS Classes - enter **js-shopping-cart-item**
 
 7. Click **Create List Entry**.
-    ![](./images/create-entry3.png " ")
+    ![Create List Entry](./images/create-entry3.png " ")
 
 8. Click the **Pencil Icon** before **&APP_USER.**
 
-    ![](./images/click-app-user.png " ")
+    ![Edit &APP_USER.](./images/click-app-user.png " ")
 
 9. Under Authorization, for Authorization Scheme, select **Administration Rights**.
 
 10. Click **Apply Changes**.
-    ![](./images/set-admin-rights.png " ")
+    ![Set Admin Rights](./images/set-admin-rights.png " ")
 
 11. Click **Create Entry**  and enter the following:
 
-    ![](./images/create-entry11.png " ")
+    ![Click Create Entry2](./images/create-entry11.png " ")
 
     - For Sequence - enter **5**
     - For Image/Class - enter **fa-wrench**
@@ -183,7 +183,7 @@ Add a new navigation bar entry to allow:
 
 12. Click **Create List Entry**.
 
-    ![](./images/create-entry12.png " ")
+    ![Create List Entry2](./images/create-entry12.png " ")
 <!--
 You now know how to enhance and mantain both navigation menu and navigation bar. You may now **proceed to the next lab**.-->
 ## **Acknowledgments**
