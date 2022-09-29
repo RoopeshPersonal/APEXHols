@@ -22,17 +22,17 @@ In this lab, you will:
 
 2. Click **Create**.
 
-    ![](images/create-app.png " ")
+    ![Create an Application](images/create-app.png " ")
 
 3.  Click **New Application**.
 
-    ![](./images/click-new-application.png " ")
+    ![New Application](./images/click-new-application.png " ")
 
 ## Task 2: Name the Application
 
 1. In the Create Application wizard, for Name enter **Online Shopping Application**. Note that, in the create applicati�on wizard the icon and color of the icon will be a random selecti�on so most likely will not be the same color or icon that they see in the screenshot.
 
-    ![](./images/name-the-application1.png " ")
+    ![Name the application](./images/name-the-application1.png " ")
 
 ## Task 3: Add the Dashboard Page
 
@@ -42,7 +42,7 @@ A dashboard page is a great way to show important information using various char
 
 2. Click **Dashboard**.
 
-    ![](./images/add-dashboard-page1.png " ")
+    ![Add Dashboard](./images/add-dashboard-page1.png " ")
 
 3. For Chart 1, enter the following:
 
@@ -53,7 +53,7 @@ A dashboard page is a great way to show important information using various char
     * Type – select **Sum**
     * Value Column – select **TOTAL_SALES**.
 
-    ![](./images/chart1.png " ")
+    ![Add Chart1](./images/chart1.png " ")
 
 4. Click Chart 2, and enter the following:
 
@@ -64,7 +64,7 @@ A dashboard page is a great way to show important information using various char
     * Type – select **Sum**
     * Value Column – select **TOTAL_SALES**.
 
-    ![](./images/chart2.png " ")
+    ![Add Chart2](./images/chart2.png " ")
 
 5. Click Chart 3, and enter the following:
 
@@ -75,7 +75,7 @@ A dashboard page is a great way to show important information using various char
     * Type – select **Count**
     * Value Column – select **ORDER_ID**.
 
-    ![](./images/chart3.png " ")    
+    ![Add Chart3](./images/chart3.png " ")    
 
 6. Click Chart 4, and enter the following:
 
@@ -86,11 +86,11 @@ A dashboard page is a great way to show important information using various char
     * Type – select **Column Value**
     * Value Column – select **AVG_RATING**.
 
-    ![](./images/chart4.png " ")  
+    ![Add Chart4](./images/chart4.png " ")  
 
 7. Click Advanced and check **Set as Administration Page**.
 
-  ![](./images/set-as-admin-page.png " ")
+  ![Set as Administration Page](./images/set-as-admin-page.png " ")
 
   Setting a page as Administration Page will make that only certain users can run the page. In this case, only users with Administration Rights will be able to run the Dashboard page, which means that this page will require authentication.
 
@@ -102,7 +102,7 @@ A dashboard page is a great way to show important information using various char
 2. Click the arrow to the left of **Additional Pages** to see additional page types.
 3. Click **Multiple Reports**.
 
-    ![](./images/add-multiple-reports.png " ")
+    ![Add Multiple reports1](./images/add-multiple-reports.png " ")
 
 3. On the Create Multiple Reports Page, select the following tables:
     - CLOTHING_LOOKUP
@@ -114,8 +114,8 @@ A dashboard page is a great way to show important information using various char
 
 4. Click **Add Pages**.
 
-    ![](./images/add-multiple-reports2.png " ")
-    ![](./images/add-multiple-reports3.png " ")
+    ![Add Multiple reports2](./images/add-multiple-reports2.png " ")
+    ![Add Multiple reports3](./images/add-multiple-reports3.png " ")
 
 ## Task 5: Set Multiple Reports as Administration Pages
 
@@ -139,13 +139,13 @@ A dashboard page is a great way to show important information using various char
 1. In the Create Application wizard, click **Add Page**.
 2. Click **Interactive Report**.
 
-    ![](./images/select-ir-report.png " ")
+    ![Select interactive report](./images/select-ir-report.png " ")
 
 3. On the Report Page, enter the following:
     - Page Name - enter **Manage Products**
     - Table - select **PRODUCTS**
 
-    ![](./images/add-report-page.png " ")
+    ![Add report page](./images/add-report-page.png " ")
 
 
 4. Expand Lookup columns, and enter the following:
@@ -161,7 +161,7 @@ A dashboard page is a great way to show important information using various char
 
 6. Click **Add Page**.
 
-  ![](./images/add-report-page1.png " ")
+  ![Add page](./images/add-report-page1.png " ")
 
 ## Task 9: Set Features
 
@@ -169,7 +169,7 @@ Features are a set of optional application capabilities in Oracle APEX that you 
 
 1. Under **Features** section, check **Install Progressive Web App** and **Access Control**.
 
-  ![](./images/set-features.png " ")
+  ![Check Install Progressive Web App](./images/set-features.png " ")
 
 ## Task 10: Finish Creating the Application
 
@@ -177,18 +177,18 @@ Now that you have added all the pages, it is time to generate the app and review
 
 1. Scroll to the bottom of the page, and click **Create Application**.
 
-    ![](./images/click-create-application.png " ")
+    ![Click create application](./images/click-create-application.png " ")
 
 2. Once the application is created, you will find the new app on the application home page.
 Click **Run Application**.
 
-    ![](./images/run-application.png " ")
+    ![Run application](./images/run-application.png " ")
 
 ## Task 11: Run the Application
 
 1. Enter your user credentials. Click **Sign In**.
 
-    ![](./images/sign-in2.png " ")
+    ![Online shopping application Sign In](./images/sign-in2.png " ")
 
     The new application will be displayed. Explore the pages that you just created by clicking on the navigation menu.
 

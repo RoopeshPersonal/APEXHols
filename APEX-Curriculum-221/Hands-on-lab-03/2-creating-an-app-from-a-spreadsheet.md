@@ -15,25 +15,25 @@ Estimated Time: 5 minutes
 
 2.  Click **Create a New App**.
 
-    ![](images/create-app1.png " ")
+    ![Create Application](images/create-app1.png " ")
 
 3.  Click **From a File**.
 
-    ![](images/from-a-file1.png " ")
+    ![Create application from a file](images/from-a-file1.png " ")
 
     When creating an application from a file, APEX allows you to upload CSV, XLSX, XML, or JSON files and then build apps based on their data. Alternatively, you can also copy and paste CSV data or load sample data.
 
 4.  Within the Load Data wizard, click the **Choose File** button.
 
-    ![](images/choose-file.png " ")
+    ![Choose file](images/choose-file.png " ")
 
 5. Download and select [**demo_projects.csv**](demo_projects.csv) file from your local System
 
-    ![](images/select-demo-projects.png " ")
+    ![select demo_projects file](images/select-demo-projects.png " ")
 
 6.  Review the parsed data. Enter **DEMO_PROJECTS** for Table Name and Click **Load Data**.
 
-    ![](images/new-table-name.png " ")
+    ![Select Demo_projects table](images/new-table-name.png " ")
 
     After clicking **Load Data**, you will see a spinner until the wizard finishes loading the data. Continue to Task 2 at this point.
 
@@ -43,7 +43,7 @@ The Data Load wizard has created a new table and populated that table with the r
 
 1.  In the Load Data dialog, verify that 70 rows have been loaded into the **DEMO_PROJECTS** table, then click **Create Application**.
 
-    ![](images/data-loaded.png " ")
+    ![Data loaded into Demo_projects](images/data-loaded.png " ")
 
 [//]: # (click **Create Application**. )
 [//]: # (images/continue-to-create-application-wizard.png " ")
@@ -55,19 +55,19 @@ The Data Load wizard has created a new table and populated that table with the r
 
   On the Create Application page, Click on **Edit** button next to **Demo Projects Search**.
 
-  ![](images/delete-pages.png " ")
+  ![Edit Demo Projects Search](images/delete-pages.png " ")
 
 3. In the Add Faceted Search Page, Click on **Delete** Button and then Confirm it by Clicking **OK**.
 
-  ![](images/delete-page1.png " ")
+  ![Click Delete](images/delete-page1.png " ")
 
-  ![](images/delete-page2.png " ")
+  ![Perform delete action](images/delete-page2.png " ")
 
 Repeat the steps for **Demo Projects Report** and **Calendar**.
 
 4. Then click **Create Application**.
 
-    ![](images/create-application2.png " ")
+    ![Create application2](images/create-application2.png " ")
 
     When the wizard finishes creating the application, you will be redirected to the application's home page in the App Builder.
 
@@ -75,30 +75,30 @@ Repeat the steps for **Demo Projects Report** and **Calendar**.
 
 1. Navigate to the Edit Application Definition page. From the Application home page, you can access the Edit Application Definition page using **Shared Components**.
 
-    ![](images/navigate-to-shared-components1.png " ")
+    ![Select Shared Components](images/navigate-to-shared-components1.png " ")
 
 2. In the Shared Components page, under User Interface, Select **Progressive Web App**.
 
-    ![](images/navigate-to-pwa1.png " ")
+    ![Select Progressive Web App](images/navigate-to-pwa1.png " ")
 
 3. Now, Select **Definition** Tab and Navigate to **Progressive Web App** and Then Set **Installable** to **Yes**.
 
-    ![](images/navigate-to-pwa.png " ")
+    ![PWA Definition](images/navigate-to-pwa.png " ")
 
 ## Task 4: Running and exploring the new app
 
 1.  Navigate back to **DEMO_PROJECTS** application and then click **Run Application**. This will open the runtime application in a new browser tab, allowing you to see how end users will view the app.
 
-    ![](images/run-application1.png " ")
+    ![Run Application](images/run-application1.png " ")
 
 2.  Enter your user credentials and click **Sign In**.
 
     *Note: Use the same Username and Password you used to sign into the APEX Workspace.*
 
-    ![](images/sign-in3.png " ")
+    ![Sign In](images/sign-in3.png " ")
 
 3. Click on the **Install App** Icon on Top Right of the page to install Application to your local System.
-    ![](images/install-app1.png " ")
+    ![Click on Install App](images/install-app1.png " ")
 
 ## **Summary**
 

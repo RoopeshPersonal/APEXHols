@@ -36,29 +36,29 @@ Open the home page in page designer, navigate through and review the page design
 Use the application menu to navigate to the Home page. In the Developer Toolbar, click  **Page n**.
 
   Note: If you are not on the Home page then the Developer Toolbar will show the current page number, and clicking on Edit Page xx will navigate to that page, instead of Page n.
-    ![](images/click-page-1.png " ")
+    ![Click Page 1](images/click-page-1.png " ")
 
 2. The Page Designer is displayed for Page 1. There are three main panes within Page Designer: Left Pane, Central Pane, and Right Pane.
 You can change the size of each pane by selecting the dividers and sliding them left or right. Change the size of Grid Layout and Gallery by sliding the divider between them up and down.
 
-    ![](images/navigate-through-page1.png " ")
+    ![Page Designer for page 1](images/navigate-through-page1.png " ")
 
 3. In the Page Designer, you can invoke help on any attribute by clicking **Help** icon on the toolbar. Select a component and then select an attribute in the Property Editor to display help on that attribute.
 
   For Example, in this screenshot below, you select **Online Shopping Application** in the Rendering tree on the left, and then select **Sequence > Layout** in the Property Editor on the right. The help text for **Sequence** is displayed.
 
-    ![](images/navigate-through-page2.png " ")
+    ![Page Designer](images/navigate-through-page2.png " ")
 
 4. In the page designer, click Create (the **+** icon) and select **Page**.
 
-    ![](images/create-page2.png " ")
+    ![Click Page](images/create-page2.png " ")
 
 ## Task 2: Create a Normal Page - Order Information
 Create a Normal Page to review the Order that customer has made.
 
 1. In the Create a Page dialog, Select **Blank Page** and click **Next**.
 
-    ![](./images/select-blank-page1.png " ")
+    ![Select Blank Page](./images/select-blank-page1.png " ")
 
 2. Enter the following:
     - Page Number - enter **15**
@@ -68,7 +68,7 @@ Create a Normal Page to review the Order that customer has made.
     - Breadcrumb - Set to **No**
     - Navigation - Set to **Yes**
   Click **Create Page**.
-  ![](./images/create-blank-page12.png " ")
+  ![Click Create Page](./images/create-blank-page12.png " ")
 
 
 ## Task 3: Add a Region
@@ -77,17 +77,17 @@ Add a region to the page to display order details.
 1. In the new page created, navigate to the **Gallery Menu** at the bottom of the page showing Regions, Items, and Buttons categories and ensure that **Regions** is selected.
 2. Drag a **Static Content** region and drop it to the **Body** section.
 
-    ![](images/create-static-region1.png " ")
+    ![Create Static region](images/create-static-region1.png " ")
 
 3. In the Property Editor, enter the following:
     - For Title - enter **Thank you for your order!**
     - For Template - select **Content Block**
     - For Template Options - Click on the rectangular area next to the Template Options label to open the Template Options dialog. In the Dialog page, Check **Show Region Icon** and click **Ok**.
 
-    ![](images/create-static-region13.png " ")
+    ![Define Template Options](images/create-static-region13.png " ")
     - For Icon, enter **fa-heart**
 
-        ![](images/create-static-region14.png " ")
+        ![Define Icon](images/create-static-region14.png " ")
 
 ## Task 4: Add Items to the Page
 Add a hidden item used to store the order ID without the user's being able to see it.
@@ -95,7 +95,7 @@ Add a hidden item used to store the order ID without the user's being able to se
 1. In the Rendering tree (left pane), click on the **Thank you for your order!** region to select it.
 2. Right-click the region and click **Create Page Item**.
 
-    ![](images/create-page-item11.png " ")
+    ![Create Page Item](images/create-page-item11.png " ")
 
 3. In the property editor, set the name and type as follows:
 
@@ -103,7 +103,7 @@ Add a hidden item used to store the order ID without the user's being able to se
     | --- |  --- |
     | P15_ORDER | Hidden |
 
-    ![](./images/create-page-item12.png " ")    
+    ![Define Page Item](./images/create-page-item12.png " ")    
 
 ## Task 5: Add Static Content Region
 Add a region to contain Order details and items.
@@ -111,13 +111,13 @@ Add a region to contain Order details and items.
 1. In the Rendering tree (left pane), click on **Thank you for your order!** region.
 2. Right click the region and click **Create Sub Region**.
 
-    ![](./images/create-sub-region11.png " ")
+    ![Create Sub Region](./images/create-sub-region11.png " ")
 
 3. In the Property Editor, enter the following:
     - For Title - enter the expression (including the period) **Order: &P15_ORDER.**
     - For Type - select **Static Content**  
 
-  ![](./images/create-sub-region12.png " ")
+  ![Define Sub Region](./images/create-sub-region12.png " ")
 
 ## Task 6: Add Order Details Region
 Add a region to display Order details.
@@ -125,7 +125,7 @@ Add a region to display Order details.
 1. In the Rendering tree (left pane), navigate to the **Order: &P15_ORDER.** region.
 2. Right click the region and click **Create Sub Region**.
 
-    ![](./images/create-sub-region21.png " ")
+    ![Create Sub Region2](./images/create-sub-region21.png " ")
 
 3. In the Property Editor, enter the following:
     - For Title - enter **Order Details**
@@ -148,7 +148,7 @@ Add a region to display Order details.
             WHERE  order_id = :P15_ORDER
             </copy>
             ```
-      ![](./images/create-sub-region22.png " ")
+      ![Define Sub Region2](./images/create-sub-region22.png " ")
 
 4. Click **Attributes**.
 
@@ -163,7 +163,7 @@ Add a region to display Order details.
             <b> Total: </b>&TOTAL.    
             </copy>
             ```
-      ![](./images/create-sub-region4.png " ")
+      ![Define Attributes](./images/create-sub-region4.png " ")
 
 ## Task 7: Add Items Region
 Add a region to display items in the order.
@@ -171,7 +171,7 @@ Add a region to display items in the order.
 1. In the Rendering tree (left pane), navigate to the **Order: &P15_ORDER.** region.
 2. Right-click the region and click **Create Sub Region**.
 
-    ![](./images/create-sub-region31.png " ")
+    ![Add Region Items](./images/create-sub-region31.png " ")
 3. In the Property Editor, enter the following:
     - For Title - enter **Items**
     - For Type - select **Cards**
@@ -193,7 +193,7 @@ Add a region to display items in the order.
             AND  order_id = :P15_ORDER
             </copy>
             ```
-    ![](./images/create-sub-region32.png " ")
+    ![Define Region](./images/create-sub-region32.png " ")
 
 4. Click **Attributes** and do the following:
 
@@ -211,7 +211,7 @@ Add a region to display items in the order.
             </copy>
             ```
 
-    ![](./images/create-sub-region33.png " ")
+    ![Define Attributes](./images/create-sub-region33.png " ")
 
     - Under Media section:
         - For Source - select **BLOB Column**   
@@ -223,7 +223,7 @@ Add a region to display items in the order.
     - Under Card:
         - For Primary Key Column - Select **ITEM**.
 
-    ![](./images/create-sub-region34.png " ")
+    ![Select Primary Key](./images/create-sub-region34.png " ")
 
 
 5. Click **Save**.

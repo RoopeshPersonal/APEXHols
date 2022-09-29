@@ -23,15 +23,15 @@ Create specification and body for the package.
 1. Navigate to **SQL Workshop**, click **Object Browser**.
 2. Navigate to the + button on the right side, and click **Package**.
 
-    ![](./images3/create-package1.png " ")
+    ![Create Package1](./images3/create-package1.png " ")
 
 3. Select **Specification** and click **Next**.
 
-    ![](./images3/create-package-specification4.png " ")
+    ![Create Package Specification1](./images3/create-package-specification4.png " ")
 
 4. For Package Name, enter **MANAGE_ORDERS** and click **Next**.
 
-    ![](./images3/create-package-name1.png " ")
+    ![Create package name1](./images3/create-package-name1.png " ")
 
 5. For Specification, replace the contents of the code editor with the following:
 
@@ -79,7 +79,7 @@ Create specification and body for the package.
 
 6. Click **Create Package Specification**.
 
-    ![](./images3/create-package-specification2.png " ")
+    ![Create package specificaton2](./images3/create-package-specification2.png " ")
 
 7. Navigate to the body part of the package by clicking on the Body tab and replace the contents of the code editor with the following:
 
@@ -237,7 +237,7 @@ Create specification and body for the package.
 
 8. Click **Save & Compile**.
 
-    ![](./images3/create-package-body2.png " ")
+    ![Save & Compile Package](./images3/create-package-body2.png " ")
 
 While you don't have to understand the code to complete the workshop successfully, know that the functions and procedures you've defined in this lab are using a built-in feature of Oracle APEX to handle the user's shopping cart by managing a collection of product id and quantity values specific to the current user, and automatically create new row in the **Customers** table during order creation if it's the first time the user is placing an order.
 

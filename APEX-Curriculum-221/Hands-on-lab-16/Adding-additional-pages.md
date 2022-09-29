@@ -37,19 +37,19 @@ In this lab, you will:
 
 1. Navigate to **App Builder** and in the **Home Page**, click **Demo Projects**. application.
 
-  ![](images/navigate-to-dp.png " ")
+  ![Navigate to App Builder](images/navigate-to-dp.png " ")
 
-  ![](images/navigate-to-dp1.png " ")
+  ![Select Demo Projects](images/navigate-to-dp1.png " ")
 
 
 2. In the application home page, click **Create Page**.
 
-  ![](images/create-calendar-page1.png " ")
+  ![Click Create Page](images/create-calendar-page1.png " ")
 
 
 3. Select **Calendar** page type.
 
-  ![](images/create-calendar-page2.png " ")
+  ![Select Calender](images/create-calendar-page2.png " ")
 
 4.  In the **Create Calendar** enter the following and click **Next**.
 
@@ -62,31 +62,31 @@ In this lab, you will:
     Under **Navigation**:
     - For **Breadcrumb** and **Navigation**, Set it to **Yes**.
 
-    ![](images/create-calendar-page3.png " ")
+    ![Create Calender](images/create-calendar-page3.png " ")
 
 5. In the **Create Calendar** page, enter the following and click **Create Page**.
     - For **Display Column**, enter **TASK_NAME**.
     - For **Start Date Column**, enter **START_DATE**.
     - For **End Date Column**, enter **END_DATE**.
 
-    ![](images/create-calendar-page4.png " ")
+    ![Create Calender2](images/create-calendar-page4.png " ")
 
 6. Click **Save** and **Run Page**. Login to the application with your credentials.
 
 6. In the Developer Toolbar, click **Edit Page \<n\>**.
 
-    ![](images/view-page1.png " ")
+    ![Click Edit Page](images/view-page1.png " ")
 
 7. The Calendar page displays the **region title Calendar**, and also has a border around the region. In the Rendering tree, locate the Calendar region. Click **Calendar**. In the **Property Editor**, under **Appearance**, click the **Template Options** button.
 
-    ![](images/edit-calendar1.png " ")
+    ![Edit Template Options](images/edit-calendar1.png " ")
 
 8. In the Template Options dialog, input the following:
   - Header - select **Hidden but accessible**  
   - Style - select **Remove UI Decoration**  
 
    Click **OK**. Then **Save** and **Refresh** the runtime environment to see the changes.
-   ![](images/edit-calendar2.png " ")
+   ![Click Ok](images/edit-calendar2.png " ")
 
 ## Task 2: Creating a Form page on DEMO_PROJECTS Tables.
 
@@ -94,11 +94,11 @@ In this Lab, you will create a Form Page on DEMO_PROJECTS Tables, then in the ne
 
 1. Navigate to **App Builder** and in the **Home Page**, click **Demo Projects**. application. Then, click **Create Page**.
 
- ![](images/create-form-page1.png " ")
+ ![Click Create Page](images/create-form-page1.png " ")
 
 2. Select **Form** page type.
 
-  ![](images/create-form-page2.png " ")
+  ![Select Form](images/create-form-page2.png " ")
 
 3. In the **Create Form** enter the following and click **Next**.
 
@@ -110,12 +110,12 @@ In this Lab, you will create a Form Page on DEMO_PROJECTS Tables, then in the ne
   Under **Data Source**:
     - For **Table/View Name**, select **DEMO_PROJECTS**.
 
-  ![](images/create-form-page3.png " ")
+  ![Select Modal Dialog](images/create-form-page3.png " ")
 
 4. In the **Create Form** page, enter the following and click **Create Page**.
     - For **Primary Key Column 1**, Select **ID (Number)**.
 
-    ![](images/create-form-page4.png " ")
+    ![Click Create page](images/create-form-page4.png " ")
 
 ## Task 3: Customizing the Calendar Page.
 
@@ -123,15 +123,15 @@ In this lab, You will link the form page you created in Task 2 with the Calendar
 
 1. Navigate to **Calendar** in the runtime environment and then click **Page <n>**
 
-  ![](images/customizing-calendar1.png " ")
+  ![Navigate to Calender](images/customizing-calendar1.png " ")
 
 2. You need to add the **Create** and **View / Edit** links. In the Rendering tree, locate and select the **Calendar** region. In the **Property Editor**, Click **Attributes**. Then, Under Settings, Select **ID** for **Primary Key** and then locate **Create Link** and click **No Link Defined**.
 
-  ![](images/customizing-calendar2.png " ")
+  ![Customize calender in page designer](images/customizing-calendar2.png " ")
 
 3. In the Link Builder – Create Link dialog, select **9** for Page, and enter **9** for **Clear Cache**. Click **OK**.
 
-  ![](images/customizing-calendar3.png " ")  
+  ![Edit Calender](images/customizing-calendar3.png " ")  
 
 4. In the Property Editor, locate **View/Edit Link** and click **No Link Defined**.
 
@@ -143,7 +143,7 @@ In this lab, You will link the form page you created in Task 2 with the Calendar
 
   Click **OK**.
 
-  ![](images/customizing-calendar6.png " ")  
+  ![Add Link](images/customizing-calendar6.png " ")  
 
 6. You can enable calendar drag and drop by using the component attribute **Drag and Drop**. Your SQL query must select a primary key column and you must have set the Primary Key Column calendar attribute. Then enter the PL/SQL code to update the event row in the database in the Drag and Drop PL/SQL Code attribute. That PL/SQL code typically performs a SQL update on the database table - the bind variables **:APEX$PK_VALUE.**, **:APEX$NEW_START_DATE** and **:APEX$NEW_END_DATE** contain the dragged events primary key value as well as the new start and new end timestamp.  
 
@@ -164,12 +164,12 @@ In this lab, You will link the form page you created in Task 2 with the Calendar
   </copy>
   ```
 
-  ![](images/customizing-calendar5.png " ")  
+  ![Enable drag nad drop](images/customizing-calendar5.png " ")  
 
 7. Click **Save** and **Run Page**.
 Notice that you can now drag and drop tasks in the calendar. In the Developer Toolbar, click **Application< n >**.
 
-  ![](images/customized-calendar1.png " ")
+  ![Customized Calender](images/customized-calendar1.png " ")
 
 
 ## Task 4: Creating and Customizing a Tree Page.
@@ -178,19 +178,19 @@ In this hands-on lab, you create the **Employee** Tree by first creating a **bla
 
 1. First, create a blank page in the **Demo Projects** application. In the application home page, click **Create Page**.
 
-  ![](images/create-tree1.png " ")
+  ![Click Create Page](images/create-tree1.png " ")
 
 2. Select **Blank Page**.
 
-  ![](images/create-tree2.png " ")
+  ![Select Blank page](images/create-tree2.png " ")
 
 3. Enter **Tree Page** for **Name** and then Click **Create Page**.
 
-  ![](images/create-tree3.png " ")
+  ![Define Page](images/create-tree3.png " ")
 
 4. Now you create a **Tree region**. In the page designer, under Rendering, right-click **Body** and select **Create Region**.
 
-  ![](images/create-tree4.png " ")
+  ![Create Region](images/create-tree4.png " ")
 
 5. In the property editor, enter the following:  
   Under **Identification**:
@@ -219,11 +219,11 @@ In this hands-on lab, you create the **Employee** Tree by first creating a **bla
     </copy>
     ```
 
-  ![](images/create-tree5.png " ")
+  ![Define Region](images/create-tree5.png " ")
 
 6. In the page designer, navigate to **Appearance** and then click the **Template Options** button.
 
-  ![](images/create-tree7.png " ")
+  ![Edit Template options](images/create-tree7.png " ")
 
 7. In the Template Options dialog:
   - General: Select the **Remove Body Padding** check box.
@@ -232,7 +232,7 @@ In this hands-on lab, you create the **Employee** Tree by first creating a **bla
 
   Click **OK**.
 
-  ![](images/create-tree8.png " ")
+  ![Click Ok](images/create-tree8.png " ")
 
 8. In the **Property Editor**, Select **Attributes**. Navigate to **Settings** and select / enter the following:
   - Node Label Column: **TITLE**
@@ -245,7 +245,7 @@ In this hands-on lab, you create the **Employee** Tree by first creating a **bla
 
   Then, click **Save** and **Run Page**.
 
-  ![](images/create-tree9.png " ")
+  ![Click Save and Run](images/create-tree9.png " ")
 
 9. The **Tree Page** is now displayed.
 
@@ -262,17 +262,17 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
 
 1. Navigate to **App Builder** and in the **Home Page**, click **Online Shopping Application**.
 
-  ![](images/create-map1.png " ")
+  ![Navigate to App Builder](images/create-map1.png " ")
 
-  ![](images/create-map2.png " ")
+  ![Select Online shopping application](images/create-map2.png " ")
 
 2. In the application home page, click **Create Page**.
 
-  ![](images/create-map3.png " ")
+  ![Click Create page](images/create-map3.png " ")
 
 3. Select **Map** page type.
 
-  ![](images/create-map4.png " ")
+  ![Select Map](images/create-map4.png " ")
 
 4. In the **Create Map** enter the following and click **Next**.
 
@@ -286,7 +286,7 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
     Under **Navigation**:
     - For **Breadcrumb**, Set it to **No**.
 
-    ![](images/create-map5.png " ")
+    ![Create Map](images/create-map5.png " ")
 
 5. For **Create Map**, enter the following and click **Create Page**. For **Map Style**, Select **Points**.  
   Under **Map Attributes**:
@@ -296,35 +296,35 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
     - For **Tooltip Column**, Select **STORE_NAME**.
 
   Click **Create Page**.
-  
-  ![](images/create-map6.png " ")
+
+  ![Click Create Page](images/create-map6.png " ")
 
 5. The Store Locations Map should be visible to the public. To set the page as Public, select **Page \<n\>: Store Locations Map** in the Rendering tree. In the Property Editor, navigate to **Security**, for **Authentication**, select **Page is Public**.
-    ![](images/make-page-public.png)
+    ![Edit Authentication as Public](images/make-page-public.png)
 
 6. Then, click **Save** and **Run Page**.
 
-  ![](images/create-map7.png " ")
+  ![Click Save and Run](images/create-map7.png " ")
 
 7. The **Store Details Map** Page is now displayed. Now, in the developer toolbar select **App < n >**.
 
-  ![](images/run-map1.png " ")
+  ![Click on Application ID](images/run-map1.png " ")
 
 8. Navigate to **Shared Components**
 
-  ![](images/customise-map1.png " ")
+  ![Navigate to Shared components](images/customise-map1.png " ")
 
 9. In the **Shared Components** page, Under **Navigation**, select **Navigation Bar List**.
 
-  ![](images/customise-map2.png " ")
+  ![Navigate to navigation bar list](images/customise-map2.png " ")
 
 10. Select **Navigation Bar**, Under **Lists**.
 
-  ![](images/customise-map3.png " ")
+  ![Select Navigation Bar](images/customise-map3.png " ")
 
 11. Click **Create Entry**.
 
-  ![](images/customise-map4.png " ")
+  ![Click Create entry](images/customise-map4.png " ")
 
 12. For **List Entry**, enter the following and click **Create List Entry**.  
 
@@ -334,15 +334,15 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
   Under **Target**:
     - For **Page**, Select **20**
 
-  ![](images/customise-map5.png " ")  
+  ![Click Create List Entry](images/customise-map5.png " ")  
 
 13. Then, click **Save** and **Run Page**.
 
-  ![](images/customise-map6.png " ")
+  ![Click Run](images/customise-map6.png " ")
 
 14. You can now see that **Store Locations Map** is now displayed in **Navigation Bar**.
 
-  ![](images/run-map2.png " ")  
+  ![Map navigation displayed](images/run-map2.png " ")  
 
 ## **Acknowledgments**
 
