@@ -13,11 +13,11 @@ In this hands-on lab, you will login to New Remote APEX workspace, create a Tabl
 
 1. Login to the new Workspace you created.
 
-  ![](images/login-to-new-workspace.png " ")
+  ![Login to New Workspace](images/login-to-new-workspace.png " ")
 
 2. Under **SQL Workshop**, select **SQL Commands**.
 
-  ![](images/select-sql-commands.png " ")
+  ![Select SQL Commands](images/select-sql-commands.png " ")
 
 3. Now, Copy the below statements and execute them one by one.
 
@@ -37,26 +37,26 @@ insert into emp_1(empno, emp_name, mgr) values (40, 'MATT', null);
 </copy>
 ```
 
-  ![](images/create-table1.png " ")
+  ![Create Table](images/create-table1.png " ")
 
-  ![](images/insert-into-table1.png " ")  
+  ![Insert into Table](images/insert-into-table1.png " ")  
 
 
 4. Select **RESTful Services** under **SQL Workshop**.
 
-  ![](images/navigate-to-rest.png " ")
+  ![Navigate to RESTful Services](images/navigate-to-rest.png " ")
 
 5. Click on the button **Register Schema with ORDS**.
 
-  ![](images/register-schema-with-ords.png " ")
+  ![Register Scheme with ORDS](images/register-schema-with-ords.png " ")
 
 6. In the next window, leave the Attributes to default and then click **Save Schema Attributes**.
 
-  ![](images/save-schema-attributes.png " ")
+  ![Save Schema Attributes](images/save-schema-attributes.png " ")
 
 7. Now, Select **Object Browser** under **SQL Workshop**.
 
-  ![](images/navigate-to-object-browser.png " ")
+  ![Navigate to Object browser](images/navigate-to-object-browser.png " ")
 
 
 8. Under **Tables**, select **EMP_1** and then click on **REST**.  
@@ -67,11 +67,11 @@ insert into emp_1(empno, emp_name, mgr) values (40, 'MATT', null);
 
    Then Click **Apply**.
 
-  ![](images/select-rest.png " ")
+  ![Select Rest](images/select-rest.png " ")
 
 9. You need to copy the **RESTful URI** and paste it in your Note pad.
 
-  ![](images/copy-url1.png " ")
+  ![Copy Rest URL](images/copy-url1.png " ")
 
 ## Task 2: Creating an application and Integrating Application Data from REST Data Source
 
@@ -79,58 +79,58 @@ In this Lab, you create a **New Application** and then consume the **REST Data S
 
 1. Log in to the first Workspace, where we have already created multiple applications.
 
-  ![](images/login-to-workspace1.png " ")
+  ![Login to first Workspace](images/login-to-workspace1.png " ")
 
 2. Select **App Builder** under Workspace Home Page.
 
-  ![](images/select-app-builder1.png " ")
+  ![Select App Builder](images/select-app-builder1.png " ")
 
 3. Now select **Create** button to create a new application.
 
-  ![](images/create-new-app1.png " ")
+  ![Create New Application](images/create-new-app1.png " ")
 
 4. Under **Create an Application**, select **New Application**.
 
-  ![](images/click-new-application.png " ")
+  ![Click New Application](images/click-new-application.png " ")
 
 5. Enter the following and click **Create Application**.
   - For **Name** - enter **Leave Request Approval**
 
-  ![](images/create-an-application1.png " ")
+  ![Enter Application name](images/create-an-application1.png " ")
 
 6. Navigate to **Shared Components** and then Select **REST Data Sources**.
 
-  ![](images/click-shared-components.png " ")
+  ![Click shared components](images/click-shared-components.png " ")
 
-  ![](images/select-rest-ds.png " ")
+  ![Click REST Data Sources](images/select-rest-ds.png " ")
 
 7. Under **REST Data Sources**, Click **Create** button.
 
-  ![](images/click-on-create.png " ")
+  ![Click on Create](images/click-on-create.png " ")
 
 8. Under **Create REST Data Source - Method**, Leave the settings to default and select **Next**.
 
-  ![](images/click-next-button.png " ")
+  ![Click next button](images/click-next-button.png " ")
 
 9.  Under **Create REST Data Source**, Enter the following and click **Next**.
   - For **REST Data Source Type** - select **Oracle REST Data Services**
   - For Name - enter **Employee Details API**
   - For URL Endpoint - Enter the URI we **copied** in **Task 1**
 
-  ![](images/create-rds1.png " ")
+  ![Enter REST Data Source name and URL endpoint](images/create-rds1.png " ")
 
 10. Now, under **Create REST Data Source - Remote Server** leave all fields to **Default** and then click **Next**.
 
-  ![](images/create-rds2.png " ")
+  ![Define Remote Server](images/create-rds2.png " ")
 
 
 11. For Authentication, Set **Authentication Required** to **No**. Click **Discover**.
 
-  ![](images/create-rds3.png " ")
+  ![Click Discover](images/create-rds3.png " ")
 
 12. Click on the button **Create REST Data Source**.
 
-  ![](images/create-rds4.png " ")
+  ![Click REST Data Source](images/create-rds4.png " ")
 
 ## Task 3: Synchronizing Data from REST Data Sources to a Local Table.
 
@@ -140,34 +140,34 @@ In this lab, you will **Synchronize data** from the **REST Data source** you hav
 
 1. Now that you have created a **REST Data Source**, Under **REST Data Sources** select **No** under **Synchronized** column for **Employee Details API**.
 
-  ![](images/create_rest_data_sync.png " ")
+  ![Create REST Data Synchronization](images/create_rest_data_sync.png " ")
 
 2. **Synchronization** is not configured yet. In this step, you provide the name of a new table or an existing table.
 In this example, select New Table for Synchronize To and enter **EMP_1** for Table Name. Then, click **Save**.
 
-  ![](images/create_rest_data_sync1.png " ")
+  ![Create REST Data Synchronization](images/create_rest_data_sync1.png " ")
 
 3. The synchronization table is not created yet. You can view the SQL that is used to create the table. Click **Show SQL**.
 
 4. Under Table Status, click **Create Table**. The table **EMP_1** is now ready for synchronization. Notice the message **The synchronization table exists and matches the Data Profile**.
 
-  ![](images/create_rest_data_sync2.png " ")
+  ![Click Create Table](images/create_rest_data_sync2.png " ")
 
 5. You will define a **synchronization schedule** now. In the Synchronization Schedule field, you can use the Database Scheduler calendaring syntax to define repeating synchronization schedules, such as "every Tuesday and Friday at 4:00 p.m." or "the second Wednesday of every month." This calendaring syntax can be provided manually. Click the **Schedule Builder Button** next to **Synchronization Schedule**.
 
-  ![](images/create_rest_data_sync3.png " ")
+  ![Select Synchronization Schedule icon](images/create_rest_data_sync3.png " ")
 
 6. The Interval Builder dialog displays. In this example, for Frequency select **Minutely** and enter **10** for Interval. Then, click **Set Execution Interval**.
 
-  ![](images/create_rest_data_sync4.png " ")
+  ![Set Execution Interval](images/create_rest_data_sync4.png " ")
 
 7. You are now ready to test the data synchronization. Click **Save and Run**.
 
-  ![](images/create_rest_data_sync5.png " ")
+  ![Click Save and Run](images/create_rest_data_sync5.png " ")
 
 8. You can see that **the data synchronization is triggered**.
 
-  ![](images/create_rest_data_sync6.png " ")
+  ![data synchronization is triggered](images/create_rest_data_sync6.png " ")
 
 
 ## Task 4: Creating and Customising Tasks in Leave Request Approval application
@@ -176,15 +176,15 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
 1. Navigate to the **Leave Request Approval** application you created in the previous Task and then click **Shared Components**.
 
-  ![](images/navigate-to-sc.png " ")
+  ![Navigate to Shared Components](images/navigate-to-sc.png " ")
 
 2. Now under **Workflows and Automations**, select **Task Definitions**.
 
-  ![](images/select-task-def.png " ")
+  ![Select Task Definitions](images/select-task-def.png " ")
 
 3. Click **Create**.
 
-  ![](images/click-create.png " ")
+  ![Click Create](images/click-create.png " ")
 
 4. Fill in the Create Task Definition Wizard fields as shown below, and click **Create**. Under **Create Task Definition** enter the following:  
   - For **Name**, Enter **Leave Request**.
@@ -192,9 +192,9 @@ In this task, you design a simple Leave Request Application where an Employee ca
   - For **Static ID**, enter **LEAVE_REQUEST**.
   - For **Priority**, select **2-High**  
 
-  ![](images/create-tasks1.png " ")
+  ![Create Task Definition1](images/create-tasks1.png " ")
 
-  ![](images/create-tasks2.png " ")
+  ![Create Task Definition2](images/create-tasks2.png " ")
 
 5. Now, you will add the **Action source**.  
 
@@ -209,19 +209,19 @@ In this task, you design a simple Leave Request Application where an Employee ca
     </copy>
   ```
 
-  ![](images/create-tasks3.png " ")
+  ![Add Action Source](images/create-tasks3.png " ")
 
 6. Notice that the **Task Details Page Number is empty**. Click on the **Create Task Details Page** button to generate the details page for this task.
 
-  ![](images/create-tasks4.png " ")
+  ![Create Task Details Page](images/create-tasks4.png " ")
 
 7. You will get a popup dialog asking if the next available page number should be used. Click **OK**.
 
-  ![](images/create-tasks5.png " ")
+  ![Click OK](images/create-tasks5.png " ")
 
 8. You will find that the Task Details Page Number is replaced by the Task Details Page URL containing the link to the generated Details Page.
 
-  ![](images/create-tasks6.png " ")
+  ![Define Page URL](images/create-tasks6.png " ")
 
 9. Navigate to the **Participants** tab in the Leave Request task definition, click **Add Row** and select Participant Type as **Potential Owner** and Value Type as **SQL Query**. In the Value field, add the following SQL query.
 
@@ -233,17 +233,17 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
 10. Add another row to the Participants section . Select Participant Type as **Business Administrator**, Value Type as **STATIC**. In the Value field, type **'MATT'**.
 
-  ![](images/create-tasks-participants.png " ")
+  ![Create tasks participants](images/create-tasks-participants.png " ")
 
 11. Add the following entries to the Task **Parameters** section.
     - Click **Add Row** and then for **Static ID**, enter **LEAVE_TYPE**; for data type, select **String**.
     - Click **Add Row** and then for **Static ID**, enter **NO_OF_DAYS**; for data type, select **String**.
 
-  ![](images/create-tasks-parameters.png " ")
+  ![Create tasks parameters](images/create-tasks-parameters.png " ")
 
 12. You will now add actions when an event occurs on a task. Navigate to **Actions Tab** under **Task Definition: Leave Request**. Click on **Add Action** as shown below. This will take you to the Task Definition Actions **Edit Action** Page.
 
-  ![](images/create-tasks-action1.png " ")
+  ![Create tasks action](images/create-tasks-action1.png " ")
 
 13. You will now set up an action that sends an email to the applicant of the leave, when his/her Leave Request is approved.  
 Under **Action**:
@@ -261,11 +261,11 @@ Under **Send Email Settings**:
 
 Click **Create**.
 
-  ![](images/create-tasks-action2.png " ")
+  ![Click create](images/create-tasks-action2.png " ")
 
 14. Your task definition for Leave Request is complete. **Apply Changes** and come back to your application.
 
-  ![](images/create-tasks-action3.png " ")
+  ![Click Apply changes](images/create-tasks-action3.png " ")
 
 ## **Acknowledgments**
 

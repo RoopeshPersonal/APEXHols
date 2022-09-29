@@ -10,15 +10,15 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
 1. Navigate to the **Leave Request Approval** application you created in the previous Task and then click **Shared Components**.
 
-  ![](images/navigate-to-sc.png " ")
+  ![Navigate to Shared components](images/navigate-to-sc.png " ")
 
 2. Now under **Workflows and Automations**, select **Task Definitions**.
 
-  ![](images/select-task-def.png " ")
+  ![Navigate to Task Definitions](images/select-task-def.png " ")
 
 3. Click **Create**.
 
-  ![](images/click-create.png " ")
+  ![Click Create](images/click-create.png " ")
 
 4. Fill in the Create Task Definition Wizard fields as shown below, and click **Create**. Under **Create Task Definition** enter the following:  
   - For **Name**, Enter **Leave Request**.
@@ -26,9 +26,9 @@ In this task, you design a simple Leave Request Application where an Employee ca
   - For **Static ID**, enter **LEAVE_REQUEST**.
   - For **Priority**, select **2-High**  
 
-  ![](images/create-tasks1.png " ")
+  ![Create Task Definition1](images/create-tasks1.png " ")
 
-  ![](images/create-tasks2.png " ")
+  ![Create Task Definition2](images/create-tasks2.png " ")
 
 5. Now, you will add the **Action source**.  
 
@@ -43,19 +43,19 @@ In this task, you design a simple Leave Request Application where an Employee ca
     </copy>
   ```
 
-  ![](images/create-tasks3.png " ")
+  ![Add Action Source](images/create-tasks3.png " ")
 
 6. Notice that the **Task Details Page Number is empty**. Click on the **Create Task Details Page** button to generate the details page for this task.
 
-  ![](images/create-tasks4.png " ")
+  ![Create Task Details Page](images/create-tasks4.png " ")
 
 7. You will get a popup dialog asking if the next available page number should be used. Click **OK**.
 
-  ![](images/create-tasks5.png " ")
+  ![Click Ok](images/create-tasks5.png " ")
 
 8. You will find that the Task Details Page Number is replaced by the Task Details Page URL containing the link to the generated Details Page.
 
-  ![](images/create-tasks6.png " ")
+  ![Define Task details page URL](images/create-tasks6.png " ")
 
 9. Navigate to the **Participants** tab in the Leave Request task definition, click **Add Row** and select Participant Type as **Potential Owner** and Value Type as **SQL Query**. In the Value field, add the following SQL query.
 
@@ -67,17 +67,17 @@ In this task, you design a simple Leave Request Application where an Employee ca
 
 10. Add another row to the Participants section . Select Participant Type as **Business Administrator**, Value Type as **STATIC**. In the Value field, type **'MATT'**.
 
-  ![](images/create-tasks-participants.png " ")
+  ![Add Participants](images/create-tasks-participants.png " ")
 
 11. Add the following entries to the Task **Parameters** section.
     - Click **Add Row** and then for **Static ID**, enter **LEAVE_TYPE**; for data type, select **String**.
     - Click **Add Row** and then for **Static ID**, enter **NO_OF_DAYS**; for data type, select **String**.
 
-  ![](images/create-tasks-parameters.png " ")
+  ![Add Parameters](images/create-tasks-parameters.png " ")
 
 12. You will now add actions when an event occurs on a task. Navigate to **Actions Tab** under **Task Definition: Leave Request**. Click on **Add Action** as shown below. This will take you to the Task Definition Actions **Edit Action** Page.
 
-  ![](images/create-tasks-action1.png " ")
+  ![Add Actions](images/create-tasks-action1.png " ")
 
 13. You will now set up an action that sends an email to the applicant of the leave, when his/her Leave Request is approved.  
 Under **Action**:
@@ -95,27 +95,27 @@ Under **Send Email Settings**:
 
 Click **Create**.
 
-  ![](images/create-tasks-action2.png " ")
+  ![Edit Action](images/create-tasks-action2.png " ")
 
 14. Your task definition for Leave Request is complete. **Apply Changes** and come back to your application.
 
-  ![](images/create-tasks-action3.png " ")
+  ![Click Apply changes](images/create-tasks-action3.png " ")
 
 ## Task 2: Creating the Apply for Leave page
 
 1. Navigate back to Application **Home Page**. Click  **Create Page** in your **Leave Request Approvals** application.
 
-  ![](images/create-page.png " ")
+  ![Create new Page](images/create-page.png " ")
 
 2. Under **Create a Page**, Select **Blank Page**.
 
-  ![](images/create-page1.png " ")
+  ![Select Blank page](images/create-page1.png " ")
 
 3. For Page Number, set it to **3**. For Name, enter **Apply for Leave** and click **Create Page**.
 
 4. In the **Left Pane**, Right click on **Body** and click **Create Region**.
 
-  ![](images/create-region1.png " ")
+  ![Create Region](images/create-region1.png " ")
 
 5. Now, In the property editor, enter the following:  
 Under Identification:
@@ -135,11 +135,11 @@ Under Identification:
   </copy>
   ```
 
-  ![](images/create-form-region.png " ")
+  ![Define Region](images/create-form-region.png " ")
 
 6. Right click on **New Leave Request** and click **Create Page Item**. Add two new page items **P3_NO_OF_DAYS** and **P3_LEAVE_TYPE**.
 
-  ![](images/create-item1.png " ")
+  ![Create Page Item](images/create-item1.png " ")
 
 7. Select **P3_LEAVE_TYPE** and then in the **Property Editor**:  
 
@@ -156,7 +156,7 @@ Under Identification:
           | Casual   | CASUAL        |
           | Vacation   | VACATION        |
 
-  ![](images/change-item-type.png " ")
+  ![Define Static values](images/change-item-type.png " ")
 
 8. In the **Rendering** tab in the left pane, Expand **Pre-Rendering** and then right click on **Process**, Click **Create Process**.
 
@@ -175,11 +175,11 @@ Under Identification:
     </copy>
     ```  
 
-  ![](images/create-pre-process.png " ")
+  ![Create Pre-Process to fetch details](images/create-pre-process.png " ")
 
 10. Navigate to **Processing** in Left Page and right click on **Processing**, then select **Create Process**.
 
-  ![](images/create-process.png " ")
+  ![Create Process](images/create-process.png " ")
 
 11. In the Property Editor, Enter the following Information.  
   Under **Identification**:
@@ -193,29 +193,29 @@ Under Identification:
   Under **Success Message**:
     - For **Success Message**, Enter **Leave request submitted successfully**.
 
-  ![](images/create-process1.png " ")
+  ![Define Process1](images/create-process1.png " ")
 
-  ![](images/create-process2.png " ")
+  ![Define Process2](images/create-process2.png " ")
 
 12. You will notice Leave Type and Number Of Days under the Parameters on the Left pane to be highlighted in RED. Click on each parameter, Change the **Type** to **Item** and set it to the corresponding page item (**P3_NO_OF_DAYS** and **P3_LEAVE_TYPE**) you had created earlier.
 
-  ![](images/create-process3.png " ")
+  ![Edit Parameters1](images/create-process3.png " ")
 
-  ![](images/create-process4.png " ")
+  ![Edit Parameters2](images/create-process4.png " ")
 
 13. Navigate back to the Rendering Section. Right Click on **Region Body** under **New Leave Request** and click **Create Button**.
 
-  ![](images/create-buttom.png " ")
+  ![Create button](images/create-buttom.png " ")
 
 14. In the Property Editor:  
     - For **Button Name**, enter **SUBMIT_REQUEST**.
     - Under **Appearance**, Set **Hot** to **Yes**.
 
-  ![](images/create-button2.png " ")
+  ![Define button](images/create-button2.png " ")
 
 15. Navigate back to **Processing** in the left pane and select **Submit Leave Request**. In the **Property Editor**, Under **Server-side Condition**, for **When Button Pressed** select **SUBMIT_REQUEST**.
 
-  ![](images/change-process.png " ")
+  ![Submit button](images/change-process.png " ")
 
 16. Click **Save**.
 
@@ -227,11 +227,11 @@ b) The employee can go and check the status of his request. For this, we will cr
 
 1. Navigate to Create button **+** and click **Page**.
 
-  ![](images/create-page11.png " ")
+  ![Create Page](images/create-page11.png " ")
 
 2. In the **Create a Page** tab, Select **Unified Task List**.
 
-  ![](images/create-page12.png " ")
+  ![Select Unified Task List](images/create-page12.png " ")
 
 3. In the **Create Unified Task List** enter the following and click **Create Page**.
 
@@ -239,15 +239,15 @@ b) The employee can go and check the status of his request. For this, we will cr
     - For **Name**, Enter **My Approvals**.
     - For **Report Context**, select **My Tasks**.
 
-  ![](images/create-page13.png " ")
+  ![Define Page](images/create-page13.png " ")
 
 4. Navigate to Create button **+** and click **Page**.
 
-  ![](images/create-page21.png " ")
+  ![Create Page](images/create-page21.png " ")
 
 5. In the **Create a Page** tab, Select **Unified Task List**.
 
-  ![](images/create-page22.png " ")
+  ![Select Unified Task List](images/create-page22.png " ")
 
 6. In the **Create Unified Task List** enter the following and click **Create Page**.
 
@@ -255,7 +255,7 @@ b) The employee can go and check the status of his request. For this, we will cr
     - For **Name**, Enter **My Requests**.
     - For **Report Context**, select **Initiated by Me**.
 
-  ![](images/create-page23.png " ")
+  ![Define Page](images/create-page23.png " ")
 
 <!--
 In this lab, you have created a Sample Leave Approvals Application. Please go through the below blog which talks about how to create different users and run the application.

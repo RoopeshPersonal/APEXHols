@@ -37,19 +37,19 @@ In this lab, you will:
 
 1. Navigate to **App Builder** and in the **Home Page**, click **Demo Projects**. application.
 
-  ![](images/navigate-to-dp.png " ")
+  ![Navigate to App Builder](images/navigate-to-dp.png " ")
 
-  ![](images/navigate-to-dp1.png " ")
+  ![Select Demo Projects](images/navigate-to-dp1.png " ")
 
 
 2. In the application home page, click **Create Page**.
 
-  ![](images/create-calendar-page1.png " ")
+  ![Click Create Page](images/create-calendar-page1.png " ")
 
 
 3. Select **Calendar** page type.
 
-  ![](images/create-calendar-page2.png " ")
+  ![Select Calender](images/create-calendar-page2.png " ")
 
 4.  In the **Create Calendar** enter the following and click **Next**.
 
@@ -62,31 +62,31 @@ In this lab, you will:
     Under **Navigation**:
     - For **Breadcrumb** and **Navigation**, Set it to **Yes**.
 
-    ![](images/create-calendar-page3.png " ")
+    ![Create Calender](images/create-calendar-page3.png " ")
 
 5. In the **Create Calendar** page, enter the following and click **Create Page**.
     - For **Display Column**, enter **TASK_NAME**.
     - For **Start Date Column**, enter **START_DATE**.
     - For **End Date Column**, enter **END_DATE**.
 
-    ![](images/create-calendar-page4.png " ")
+    ![Create Calender2](images/create-calendar-page4.png " ")
 
 6. Click **Save** and **Run Page**. Login to the application with your credentials.
 
 6. In the Developer Toolbar, click **Edit Page \<n\>**.
 
-    ![](images/view-page1.png " ")
+    ![Click Edit Page](images/view-page1.png " ")
 
 7. The Calendar page displays the **region title Calendar**, and also has a border around the region. In the Rendering tree, locate the Calendar region. Click **Calendar**. In the **Property Editor**, under **Appearance**, click the **Template Options** button.
 
-    ![](images/edit-calendar1.png " ")
+    ![Edit Template Options](images/edit-calendar1.png " ")
 
 8. In the Template Options dialog, input the following:
   - Header - select **Hidden but accessible**  
   - Style - select **Remove UI Decoration**  
 
    Click **OK**. Then **Save** and **Refresh** the runtime environment to see the changes.
-   ![](images/edit-calendar2.png " ")
+   ![Click Ok](images/edit-calendar2.png " ")
 
 ## Task 2: Creating a Form page on DEMO_PROJECTS Tables.
 
@@ -94,11 +94,11 @@ In this Lab, you will create a Form Page on DEMO_PROJECTS Tables, then in the ne
 
 1. Navigate to **App Builder** and in the **Home Page**, click **Demo Projects**. application. Then, click **Create Page**.
 
- ![](images/create-form-page1.png " ")
+ ![Click Create Page](images/create-form-page1.png " ")
 
 2. Select **Form** page type.
 
-  ![](images/create-form-page2.png " ")
+  ![Select Form](images/create-form-page2.png " ")
 
 3. In the **Create Form** enter the following and click **Next**.
 
@@ -110,12 +110,12 @@ In this Lab, you will create a Form Page on DEMO_PROJECTS Tables, then in the ne
   Under **Data Source**:
     - For **Table/View Name**, select **DEMO_PROJECTS**.
 
-  ![](images/create-form-page3.png " ")
+  ![Select Modal Dialog](images/create-form-page3.png " ")
 
 4. In the **Create Form** page, enter the following and click **Create Page**.
     - For **Primary Key Column 1**, Select **ID (Number)**.
 
-    ![](images/create-form-page4.png " ")
+    ![Click Create page](images/create-form-page4.png " ")
 
 ## Task 3: Customizing the Calendar Page.
 
@@ -296,7 +296,7 @@ In this Lab, You will first create a Map Page with Store Details and then you wi
     - For **Tooltip Column**, Select **STORE_NAME**.
 
   Click **Create Page**.
-  
+
   ![](images/create-map6.png " ")
 
 5. The Store Locations Map should be visible to the public. To set the page as Public, select **Page \<n\>: Store Locations Map** in the Rendering tree. In the Property Editor, navigate to **Security**, for **Authentication**, select **Page is Public**.
