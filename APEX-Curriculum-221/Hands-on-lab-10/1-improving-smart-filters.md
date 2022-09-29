@@ -16,27 +16,27 @@ The **Project Tasks Search** page utilizes Smart Filters to display the records.
 
 1. Navigate to the **App Builder**. Then Click on **Demo Projects** application.
 
-    ![](./images/select-projects-app.png " ")
+    ![Navigate to Demo Projects Application](./images/select-projects-app.png " ")
 
 2. Now, you run the application using **Run Application** icon.
 
-    ![](images/run-application.png " ")
+    ![Run Application](images/run-application.png " ")
 
 3. Navigate to **Project Tasks Search** page and click **Page 8** in the **Developer toolbar**.
   **Note** that your page number might be different.
 
-    ![](images/navigate-to-page8.png " ")
+    ![Navigate to Project Tasks Search](images/navigate-to-page8.png " ")
 
 4. Now, Update **P8_PROJECT**, Change type to **Radio Group** and enable the **Client-Side Filtering** attribute.  
 In the Rendering tab, select the P8_PROJECT filter (if not already selected).
 In the Property Editor, under **Identification** change type to **Radio Group**, then find **List Entries** and enable **Client-Side Filtering**. Enabling this option renders a search field above the list entries.
 
-    ![](images/edit-filter1.png " ")
+    ![Edit Filter](images/edit-filter1.png " ")
 
 5. Click **Save and Run Page** in the upper right corner. If prompted, enter your workspace username and password and click Sign In.
 The revised page appears.
 
-    ![](images/show-edit-filter1.png " ")
+    ![Show edit Filter](images/show-edit-filter1.png " ")
 
 
 ## Task 2: Adding New Smart Filter
@@ -47,7 +47,7 @@ Filters map to specific database column. When creating a new filter, you can cre
 
 1. View the smart filters page in Page Designer. In the Rendering tab, right-click Filters and select **Create Filter**.
 
-    ![](images/create-filter.png " ")
+    ![Create Filter](images/create-filter.png " ")
 
 2. Select the new filter and edit the following filter attributes in the Property Editor:
   - Under **Identification**:
@@ -57,12 +57,12 @@ Filters map to specific database column. When creating a new filter, you can cre
   - Under **List of Values**:
     - For Type, Select **Distinct Values**.
 
-  ![](images/create-filter1.png " ")
+  ![Create Filter2](images/create-filter1.png " ")
 
 3. Click **Save and Run Page** in the upper right corner. If prompted, enter your workspace username and password and click Sign In.
 The revised page appears.
 
-  ![](images/run-smart-filter1.png " ")
+  ![Run Smart Filter](images/run-smart-filter1.png " ")
 
 
 

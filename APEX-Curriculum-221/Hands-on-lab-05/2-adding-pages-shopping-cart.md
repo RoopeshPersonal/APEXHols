@@ -36,17 +36,17 @@ These items are needed to count the number of items in the shopping cart and the
 
 1.  Navigate to **Online Shopping Application** and then Click on **Shared Components**
 
-    ![](./images/navigate-to-osp.png " ")
+    ![Select Online shopping application](./images/navigate-to-osp.png " ")
 
-    ![](./images/navigate-to-shared-comp1.png " ")
+    ![Select shared components](./images/navigate-to-shared-comp1.png " ")
 
 2. Under Application Logic, click **Application Items**.
 
-    ![](./images/select-application-items1.png " ")
+    ![Select Application items](./images/select-application-items1.png " ")
 
 3. Click **Create**.
 
-    ![](./images/click-create1.png " ")
+    ![Click Create](./images/click-create1.png " ")
 
 4. Create two items as follows:
 
@@ -57,28 +57,28 @@ These items are needed to count the number of items in the shopping cart and the
 
 5. Click **Create Application Item** and create the second item.
 
-    ![](./images/create-application-item11.png " ")
+    ![Define Application item1](./images/create-application-item11.png " ")
 
-    ![](./images/create-application-item12.png " ")
+    ![Define Application item2](./images/create-application-item12.png " ")
 
 ## Task 2: Create Application Process
 This process is needed to refresh the number of items in the Shopping Cart, which will be shown in the navigation bar.
 
 1. Click on **Shared Components**.
 
-    ![](./images/click-shared-components11.png " ")
+    ![Navigate to Shared components](./images/click-shared-components11.png " ")
 
 2. Under Application Logic, click **Application Processes**.
 
-    ![](./images/click-app-process11.png " ")
+    ![Select Application Processes](./images/click-app-process11.png " ")
 
 3. Click **Create** and enter the following:
     - For Name - enter **Initialize Shopping Cart Header**
     - For Process Point - select **On Load: Before Header (page template header)**
 
-  ![](./images/create-app-process11.png " ")
+  ![Click Create](./images/create-app-process11.png " ")
 
-  ![](./images/create-app-process12.png " ")
+  ![Define Application processes](./images/create-app-process12.png " ")
 
 4. Click **Next**.
 
@@ -103,26 +103,26 @@ This process is needed to refresh the number of items in the Shopping Cart, whic
 
 6. Click **Next**.
 
-    ![](./images/create-app-process13.png " ")
+    ![Define Application Process Source](./images/create-app-process13.png " ")
 
 7. Click **Create Process**.
 
-    ![](./images/create-app-process14.png " ")
+    ![Click Create Process](./images/create-app-process14.png " ")
 
 ## Task 3: Create a Normal Page - Shopping Cart
 The shopping cart page allows users to review and edit the products in the cart, also users can create the order or clear the shopping cart.
 
 1. Click on Application Home.  ***The ID of your application may vary***.
 
-    ![](./images/navigate-to-application11.png " ")
+    ![Click Application ID](./images/navigate-to-application11.png " ")
 
 2. Click **Create Page**.
 
-    ![](./images/click-create-page11.png " ")
+    ![Click Create Page](./images/click-create-page11.png " ")
 
 3. Select **Blank Page** and click **Next**.
 
-    ![](./images/create-blank-page11.png " ")
+    ![Select Blank Page](./images/create-blank-page11.png " ")
 
 4. For Create Blank Page, enter the following:
     Under **Page Definition**
@@ -134,7 +134,7 @@ The shopping cart page allows users to review and edit the products in the cart,
     - For Navigation - Set as **No**
 
    Click **Create Page**.
- ![](./images/create-blank-page21.png " ")
+ ![Define Blank Page](./images/create-blank-page21.png " ")
 
 ## Task 4: Add a Cards Region
 This region will list the items that have been added temporarily to the shopping cart.
@@ -142,7 +142,7 @@ This region will list the items that have been added temporarily to the shopping
 1. In the new page created, navigate to the **Gallery Menu**.
 2. Drag a **Cards** region and drop it to the  **Body** section.
 
-    ![](./images/create-cards11.png " ")
+    ![Create Cards](./images/create-cards11.png " ")
 
 3. In the Property Editor, enter the following:
     - For Title - enter **Shopping Cart**
@@ -167,7 +167,7 @@ This region will list the items that have been added temporarily to the shopping
             AND    p.product_id = a.n001
             </copy>
         ```
-     ![](./images/create-cards12.png " ")
+     ![Define Cards Region](./images/create-cards12.png " ")
 
 4. Click on **Attributes** and enter the following:
 
@@ -189,7 +189,7 @@ This region will list the items that have been added temporarily to the shopping
         </copy>
        ```
 
-     ![](./images/change-attributes11.png " ")
+     ![Define Cards Attributes1](./images/change-attributes11.png " ")
 
     - Under Secondary Body section:
        - Set Advanced Formatting to **On**
@@ -207,7 +207,7 @@ This region will list the items that have been added temporarily to the shopping
        - For BLOB Column - select **PRODUCT_IMAGE**  
 
 
-    ![](./images/change-attributes12.png " ")
+    ![Define Cards Attributes2](./images/change-attributes12.png " ")
 
     - Under Messages section:
        - For When No Data Found - enter: **Your shopping cart is empty!**
@@ -216,7 +216,7 @@ This region will list the items that have been added temporarily to the shopping
     - Under Card section:
       - For Primary Key Column 1 - select **ITEM**
 
- ![](./images/change-attributes13.png " ")
+ ![Define Cards Attributes3](./images/change-attributes13.png " ")
 
 ## Task 5: Add an Action to the Shopping Cart
 This action allows customers to open a page to edit a particular item in the shopping cart.
@@ -224,7 +224,7 @@ This action allows customers to open a page to edit a particular item in the sho
 1. In the Rendering tree (left pane), navigate to **Actions** under **Shopping Cart**.
 2. Right-click **Actions** and click **Create Action**.
 
- ![](./images/create-action11.png " ")
+ ![Create Action](./images/create-action11.png " ")
 
 3. In the Property Editor, enter the following:
     - For Label - enter **Edit**
@@ -243,7 +243,7 @@ This action allows customers to open a page to edit a particular item in the sho
 
    Click **Save**.
 
-  ![](./images/create-action12.png " ")
+  ![Define Target of Button](./images/create-action12.png " ")
 
 This configures the (Edit) button to open page 17, passing the value of the PRODUCT_ID column of the current card as the value for the page item P17\_PRODUCT\_ID in the called page.
 
@@ -253,11 +253,11 @@ Create a Modal Page to add products to the cart.
 
 1. Navigate to Create button and click **Page**.
 
-  ![](./images/create-modal-dialog11.png " ")
+  ![Select Page](./images/create-modal-dialog11.png " ")
 
 2. Select **Blank Page** and click **Next**.
 
-  ![](./images/create-modal-dialog12.png " ")
+  ![Select Blank Page2](./images/create-modal-dialog12.png " ")
 
 3. Enter the following and click **Create Page**.
   - Page Number - enter 17
@@ -265,7 +265,7 @@ Create a Modal Page to add products to the cart.
   - For Page Mode - select **Modal Dialog**  
 
   Click **Create Page**.
-  ![](./images/create-modal-dialog13.png " ")
+  ![Define Blank Page 2](./images/create-modal-dialog13.png " ")
 
 
 ## Task 7: Add Cards Region for Product Details
@@ -275,7 +275,7 @@ This region allows users to review the details of the product, such as brand, pr
 1. In the new modal page created, navigate to the **Gallery Menu**.
 2. Drag a **Cards** region and drop it to the Content Body section.
 
-     ![](./images/drag-navigation-menu11.png " ")  
+     ![Create Card2](./images/drag-navigation-menu11.png " ")  
 3. In the Property Editor, enter the following:
     - For Title, enter **Product**
     - Under Source section:
@@ -305,7 +305,7 @@ This region allows users to review the details of the product, such as brand, pr
             </copy>
      ```
 
-    ![](./images/create-cards-region11.png " ")
+    ![Define Cards Region2](./images/create-cards-region11.png " ")
 
     - For Template Options - check **Use Template Defaults**
       - For **Style** - select **Style C**
@@ -328,7 +328,7 @@ This region allows users to review the details of the product, such as brand, pr
   - Under Body section:
       - For Column - select **DESCRIPTION**
 
-  ![](./images/change-cards-attributes11.png " ")
+  ![Define Cards Attributes4](./images/change-cards-attributes11.png " ")
 
   - Under Secondary Body section:    
         - Set Advanced Formatting to **On**.
@@ -348,13 +348,13 @@ This region allows users to review the details of the product, such as brand, pr
     - For Sizing - select **Fit**  
 
 
-   ![](./images/change-cards-attributes12.png " ")
+   ![Define Cards Attributes5](./images/change-cards-attributes12.png " ")
 
 
   - Under Card section:
       - For Primary Key Column 1 - select **PRODUCT_ID**    
 
-   ![](./images/change-cards-attributes13.png " ")
+   ![Define Cards Attributes6](./images/change-cards-attributes13.png " ")
 
 ## Task 8: Add Cards Region for Customer Reviews
 This region lets users read the customer reviews for this product.
@@ -362,7 +362,7 @@ This region lets users read the customer reviews for this product.
 1. Navigate to the **Gallery Menu**.
 2. Drag a **Cards** region and drop it to the Content Body section under **Product** region.
 
-     ![](./images/create-cards-region21.png " ")  
+     ![Create Cards3](./images/create-cards-region21.png " ")  
 
 3. In the Property Editor, enter the following:
     - For Title - enter **Customer Reviews**
@@ -385,7 +385,7 @@ This region lets users read the customer reviews for this product.
     - Under Appearance section:
       - For Template - select **Standard**
 
-    ![](./images/create-cards-region22.png " ")
+    ![Define Card Region3](./images/create-cards-region22.png " ")
 
 4. Click **Attributes** and enter the following:
 
@@ -403,11 +403,11 @@ This region lets users read the customer reviews for this product.
             </copy>
       ```  
 
-      ![](./images/create-cards-region23.png " ")
+      ![Define Card Region Attributes7](./images/create-cards-region23.png " ")
     - Under Messages:
      - For When No Data Found - enter **There are no customer reviews yet.**
 
-      ![](./images/create-cards-region24.png " ")
+      ![Define Card Region Messages](./images/create-cards-region24.png " ")
 
  5. Click **Save**.
 
@@ -415,11 +415,11 @@ This region lets users read the customer reviews for this product.
 
 1. Navigate to Create button **+** and click **Page**.
 
-  ![](./images/create-fs-page11.png " ")
+  ![Select Page3](./images/create-fs-page11.png " ")
 
 2. Select **Faceted Search** Option and then Click **Next**.
 
-  ![](./images/create-fs-page12.png " ")
+  ![Select Faceted Search](./images/create-fs-page12.png " ")
 
 3. Enter the following and click **Next**.
     Under **Page Definition**:
@@ -432,11 +432,11 @@ This region lets users read the customer reviews for this product.
   Under **Navigation**:
     - For Breadcrumb - Set to **No**.
 
-   ![](./images/create-fs-page13.png " ")
+   ![Define Faceted Search Page](./images/create-fs-page13.png " ")
 
 4. For Facet Selection, Select **Display as** option as **Cards**, Leave the remaining options to default and click **Next**.
 
-    ![](./images/create-fs-page14.png " ")
+    ![Select Cards as Display](./images/create-fs-page14.png " ")
 
 5. For Create Faceted Search, Select the following:
   - Select **Grid**
@@ -444,7 +444,7 @@ This region lets users read the customer reviews for this product.
   - Body Column - select **- Select Column -** (to unselect the default   column chosen)
   - Click **Create.**
 
-  ![](./images/create-fs-page15.png " ")
+  ![Define Cards layout and Attributes](./images/create-fs-page15.png " ")
 
 
 ## **Acknowledgments**
