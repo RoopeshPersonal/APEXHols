@@ -22,78 +22,78 @@ In this lab, you will:
 
 1. On the Workspace home page, click the App Builder icon.
 
-  ![](images/click-app-builder.png " ")
+  ![Navigate to App Builder](images/click-app-builder.png " ")
 
 2. Select the **Demo Projects** application.
 
-  ![](images/select-demo-projects.png " ")
+  ![Navigate to Demo Projects](images/select-demo-projects.png " ")
 
 3. Click **Supporting Objects**. The Supporting Objects page appears.
 
-  ![](images/click-supporting-objects.png " ")
+  ![Click Supporting Objects](images/click-supporting-objects.png " ")
 
 4. Under **Installation**, Select **Installation Scripts**.
 
-  ![](images/select-installation-scripts.png " ")
+  ![Click Installation Scripts](images/select-installation-scripts.png " ")
 
 5. Click **Create**.
 
-  ![](images/click-create.png " ")
+  ![Cliack Create](images/click-create.png " ")
 
 6. Select **Create from Database Object** under **Create Script**.
 
-  ![](images/create-script1.png " ")
+  ![Click Create from database object](images/create-script1.png " ")
 
 7. Under **Script Attributes**, select the below options and click **Next**.
   - For **Name**, Select **Database Objects**.
   - For **Object Type**, select Table**
 
-  ![](images/create-script2.png " ")
+  ![Define Script Attributes](images/create-script2.png " ")
 
 8. Now set the following attributes and then click **Next**.
   - For **Table Options**, Select the **Checkbox**.
   - For **Object**, Select and Move the tables **DEMO_PROJECTS** and **EBA_DEMO_IR_EMP** to the right side.
 
-  ![](images/create-script3.png " ")
+  ![Set Attributes and click next](images/create-script3.png " ")
 
   *Note that it might take 5 to 10 seconds or more, please wait.*
 9. You will now see the **Scripts** created. Click **Create**.
 
-  ![](images/create-script4.png " ")
+  ![Click Create](images/create-script4.png " ")
 
 10. Now, you will see that the Scripts got created and Saved. You will need to include **Data** in your **Supporting Objects**. Select **Create Data Package** under **Tasks** in the Right side of your page.
 
-  ![](images/select-data-packages.png " ")
+  ![Click Create Data Package](images/select-data-packages.png " ")
 
 11. Under **Script Attributes**, Select the following and click **Next**.
   - For **Name**, select **data.sql**
   - For **Tables**, ensure **DEMO_PROJECTS** and **EBA_DEMO_IR_EMP** are listed on the right side, and if not, select and shuttle these two tables over there.
 
-  ![](images/create-data-packages.png " ")
+  ![Define Security Attributes](images/create-data-packages.png " ")
 
 12. For **Create Script**, accept the defaults and click **Finish**.
 
-  ![](images/create-data-packages1.png " ")
+  ![Create Script](images/create-data-packages1.png " ")
 
 13. The Scripts are now Created. Navigate back to the application and Select **Export/Import**.
 
-  ![](images/navigate-to-app1.png " ")
+  ![Script Created](images/navigate-to-app1.png " ")
 
-  ![](images/navigate-to-export.png " ")
+  ![Navigate to Export/Import](images/navigate-to-export.png " ")
 
 14. Select **Export** and click **Next**.
 
-  ![](images/export-app1.png " ")
+  ![Select Export and click Next](images/export-app1.png " ")
 
 15. In the **Export Application** page, Under **Export Preferences**, select **Yes and Install on Import Automatically**.  
 
   Then Click **Export**.
 
-  ![](images/export-app2.png " ")
+  ![Select Yes and Install on Import Automatically](images/export-app2.png " ")
 
 16. You will now notice that the applciation is downloaded as **fNNN.sql**
 
-  ![](images/exported-app.png " ")
+  ![File downloaded](images/exported-app.png " ")
 
 
 ## Task 2: Importing Application into the Target Workspace and Verify Database Objects.
@@ -102,22 +102,22 @@ In this Lab, You will login into a new workspace or the Workspace you created in
 
 1. Login to the Target **Workspace**.
 
-  ![](images/login-towksp1.png " ")
+  ![Login to the Target Workspace](images/login-towksp1.png " ")
 
 2. Click **App Builder** and then select **Import**.
 
-  ![](images/select-app-builder.png " ")
+  ![Navigate to App Builder](images/select-app-builder.png " ")
 
-  ![](images/Select-Import.png " ")
+  ![Select Import](images/Select-Import.png " ")
 
 
 3. Under **Import**, click **Drag and Drop**.
 
-  ![](images/select-drag-and-drop.png " ")
+  ![Select Drag and Drop](images/select-drag-and-drop.png " ")
 
 4. Choose the file we exported in the previous lab from your **Local System** and then click **Next**.
 
-  ![](images/select-file.png " ")
+  ![Select File from computer](images/select-file.png " ")
 
 
 5. Click **Next**.
@@ -127,28 +127,28 @@ In this Lab, You will login into a new workspace or the Workspace you created in
 
 6. Under **Install**, Set **Build Status** to **Run and Build Application**. Leave the remaining settings to default and Click **Install Application**.
 
-  ![](images/install-app1.png " ")
+  ![Click Install Application](images/install-app1.png " ")
 
 
 7. For **Supporting Objects**, Set **Install Supporting Objects** to **yes** and then click **Next**.
 
-  ![](images/install-so1.png " ")
+  ![Click Next](images/install-so1.png " ")
 
 8. Click **Install**.
 
-  ![](images/install-app2.png " ")
+  ![Click Install](images/install-app2.png " ")
 
 9. You will now see that **Your application's supporting objects have been installed**. Click **Edit Application** to review the **Database Objects**.
 
-  ![](images/install-app3.png " ")
+  ![Application installed , Click Edit Application](images/install-app3.png " ")
 
 10. Click on the Arrow mark next to **SQL Workshop** and then click **Object Browser**.
 
-  ![](images/object-browser1.png " ")
+  ![Navigate to Object Browser](images/object-browser1.png " ")
 
 11. Select **DEMO_PROJECTS** table and then click **Data**. Verify the Data in the table **DEMO_PROJECTS**.
 
-  ![](images/object-browser2.png " ")
+  ![Navigate to DEMP_PROJECTS to view data](images/object-browser2.png " ")
 
 
 ## Task 3: Importing Sample application.
@@ -159,59 +159,59 @@ In this Lab, You will install a **Sample Application** in a new workspace you cr
 
 1. Login to the new Workspace you created.
 
-  ![](images/login-to-dev.png " ")
+  ![Login to new workspace you created](images/login-to-dev.png " ")
 
 2. Click **Gallery**.
 
-  ![](images/navigate-to-gallery.png " ")
+  ![Navigate to Gallery](images/navigate-to-gallery.png " ")
 
 3. Select **Samples** under **Gallery**.
 
-  ![](images/click-samples.png " ")
+  ![Select Samples](images/click-samples.png " ")
 
 4. Navigate to **Sample Reporting** and click **Download App**.
 
-  ![](images/download-app.png " ")
+  ![Download Sample Reporting](images/download-app.png " ")
 
 5. Navigate back to your applciation and click the Arrow button next to **APP Builder** in the top navigation menu and select **Import**.
 
-  ![](images/import-app1.png " ")
+  ![Navigate to Import](images/import-app1.png " ")
 
 6.  Under **Import**, click **Drag and Drop**.
 
-    ![](images/import-app2.png " ")
+    ![Click Drag and Drop](images/import-app2.png " ")
 
 4. Choose the file we **Downloaded** in the **Step 4** from your **Local System** and then click **Next**.
 
-  ![](images/import-app3.png " ")
+  ![Select file](images/import-app3.png " ")
 
-  ![](images/import-app4.png " ")
+  ![Click Next](images/import-app4.png " ")
 
 5. Click **Next**.
 
-  ![](images/import-app5.png " ")
+  ![Click Next](images/import-app5.png " ")
 
 
 6. Under **Install**, Set **Build Status** to **Run and Build Application**. Leave the remaining settings to default and Click **Install Application**.
 
-  ![](images/import-app6.png " ")
+  ![Click Install Application](images/import-app6.png " ")
 
 
 7. For **Supporting Objects**, Set **Install Supporting Objects** to **yes** and then click **Next**.
 
-  ![](images/import-app7.png " ")
+  ![Click Next](images/import-app7.png " ")
 
 8. Click **Install**.
 
-  ![](images/import-app8.png " ")
+  ![Click Install](images/import-app8.png " ")
 
 9.  You will now see that **Your application's supporting objects have been installed**. Click **Edit Application**
 
-  ![](images/import-app9.png " ")
+  ![Application Installed](images/import-app9.png " ")
 
 10. Click **Sign Out**.
 
-  ![](images/sign-out1.png " ")
+  ![Click Sign In](images/sign-out1.png " ")
 
 
 
@@ -223,27 +223,27 @@ In this Lab, You will enable the **Target System** to **ORDS** and then you will
 
 1. Login in to your **Target System**.
 
-  ![](images/sign-out1.png " ")
+  ![Login into Target system](images/sign-out1.png " ")
 
 2. Navigate to **SQL Workshop > RESTful Services**.
 
-  ![](images/enable-ords1.png " ")
+  ![Navigate to RESTful Services](images/enable-ords1.png " ")
 
 3. Click **Register Schema with ORDS**.
 
-  ![](images/enable-ords2.png " ")
+  ![Click Register Schema with ORDS](images/enable-ords2.png " ")
 
 4. Review the **ORDS Schema Attributes** and click **Save Schema Attributes**. Now, you see a message that the schema has been successfully registered.​
 
-  ![](images/enable-ords3.png " ")
+  ![Click Save Schema Attributes](images/enable-ords3.png " ")
 
 5. Navigate to **SQL Workshop > Restful Services**. Expand **RESTful Data Services > Modules > oracle.example.hr > empinfo/ GET**. Copy the **Full URL** and paste it in your **Clipboard** or **Notepad**.
 
-  ![](images/copy-url.png " ")
+  ![Copy Full URL](images/copy-url.png " ")
 
 6. Click **Sign Out**.
 
-  ![](images/sign-out2.png " ")
+  ![Click Sign Out](images/sign-out2.png " ")
 
 
 ## Task 5: Remote Deployment.
@@ -252,36 +252,36 @@ Your application is now ready for deployment. Perform the following steps:
 
 1. Login to your development environment (WS_APEXDEV in this example)
 
-  ![](images/login-to-dev.png " ")
+  ![Login into your Development environment](images/login-to-dev.png " ")
 
 2. Navigate to your application home page. select **App Builder** and then click **Sample Reporting**.
 
-  ![](images/select-sample-reporting.png " ")
+  ![Navigate to Sample Reporting](images/select-sample-reporting.png " ")
 
 3. Click **Export / Import**.
 
-  ![](images/select-export.png " ")  
+  ![Click Export/Import](images/select-export.png " ")  
 
 4. Select **Remote Deployment** and click **Next**.
 
-  ![](images/select-rd.png " ")    
+  ![Select Remote Deployment](images/select-rd.png " ")    
 
 5. Choose an existing **REST Enabled SQL Service** or create a new one. In this example, click the **Add Deployment Server** ( **+** ) icon next to the Deployment Server select list.
 
-  ![](images/perform-rd1.png " ")
+  ![Add Deployment Server](images/perform-rd1.png " ")
 
 6. Enter the base URL for the **REST Enabled SQL Service** defined for your deployment server (WS_APEXUAT in this example). The schema in your deployment server has already been enabled for use with ORDS RESTful Data Services in prerequisites.  
 For **Endpoint URL**, paste the base URL copied from the deployment instance in the previous step(**Task 4**). The base URL should include the ORDS context root and schema URL prefix. For example, https://host:8096/ords/apexstage  Then, click Next.
 
-  ![](images/perform-rd2.png " ")
+  ![Paste the file URL which you Copied](images/perform-rd2.png " ")
 
 7. Enter **UAT Cred** for Credential Name, select **Basic Authentication** for Authentication Type, and turn off the **Store Credentials switch**. Click **Create**.
 
-  ![](images/perform-rd3.png " ")
+  ![Select Basic Authentication and click next](images/perform-rd3.png " ")
 
 8. Now you see a message that REST Enabled SQL Service has been created. From the Deployment Server select list, choose the one that you just created. Enter the values for **Client ID** and **Client Secret** and click **Next**. In this example, you use **Basic Authentication**. Therefore, enter the **Database user name** (deployment schema) for Client ID and the corresponding password for Client Secret. Then, Click **Next**.
 
-  ![](images/perform-rd4.png " ")
+  ![Define Remote Deployment attributes and click next](images/perform-rd4.png " ")
 
 9. The Remote Deployment Options page appears.
   - Under **Deploy Application**: Set **Build Status Override** to **Run and Build Application**.
@@ -291,15 +291,15 @@ For **Endpoint URL**, paste the base URL copied from the deployment instance in 
 
 After making the above selections, click **Deploy**.
 
-![](images/perform-rd5.png " ")
+![Enable Overwrite Existing Application](images/perform-rd5.png " ")
 
 10. You see the Remote Deployment Successful message. Your application has been successfully deployed to remote server.
 
-  ![](images/perform-rd6.png " ")
+  ![Application Deployed Successfully](images/perform-rd6.png " ")
 
 11. Log in to your remote APEX instance. Make sure that the application is available and with the same application id as in the source system.
 
-  ![](images/perform-rd7.png " ")
+  ![Login into your remote APEX Instance](images/perform-rd7.png " ")
 
 ## **Acknowledgments**
 
